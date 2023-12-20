@@ -81,9 +81,12 @@ Route::get('rss-google-news.rss', function () {
 
 Route::group(['prefix' => 'ajax', 'as' => 'ajax.'], function () {
 });
-
-Route::get('/', [App\Http\Controllers\HomeController::class, 'home'])->name('homepage')->middleware('cacheResponse:86400'); 
-Route::get('/{slug}', [App\Http\Controllers\HomeController::class, 'page'])->name('page')->where(['slug' => '[a-z0-9-_]+'])->middleware('cacheResponse:86400'); 
+Route::group([
+    'middleware' => ['redirect_301']
+], function () {
+    Route::get('/', [App\Http\Controllers\HomeController::class, 'home'])->name('homepage')->middleware('cacheResponse:86400'); 
+    Route::get('/{slug}', [App\Http\Controllers\HomeController::class, 'page'])->name('page')->where(['slug' => '[a-z0-9-_]+'])->middleware('cacheResponse:86400'); 
+});
 // Route::get('{slug}.html', [App\Http\Controllers\HomeController::class, 'page'])->name('page')->where(['slug' => '[a-z0-9-_]+']);
 // Route::get('search', [App\Http\Controllers\HomeController::class, 'search'])->name('search')->middleware('doNotCacheResponse');
 // Route::get('{slug}-g{id}', [App\Http\Controllers\HomeController::class, 'detail'])->name('detail.game')->where(['slug' => '[a-z0-9-_]+', 'id' => '[0-9]+']);
