@@ -66,7 +66,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => [
 
 
 Route::get('/sitemap_news.xml', function () {
-    $posts =  \App\Models\Post::where([
+    $posts =  \App\Models\Page::where([
         'is_status' => 1,
     ])->orderBy('updated_at', 'desc')->limit(100)->offset(0)->get();
     return response()->view('front_end.sitemap.sitemap_new', ['data' => $posts])->header('Content-Type', 'text/xml');
@@ -82,8 +82,8 @@ Route::get('rss-google-news.rss', function () {
 Route::group(['prefix' => 'ajax', 'as' => 'ajax.'], function () {
 });
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'home'])->name('homepage');
-Route::get('/{slug}', [App\Http\Controllers\HomeController::class, 'page'])->name('page');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'home'])->name('homepage')->middleware('cacheResponse:86400'); 
+Route::get('/{slug}', [App\Http\Controllers\HomeController::class, 'page'])->name('page')->where(['slug' => '[a-z0-9-_]+'])->middleware('cacheResponse:86400'); 
 // Route::get('{slug}.html', [App\Http\Controllers\HomeController::class, 'page'])->name('page')->where(['slug' => '[a-z0-9-_]+']);
 // Route::get('search', [App\Http\Controllers\HomeController::class, 'search'])->name('search')->middleware('doNotCacheResponse');
 // Route::get('{slug}-g{id}', [App\Http\Controllers\HomeController::class, 'detail'])->name('detail.game')->where(['slug' => '[a-z0-9-_]+', 'id' => '[0-9]+']);
