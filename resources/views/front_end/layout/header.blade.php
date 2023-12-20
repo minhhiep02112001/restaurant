@@ -1,4 +1,4 @@
-<img class="logo center-block img-responsive" alt="Shanghai 21"
+<img class="logo center-block img-responsive" alt="{{ $config_website->website }}"
     src="https://web.archive.org/web/20221006061539im_/https://www.simplemenu.com/simplemenu/client_store_assets/673/sub_679/logo.png">
 @if (!empty($title))
     <h1 class="text-center">{{ $title }}</h1>
@@ -14,7 +14,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <img class="center-block mobile-logo img-responsive"
-                    src="/web/20221006061539im_/https://shanghai21togo.com/Home/index">
+                    src="/web/20221006061539im_/https://shanghai21togo.com/Home/index" alt="{{ $config_website->website }}">
             </div><button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle
                     navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span

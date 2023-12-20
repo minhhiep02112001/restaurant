@@ -20,22 +20,22 @@
                     <div style="margin-bottom: 20px" class="col-sm-3"> <a
                             href="{{ asset('images/banner_1.jpg') }}"
                             data-lightbox="image">
-                            <img class="img-thumbnail img-responsive cld-responsive" height="198" width="400"
+                            <img alt="banner-1" class="img-thumbnail img-responsive cld-responsive" height="198" width="400"
                                 data-src="{{ asset('images/banner_1.jpg') }}"></a>
                     </div>
                     <div style="margin-bottom: 20px" class="col-sm-3"> <a
                             href="{{ asset('images/banner_2.jpg') }}"
-                            data-lightbox="image"><img class="img-thumbnail img-responsive cld-responsive" height="198"
+                            data-lightbox="image"><img  alt="banner-2" class="img-thumbnail img-responsive cld-responsive" height="198"
                                 width="400" data-src="{{ asset('images/banner_2.jpg') }}"></a>
                     </div>
                     <div style="margin-bottom: 20px" class="col-sm-3"> <a
                             href="{{ asset('images/banner_3.jpg') }}"
-                            data-lightbox="image"><img class="img-thumbnail img-responsive cld-responsive" height="198"
+                            data-lightbox="image"><img alt="banner-3" class="img-thumbnail img-responsive cld-responsive" height="198"
                                 width="400" data-src="{{ asset('images/banner_3.jpg') }}"></a>
                     </div>
                     <div style="margin-bottom: 20px" class="col-sm-3"> <a
                             href="{{ asset('images/banner_4.jpg') }}"
-                            data-lightbox="image"><img class="img-thumbnail img-responsive cld-responsive" height="198"
+                            data-lightbox="image"><img  alt="banner-4" class="img-thumbnail img-responsive cld-responsive" height="198"
                                 width="400" data-src="{{ asset('images/banner_4.jpg') }}"></a>
                     </div>
                 </div>
@@ -50,11 +50,11 @@
             <div class="row">
                 <div class="col-sm-3"> </div>
                 <div class="col-sm-3"> <a
-                        href="/"><img
+                        href="/"><img alt="{{ $config_website->website }}"
                             src="{{ asset('images/press.png') }}"
                             class="img-responsive img-thumbnail" /></a> </div>
                 <div class="col-sm-3"> <a
-                        href="/"><img
+                        href="/"><img alt="{{ $config_website->website }}"
                             src="{{ asset('images/press_1.png') }}"
                             class="img-responsive img-thumbnail" /></a> </div>
             </div>
