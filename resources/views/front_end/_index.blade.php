@@ -28,10 +28,10 @@
     @yield('content')
     @include('front_end.layout.footer')
     <script
-        src="https://web.archive.org/web/20221006061539js_/https://shanghai21togo.com/assets/production/scripts.js?v=1 defer">
+    src="{{ asset('assets/js/app.js' . "?v=$ver") }}"  defer">
     </script>
-    <link rel="stylesheet"
-        href="https://web.archive.org/web/20221006061539cs_/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    {{-- <link rel="stylesheet"
+        href="https://web.archive.org/web/20221006061539cs_/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" /> --}}
     <script>
         new menu();
         var cl = cloudinary.Cloudinary.new({

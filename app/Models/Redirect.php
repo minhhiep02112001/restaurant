@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Redirect extends Model
 {
     use HasFactory;
-    protected $table ='g_redirect';  
+    protected $table ='st_redirect';  
     protected $fillable = ['type', 'url_old', 'url_new','slug', 'is_status','is_robot', 'key_id'];
     protected $primaryKey = '';
 }

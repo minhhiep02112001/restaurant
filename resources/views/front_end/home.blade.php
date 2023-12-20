@@ -1,5 +1,6 @@
 @php
     $config_seo = json_decode(getValueSetting('config_seo'));
+    $config_website = json_decode(getValueSetting('config_website')); 
     $content_home = $config_seo->content_home ?? '';
 @endphp
 @extends('front_end._index')
