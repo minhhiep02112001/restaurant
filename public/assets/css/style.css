@@ -11649,3 +11649,18 @@ html {
   font-size: 50px;
   color: black
 }
+
+@media screen and (max-width:760px) {
+  .grey-section, .white-section{
+    padding: 10px;
+  }
+  #about-us{
+    text-align: justify;
+  }
+  .row{
+    box-sizing: border-box;
+    padding: 0px;
+
+    margin: 0px;
+  }
+}

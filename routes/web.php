@@ -82,10 +82,10 @@ Route::get('rss-google-news.rss', function () {
 Route::group(['prefix' => 'ajax', 'as' => 'ajax.'], function () {
 });
 Route::group([
-    'middleware' => ['redirect_301']
+    'middleware' => ['redirect_301', ] //'cacheResponse:86400'
 ], function () {
-    Route::get('/', [App\Http\Controllers\HomeController::class, 'home'])->name('homepage')->middleware('cacheResponse:86400'); 
-    Route::get('/{slug}', [App\Http\Controllers\HomeController::class, 'page'])->name('page')->where(['slug' => '[a-z0-9-_]+'])->middleware('cacheResponse:86400'); 
+    Route::get('/', [App\Http\Controllers\HomeController::class, 'home'])->name('homepage'); 
+    Route::get('/{slug}', [App\Http\Controllers\HomeController::class, 'page'])->name('page')->where(['slug' => '[a-z0-9-_]+']); 
 });
 // Route::get('{slug}.html', [App\Http\Controllers\HomeController::class, 'page'])->name('page')->where(['slug' => '[a-z0-9-_]+']);
 // Route::get('search', [App\Http\Controllers\HomeController::class, 'search'])->name('search')->middleware('doNotCacheResponse');
