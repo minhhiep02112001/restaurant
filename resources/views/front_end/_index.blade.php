@@ -24,9 +24,11 @@
 
 <body>
     
+  <div class="container">
     @include('front_end.layout.header')
     @yield('content')
     @include('front_end.layout.footer')
+  </div>
     <script
     src="{{ asset('assets/js/app.js' . "?v=$ver") }}"  defer">
     </script>

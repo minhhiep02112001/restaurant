@@ -21,7 +21,7 @@
             href="/privacy_policy">Privacy Policy</a>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-sm-offset-3 text-center">
+        <div class="col-sm-12 text-center">
             @if (!empty($menu_footer))
                 @foreach ($menu_footer as $item)
                     <a href="{{ $item->link }}" title="{{$item->title}}">{{ $item->title }}</a>
