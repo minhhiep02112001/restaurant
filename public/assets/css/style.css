@@ -11581,9 +11581,9 @@ html {
 }
 
 .hero-image {
-  background-image: url('../../images/banner.jpg');
+  background-image: url('../../images/bannerhom.png');
   /* Set a specific height */
-  height: 80%;
+  height: 550px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -11595,7 +11595,7 @@ html {
 
   /* style changes when the screen gets larger */
   .hero-image {
-    background-image: url('../../images/banner.jpg');
+    background-image: url('../../images/bannerhom.png');
   }
 }
 
