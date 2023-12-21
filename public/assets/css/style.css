@@ -11581,7 +11581,7 @@ html {
 }
 
 .hero-image {
-  background-image: url('https://web.archive.org/web/20221006061539im_/https://res.cloudinary.com/simplemenu/image/upload/fl_force_strip,q_auto:low/v1634061060/483120255_gepefw.jpg');
+  background-image: url('../../images/banner.jpg');
   /* Set a specific height */
   height: 80%;
   /* Position and center the image to scale nicely on all screens */
@@ -11595,7 +11595,7 @@ html {
 
   /* style changes when the screen gets larger */
   .hero-image {
-    background-image: url('https://web.archive.org/web/20221006061539im_/https://res.cloudinary.com/simplemenu/image/upload/dpr_auto,f_auto,fl_force_strip.strip_profile,q_auto:low/v1634061094/483120255_xtjmsh.jpg');
+    background-image: url('../../images/banner.jpg');
   }
 }
 
@@ -11617,7 +11617,7 @@ html {
 }
 
 .white-section {
-  padding: 80px 80px 80px 80px;
+  padding: 40px 10px;
   text-align: center;
 }
 
@@ -11651,13 +11651,17 @@ html {
 }
 
 @media screen and (max-width:760px) {
-  .grey-section, .white-section{
+
+  .grey-section,
+  .white-section {
     padding: 10px;
   }
-  #about-us{
+
+  #about-us {
     text-align: justify;
   }
-  .row{
+
+  .row {
     box-sizing: border-box;
     padding: 0px;
 

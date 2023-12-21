@@ -1,14 +1,12 @@
 <img class="logo center-block img-responsive" alt="{{ $config_website->website }}"
     src="{{ convertPathImage($config_website->logo ?? '') }}">
-@if (!empty($title))
-    <h1 class="text-center">{{ $title }}</h1>
-@endif
+
 @if (empty($show_menu))
     @php
         $menu = getMenuParent(0, 0);
 
     @endphp
-    <h2 class="text-center">{{ $config_website->website }}</h2>
+    {{-- <h2 class="text-center">{{ $config_website->website }}</h2> --}}
     <nav class="navbar navbar-default">
         <div class="container-fluid">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
