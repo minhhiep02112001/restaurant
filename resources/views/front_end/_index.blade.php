@@ -48,7 +48,7 @@
             if ($(".banner_home").length > 0) {
                 $(".banner_home").slick({
                     dots: false,
-                    // autoplay: true,
+                    autoplay: true,
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
