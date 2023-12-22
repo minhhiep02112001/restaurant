@@ -12075,7 +12075,7 @@ html {
 
 #content_page p,
 #content p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   text-align: justify;
 }
@@ -12089,7 +12089,7 @@ html {
 .section-content ul,
 .section-content ol {
   padding-left: 20px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .section-content-center {
