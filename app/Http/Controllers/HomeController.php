@@ -38,11 +38,11 @@ class HomeController extends Controller
         return view('front_end.home', $data ?? []);
     }
     public function page($slug, Request $request)
-    {
-
+    { 
         $row = Page::where('slug', $slug)->where(function ($query) {
             if (!(Auth::check())) return $query->where('is_status', 1);
         })->first();
+        
         if (empty($row)){
             Log::error("Link page: '{$request->url()}' - 404");
             return abort(404);

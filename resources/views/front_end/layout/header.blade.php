@@ -1,5 +1,7 @@
-<img class="logo center-block img-responsive" alt="{{ $config_website->website }}"
+<a href="{{url('/')}}">
+    <img class="logo center-block img-responsive" alt="{{ $config_website->website }}"
     src="{{ convertPathImage($config_website->logo ?? '') }}">
+</a>
 
 @if (empty($show_menu))
     @php

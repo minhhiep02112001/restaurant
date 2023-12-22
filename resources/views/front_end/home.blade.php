@@ -14,12 +14,15 @@
                 <img src="{{ asset('images/banner_home_1.jpg') }}"data-sizes="100vw" style="max-height:650px;">
             </div>
             <div>
+                <img src="{{ asset('images/banner_home_2.png') }}"data-sizes="100vw" style="max-height:650px;">
+            </div>
+            <div>
                 <img src="{{ asset('images/bannerhom.png') }}"data-sizes="100vw" style="max-height:650px;">
             </div>
-        
+
         </section>
         {{-- </section> --}}
-        <section class="grey-section">
+        <section class="grey-section" id="content">
             {!! $content_home !!}
         </section>
         <section class="white-section">
@@ -49,7 +52,7 @@
             <h2 id="hours" class="title-sections">Hours</h2>
             <div class="section-content"> <b>Monday - Sunday</b><br />11:00 am – 8:30 pm<br /> </div>
         </section>
-        <section class="white-section hours-section" >
+        <section class="white-section hours-section">
             <h2 id="press" class="title-sections">Press</h2>
             <div class="row">
                 <div class="col-sm-3"> </div>

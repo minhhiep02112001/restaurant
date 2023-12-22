@@ -92,7 +92,7 @@ class CrawlerDataYelp
                $slug = \Str::slug($title);
                return ['title' => $title, 'slug' => $slug, 'crawler_href' => $crawler_href];
           });
-
+          dd($arr, $_url);
           if (!empty($arr)) {
                foreach (array_reverse($arr) as $item) {
                     if (empty($item)) continue;

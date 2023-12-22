@@ -21,7 +21,7 @@
     {{-- <link rel="stylesheet" href="{{ asset('assets/css/css_minified.min.css' . "?v=$ver") }}" />  --}}
     <link rel="stylesheet" href="{{ asset('assets/css/style.css' . "?v=$ver") }}" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
+    @yield('css')
 </head>
 
 <body>
@@ -47,8 +47,8 @@
         $(document).on('ready', function() {
             if ($(".banner_home").length > 0) {
                 $(".banner_home").slick({
-                    dots: false,
-                    //autoplay: true,
+                    dots: true,
+                    // autoplay: true,
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
