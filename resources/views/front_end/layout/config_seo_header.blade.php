@@ -16,7 +16,9 @@
     <meta name="twitter:description"
         content="{{ !empty($SEO['meta_description']) ? replace_title($SEO['meta_description']) : '' }}" />
     <meta name="twitter:image" content="{{ !empty($SEO['image']) ? convertPathImage($SEO['image']) : '' }}" />
-    <meta name="robots" content="noindex,nofollow" />
+   
+    <meta name="robots" content="index,follow" />
+    <meta name="Googlebot-News" content="index,follow">
     {{-- <meta name="robots" content="{{ !empty($SEO['is_robot']) ? 'index, follow' : 'noindex,nofollow' }}" />
     <meta name="Googlebot-News" content="{{ !empty($SEO['is_robot']) ? 'index, follow' : 'noindex,nofollow' }}"> --}}
 @else
@@ -34,9 +36,9 @@
     <meta name="twitter:title" content="{{ $config_seo->meta_title ?? '' }}" />
     <meta name="twitter:description" content="{{ $config_seo->meta_description ?? '' }}" />
     <meta name="twitter:image" content="{{ convertPathImage($config_website->logo ?? '') }}" />
-    <meta name="robots" content="noindex,nofollow" />
-    {{-- <meta name="robots" content="{{ !empty($config_seo->index) ? 'index,follow' : 'noindex,nofollow' }}" />
-    <meta name="Googlebot-News" content="{{ !empty($config_seo->index) ? 'index,follow' : 'noindex,nofollow' }}"> --}}
+
+    <meta name="robots" content="index,follow" />
+    <meta name="Googlebot-News" content="index,follow">
 @endif
 
 <link rel="canonical" href="{{ url()->current() }}" />
