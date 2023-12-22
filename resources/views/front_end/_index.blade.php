@@ -1,7 +1,7 @@
 @php
     $config_seo = json_decode(getValueSetting('config_seo'));
     $config_website = json_decode(getValueSetting('config_website'));
-    $ver = '1.23';
+    $ver = '1.1.2';
 
 @endphp
 
@@ -21,7 +21,7 @@
     {{-- <link rel="stylesheet" href="{{ asset('assets/css/css_minified.min.css' . "?v=$ver") }}" />  --}}
     <link rel="stylesheet" href="{{ asset('assets/css/style.css' . "?v=$ver") }}" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
+    @yield('css')
 </head>
 
 <body>
@@ -47,8 +47,8 @@
         $(document).on('ready', function() {
             if ($(".banner_home").length > 0) {
                 $(".banner_home").slick({
-                    dots: false,
-                    autoplay: true,
+                    dots: true,
+                    // autoplay: true,
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -57,20 +57,43 @@
             }
         });
     </script>
-    <style> .slick-slide{
-        margin-left:  15px;
-        margin-right:  15px;
-      }
-    
-      .slick-list {
-        margin-left: -15px;
-        margin-right: -15px;
-        pointer-events: none;
-      }
-        button.slick-arrow{
-            display: none!important;
+    <style>
+        .slick-slide {
+            margin-left: 15px;
+            margin-right: 15px;
         }
-      </style>
+
+        .slick-list {
+            margin-left: -15px;
+            margin-right: -15px;
+            pointer-events: none;
+        }
+
+        .slick-next::before {
+            content: "\f105";
+            font-size: 50px;
+            font-family: "FontAwesome";
+        }
+
+        .slick-prev::before {
+            content: "\f104";
+            font-size: 50px;
+            font-family: "FontAwesome";
+        }
+
+        .slick-next,
+        .slick-prev {}
+
+        .slick-next {
+            right: 5px;
+        }
+
+        .slick-prev {
+            left: 5px;
+            opacity: 1;
+            z-index: 1;
+        }
+    </style>
 </body>
 
 </html>
