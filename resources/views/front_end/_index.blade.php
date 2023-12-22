@@ -1,7 +1,7 @@
 @php
     $config_seo = json_decode(getValueSetting('config_seo'));
     $config_website = json_decode(getValueSetting('config_website'));
-    $ver = '1.2.3';
+    $ver = '1.1.2';
 
 @endphp
 
