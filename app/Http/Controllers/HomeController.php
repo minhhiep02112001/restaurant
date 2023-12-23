@@ -39,7 +39,6 @@ class HomeController extends Controller
     }
     public function page($slug, Request $request)
     { 
-        return view('front_end.about', $data ?? []);
         $row = Page::where('slug', $slug)->where(function ($query) {
             if (!(Auth::check())) return $query->where('is_status', 1);
         })->first();
