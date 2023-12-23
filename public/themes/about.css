@@ -761,14 +761,6 @@ input[type="submit"]:focus {
     }
 }
 
-body,
-.ast-separate-container {
-    background-color: var(--ast-global-color-4);
-    ;
-    background-image: none;
-    ;
-}
-
 .ast-no-sidebar.ast-separate-container .entry-content .alignfull {
     margin-left: -6.67em;
     margin-right: -6.67em;
