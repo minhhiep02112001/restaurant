@@ -60,3 +60,5 @@
 
     gtag('config', 'G-118VST7XRY');
 </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3245384936464312"
+     crossorigin="anonymous"></script>
