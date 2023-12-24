@@ -57,25 +57,6 @@
     <script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2" id="jquery-migrate-js">
     </script>
 
-    <script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-5TJZSXZ" id="google_gtagjs-js" async>
-    </script>
-    <script type="text/javascript" id="google_gtagjs-js-after">
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-        gtag("set", "developer_id.dZTNiMT", true);
-        gtag("config", "GT-5TJZSXZ");
-    </script>
-
-    <link rel="https://api.w.org/" href="wp-json/index.html" />
-    <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/16416.json" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 6.1.4" />
-    <link rel="shortlink" href="index.html" />
  
     <style type="text/css" id="wp-custom-css">
         /* latin-ext */
