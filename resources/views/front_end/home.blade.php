@@ -52,27 +52,7 @@
                                     <div class="vamtam-grid grid-1-3  grid-1-3  first unextended no-extended-padding"
                                         style="padding-top:0.05px;padding-bottom:0.05px;"
                                         id="vamtam-column-5f3cf76f357cf44e2d546ab0fe4193cf">
-                                        <h4 class="textcenter"><strong>About Shang Palace</strong></h4>
-                                        <span class="vamtam-blank-space " style="height:15px"></span>
-                                        <p class="moredetail textcenter about-desc">Renowned as one of
-                                            the finest restaurants in the city since 2007, Shang Palace
-                                            is an integral part of Saigon’s heritage and culinary
-                                            landscape. The restaurant has become an illustrious dining
-                                            destination for residents and tourists alike.<br />
-                                            Centrally located, in a tranquil area in the Central
-                                            Business District, this is the ideal venue to entertain
-                                            corporate guests, celebrate festive occasions and catch up
-                                            with friends. The fine-dining restaurant, with enthusiastic,
-                                            professional and experienced staffs, boasts heavenly
-                                            Cantonese cuisine and welcomes guests back year after year.
-                                            An extensive menu, featuring many signature dishes from
-                                            Beijing Roasted Duck, live seafood to 50 Dim Sum delights,
-                                            all prepared without MSG is sure to enchant even the most
-                                            discerning gourmet.</p>
-                                        <p><img decoding="async" class="aligncenter wp-image-14007 size-full" role="img"
-                                                src="wp-content/uploads/2019/09/shang-palace-aboutus-icon.svg" alt
-                                                width="26.589" height="68.804" /></p>
-                                        <span class="vamtam-blank-space " style="height:15px"></span>
+                                        {!!$content_home!!}
                                     </div>
                                     <div class="vamtam-grid grid-1-3  grid-1-3  unextended no-extended-padding"
                                         style="padding-top:30px;padding-bottom:45px;"
