@@ -36,7 +36,7 @@
 
         @font-face {
             font-family: 'theme';
-            src: url(https://shangpalace.thenorfolkgroup.com/wp-content/themes/vip-restaurant/vamtam/assets/fonts/theme-icons/theme-icons.ttf) format('truetype'), url(https://shangpalace.thenorfolkgroup.com/wp-content/themes/vip-restaurant/vamtam/assets/fonts/theme-icons/theme-icons.woff) format('woff'), url(https://shangpalace.thenorfolkgroup.com/wp-content/themes/vip-restaurant/vamtam/assets/fonts/theme-icons/theme-icons.svg#theme-icons) format('svg');
+            src: url(/wp-content/themes/vip-restaurant/vamtam/assets/fonts/icons/theme-icons.ttf) format('truetype'), url(/wp-content/themes/vip-restaurant/vamtam/assets/fonts/icons/theme-icons.woff) format('woff'), url(/themes/vip-restaurant/vamtam/assets/fonts/theme-icons/icons.svg#theme-icons) format('svg');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
