@@ -155,21 +155,21 @@
                                 <ul id="menu-submenu-footer" class="menu">
                                     <li id="menu-item-15043"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15043">
-                                        <a href="https://www.thenorfolkgroup.com/news-corner/">News
-                                            Corners</a>
+                                        <span>News
+                                            Corners</span>
                                     </li>
                                     <li id="menu-item-15044"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15044">
-                                        <a href="https://www.thenorfolkgroup.com/talents/">Careers</a>
+                                        <span>Careers</span>
                                     </li>
                                     <li id="menu-item-15045"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15045">
-                                        <a href="privacy-policy/index.html">Privacy Policy</a>
+                                        <span>Privacy Policy</span>
                                     </li>
                                     <li id="menu-item-15915"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15915">
-                                        <a href="terms-and-conditions/index.html">Terms and
-                                            Conditions</a>
+                                        <span>Terms and
+                                            Conditions</span>
                                     </li>
                                 </ul>
                             </div>
