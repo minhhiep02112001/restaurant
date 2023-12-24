@@ -399,10 +399,9 @@
                                                             exceptional Cantonese dining
                                                             experience<br />
                                                             in Saigon awaits at Shang Palace.</p>
-                                                        <h4 class="textcenter"><strong><span
-                                                                        style="color: #a71c20;">(+84
-                                                                        28) 3823
-                                                                        2221</span></strong></h4>
+                                                        <h4 class="textcenter"><strong><span style="color: #a71c20;">(+84
+                                                                    28) 3823
+                                                                    2221</span></strong></h4>
                                                         <span class="vamtam-blank-space  vamtam-hide-lowres"
                                                             style="height:5px"></span>
                                                         <p class="textcenter"><a id="makearev" href="#booking"
@@ -491,23 +490,7 @@
                                     <div class="vamtam-grid grid-2-3  grid-2-3  unextended animation-fade-in animated-active no-extended-padding"
                                         style="padding-top:0.05px;padding-bottom:0.05px;"
                                         id="vamtam-column-56574136fc651154314cadc5c8826718">
-                                        <h4 class="textcenter"><strong>About Shang Palace</strong></h4>
-                                        <span class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
-                                        <p class="textcenter head-resv-desc">Renowned as one of the
-                                            finest restaurants in the city since 2007, Shang Palace is
-                                            an integral part of Saigon’s heritage and culinary
-                                            landscape. The restaurant has become an illustrious dining
-                                            destination for residents and tourists alike. Centrally
-                                            located, in a tranquil area in the Central Business
-                                            District, this is the ideal venue to entertain corporate
-                                            guests, celebrate festive occasions and catch up with
-                                            friends. The fine-dining restaurant, with enthusiastic,
-                                            professional and experienced staffs, boasts heavenly
-                                            Cantonese cuisine and welcomes guests back year after year.
-                                            An extensive menu, featuring many signature dishes from
-                                            Beijing Roasted Duck, live seafood to 50 Dim Sum delights,
-                                            all prepared is sure to enchant even the most discerning
-                                            gourmet.</p>
+                                        {!! $content_home !!}
                                         <span class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
                                         <p><img decoding="async" class="aligncenter wp-image-14007 size-full"
                                                 role="img"
@@ -520,7 +503,7 @@
                         </div>
                         <div class="row ">
                             <div class="vamtam-grid grid-1-1 signature-dishes-section vamtam-first-level grid-1-1 vamtam-add-ornaments-top first vamtam-cover-bg has-background unextended no-extended-padding"
-                                style="background: url('{{asset("/wp-content/uploads/2019/10/shang-palace-menu-bg_low.jpg")}}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;"
+                                style="background: url('{{ asset('/wp-content/uploads/2019/10/shang-palace-menu-bg_low.jpg') }}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;"
                                 id="menu">
                                 <style>
                                     #menu,
