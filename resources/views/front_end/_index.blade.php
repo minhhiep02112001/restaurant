@@ -1,9 +1,20 @@
+@php
+    $config_seo = json_decode(getValueSetting('config_seo'));
+    $config_website = json_decode(getValueSetting('config_website'));
+    $ver = '1.1.2';
+
+@endphp
+
 <!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-     @include('front_end.layout.config_seo_header')
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    @include('front_end.layout.config_seo_header')
 
     <link rel="stylesheet" href="/wp-content/themes/topgo/css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="/wp-content/themes/topgo/css/font-awesome.min.css" type="text/css" />
@@ -15,8 +26,8 @@
     <script type="text/javascript" src="/wp-content/themes/topgo/js/jquery-ui.js"></script>
     <script type="text/javascript" src="/wp-content/themes/topgo/js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="/wp-content/themes/topgo/js/images-grid.js"></script>
-  
-    
+
+
     <link rel='stylesheet' id='wp-block-library-css'
         href='/wp-includes/css/dist/block-library/style.mine35d.css?ver=6.3.2' type='text/css' media='all' />
     <style id='classic-theme-styles-inline-css' type='text/css'>
@@ -403,14 +414,14 @@
             line-height: 1.6;
         }
     </style>
-   
+
     <link rel='stylesheet' id='wp-pagenavi-css' href='/wp-content/plugins/wp-pagenavi/pagenavi-css44fd.css?ver=2.70'
         type='text/css' media='all' />
     <link rel='stylesheet' id='twentyfourteen-lato-css'
         href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&amp;subset=latin%2Clatin-ext'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='genericons-css'
-        href='/wp-content/themes/topgo/genericons/genericons19ce.css?ver=3.0.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='genericons-css' href='/wp-content/themes/topgo/genericons/genericons19ce.css?ver=3.0.3'
+        type='text/css' media='all' />
     <link rel='stylesheet' id='twentyfourteen-style-css' href='/wp-content/themes/topgo/stylee35d.css?ver=6.3.2'
         type='text/css' media='all' />
     <!--[if lt IE 9]>
@@ -2061,7 +2072,7 @@
                         width="600" height="450" allowfullscreen="allowfullscreen"></iframe></p>
             </div>
         </div><!-- .tier-row -->
- 
+
 
         <div class="tier-row cleafix">
             <div class="container">
@@ -3401,8 +3412,8 @@
                             </font>
                         </h5>
                         <div class="social-footer">
-                            <a rel="nofollow" target="_blank" href="/"><i
-                                    class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a rel="nofollow" target="_blank" href="/"><i class="fa fa-facebook-square"
+                                    aria-hidden="true"></i></a>
                             <!--<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                                 <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                                 <a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>-->
@@ -3422,8 +3433,8 @@
     </footer><!-- #colophon -->
     <!-- #page -->
 
-     
-    
+
+
     <script type="text/javascript">
         $(document).ready(function() {
             // Optimalisation: Store the references outside the event handler:
@@ -3469,15 +3480,15 @@
     </script>
     <script type="text/javascript" src="/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8" id="swv-js">
     </script>
-    
+
     <script type="text/javascript"
         src="/wp-content/plugins/date-time-picker-for-contact-form-7/assets/js/jquery.datetimepicker.full.min.js?ver=6.3.2"
         id="walcf7-datepicker-js-js"></script>
     <script type="text/javascript"
         src="/wp-content/plugins/date-time-picker-for-contact-form-7/assets/js/datetimepicker.js?ver=1.0.0"
         id="walcf7-datepicker-js"></script>
-     
-   
+
+
     <script type="text/javascript" src="/wp-includes/js/comment-reply.min.js?ver=6.3.2" id="comment-reply-js"></script>
     <script type="text/javascript" src="/wp-content/themes/topgo/js/functions.js?ver=20150315"
         id="twentyfourteen-script-js"></script>
@@ -3487,9 +3498,9 @@
         id="wpcom-lazy-load-images-js"></script>
     <script type="text/javascript" src="/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
         id="wp-polyfill-inert-js"></script>
-    
-   
-     
+
+
+
 
 
     <script type="text/javascript" src="/wp-content/themes/topgo/js/readmore.js"></script>
@@ -3503,8 +3514,8 @@
             $( "#select-adrress" ).selectmenu();
         });*/
     </script>
-    
-    
+
+
 </body>
 
 <!-- Mirrored from topgo.vn/bbq-hotpot/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Dec 2023 16:04:57 GMT -->
