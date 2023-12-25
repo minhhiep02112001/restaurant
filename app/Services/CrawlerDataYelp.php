@@ -58,16 +58,16 @@ class CrawlerDataYelp
      public function download_list_category_post($page = 1)
      {
           $_categories = Category::orderBy('updated_at', 'desc')->get();
-          $countries = DB::table('st_country')->where('parent_id', '!=', 0)->orderBy('id', 'desc')->get();
-
-          foreach ($_categories as $cate) {
-               foreach ($countries as $coutry) {
+          $countries = DB::table('st_country')->orderBy('id', 'desc')->orderBy('updated_at', 'desc')->where('parent_id', '!=', 0)->get();
+       
+          foreach ($countries as $coutry) {
+               foreach ($_categories as $cate) {
                     $url = $this->convert_search($coutry->title, $cate->title);
                     $this->download_list_url($url, 0, $cate['id'], $coutry->id);
                     echo "\n Done all {$coutry->title}";
                }
-               DB::table('st_category')->where('id', $cate['id'])->update(['updated_at' => date('Y-m-d H:i:s')]);
-               echo "\n Done all {$cate['title']}";
+               DB::table('st_country')->where('id', $coutry->id)->update(['updated_at' => date('Y-m-d H:i:s')]);
+               echo "\n Done all {$cate->title}";
           }
           echo "\nDone all";
      }
@@ -91,14 +91,14 @@ class CrawlerDataYelp
                $crawler_href = "https://www.yelp.com" . $node->filter('h3.css-1agk4wl a')->attr('href');
                $slug = \Str::slug($title);
                return ['title' => $title, 'slug' => $slug, 'crawler_href' => $crawler_href];
-          }); 
+          });
           if (!empty($arr)) {
                foreach (array_reverse($arr) as $item) {
                     if (empty($item)) continue;
                     // $record = Post::where(['slug' => $item['slug']])->first();
                     try {
                          $data = $this->curl_detail_post($item['crawler_href']);
-                         
+
                          $record = Post::where(['slug' => $data['slug']])->first();
                          $category = $data['category'];
                          $data['country_id'] = $country_id;
@@ -181,12 +181,12 @@ class CrawlerDataYelp
                return ['title' => $title, 'slug' => $slug, 'thumbnail' => '', 'crawler_href' => $link_crawler];
           });
 
-          $website_link = $crawler->filter('p.css-1p9ibgf a[class="css-1idmmu3"][target="_blank"]')->each(function($node){
+          $website_link = $crawler->filter('p.css-1p9ibgf a[class="css-1idmmu3"][target="_blank"]')->each(function ($node) {
                return [
                     'website' => $node->text(),
                     'link' => $node->attr('href'),
                ];
-          }); 
+          });
           return [
                'slug' => trim($slug),
                'title' => trim($title),
