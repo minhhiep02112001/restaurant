@@ -37,12 +37,12 @@
                     <article class="post-523 page type-page status-publish ast-article-single" id="post-523"
                         itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
 
- 
+
                         <div class="entry-content clear" itemprop="text">
 
 
                             <div data-elementor-type="wp-page" data-elementor-id="523" class="elementor elementor-523">
-                                
+
                                 <section
                                     class="elementor-section elementor-top-section elementor-element elementor-element-2d1a270 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="2d1a270" data-element_type="section"
@@ -292,8 +292,7 @@
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
                                     <div class="e-con-inner">
                                         <div class="elementor-element elementor-element-d275245 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="d275245" data-element_type="widget"
-                                            data-widget_type="divider.default">
+                                            data-id="d275245" data-element_type="widget" data-widget_type="divider.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-divider">
                                                     <span class="elementor-divider-separator">
@@ -342,11 +341,9 @@
                                                         }
                                                     </style>
                                                     <img decoding="async" width="640" height="427"
-                                                        src="../wp-content/uploads/2023/04/China-black-and-white.jpg"
+                                                        src="{{ asset('themes/uploads/2023/04/China-black-and-white.jpg') }}"
                                                         class="attachment-large size-large wp-image-565" alt=""
-                                                        loading="lazy"
-                                                        srcset="https://moonkeerestaurant.com/wp-content/uploads/2023/04/China-black-and-white.jpg 640w, https://moonkeerestaurant.com/wp-content/uploads/2023/04/China-black-and-white-300x200.jpg 300w, https://moonkeerestaurant.com/wp-content/uploads/2023/04/China-black-and-white-18x12.jpg 18w"
-                                                        sizes="(max-width: 640px) 100vw, 640px" />
+                                                        loading="lazy" sizes="(max-width: 640px) 100vw, 640px" />
                                                 </div>
                                             </div>
                                         </div>
@@ -430,11 +427,9 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img decoding="async" width="500" height="324"
-                                                        src="../wp-content/uploads/2023/07/IMG_0063.jpg"
+                                                        src="{{ asset('themes/uploads/2023/07/IMG_0063.jpg') }}"
                                                         class="attachment-large size-large wp-image-635" alt=""
-                                                        loading="lazy"
-                                                        srcset="https://moonkeerestaurant.com/wp-content/uploads/2023/07/IMG_0063.jpg 500w, https://moonkeerestaurant.com/wp-content/uploads/2023/07/IMG_0063-300x194.jpg 300w, https://moonkeerestaurant.com/wp-content/uploads/2023/07/IMG_0063-18x12.jpg 18w"
-                                                        sizes="(max-width: 500px) 100vw, 500px" />
+                                                        loading="lazy" sizes="(max-width: 500px) 100vw, 500px" />
                                                 </div>
                                             </div>
                                         </div>
@@ -476,11 +471,9 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img decoding="async" width="645" height="427"
-                                                        src="../wp-content/uploads/2023/04/dai-pai-dong-1.jpg"
+                                                        src="{{ asset('themes/uploads/2023/04/dai-pai-dong-1.jpg') }}"
                                                         class="attachment-large size-large wp-image-567" alt=""
-                                                        loading="lazy"
-                                                        srcset="https://moonkeerestaurant.com/wp-content/uploads/2023/04/dai-pai-dong-1.jpg 645w, https://moonkeerestaurant.com/wp-content/uploads/2023/04/dai-pai-dong-1-300x199.jpg 300w, https://moonkeerestaurant.com/wp-content/uploads/2023/04/dai-pai-dong-1-18x12.jpg 18w"
-                                                        sizes="(max-width: 645px) 100vw, 645px" />
+                                                        loading="lazy" sizes="(max-width: 645px) 100vw, 645px" />
                                                 </div>
                                             </div>
                                         </div>
@@ -573,11 +566,9 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img decoding="async" width="488" height="750"
-                                                        src="../wp-content/uploads/2023/07/Clay-Oven-1.png"
+                                                        src="{{ asset('themes/uploads/2023/07/Clay-Oven-1.png') }}"
                                                         class="attachment-large size-large wp-image-742" alt=""
-                                                        loading="lazy"
-                                                        srcset="https://moonkeerestaurant.com/wp-content/uploads/2023/07/Clay-Oven-1.png 488w, https://moonkeerestaurant.com/wp-content/uploads/2023/07/Clay-Oven-1-195x300.png 195w, https://moonkeerestaurant.com/wp-content/uploads/2023/07/Clay-Oven-1-8x12.png 8w"
-                                                        sizes="(max-width: 488px) 100vw, 488px" />
+                                                        loading="lazy" sizes="(max-width: 488px) 100vw, 488px" />
                                                 </div>
                                             </div>
                                         </div>
@@ -619,7 +610,7 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img decoding="async" width="427" height="240"
-                                                        src="/themes/uploads/2023/07/IMG_0024.gif"
+                                                        src="{{asset('/themes/uploads/2023/07/IMG_0024.gif')}}"
                                                         class="attachment-large size-large wp-image-630" alt=""
                                                         loading="lazy" />
                                                 </div>
@@ -663,10 +654,9 @@
                                                 data-widget_type="image.default">
                                                 <div class="elementor-widget-container">
                                                     <img decoding="async" width="475" height="695"
-                                                        src="../wp-content/uploads/2023/07/Bamboo-Noodles-1.png"
+                                                        src="{{asset('themes/uploads/2023/07/Bamboo-Noodles-1.png')}}"
                                                         class="attachment-large size-large wp-image-741" alt=""
                                                         loading="lazy"
-                                                        srcset="https://moonkeerestaurant.com/wp-content/uploads/2023/07/Bamboo-Noodles-1.png 475w, https://moonkeerestaurant.com/wp-content/uploads/2023/07/Bamboo-Noodles-1-205x300.png 205w, https://moonkeerestaurant.com/wp-content/uploads/2023/07/Bamboo-Noodles-1-8x12.png 8w"
                                                         sizes="(max-width: 475px) 100vw, 475px" />
                                                 </div>
                                             </div>

@@ -1,4 +1,4 @@
-@if (!empty($SEO)) 
+@if (!empty($SEO))
     <title>{{ !empty($SEO['title']) ? replace_title($SEO['title']) : '' }}</title>
     <meta name="keyword" content="{{ !empty($SEO['meta_description']) ? replace_title($SEO['meta_keyword']) : '' }}">
     <meta name="description"
@@ -16,7 +16,9 @@
     <meta name="twitter:description"
         content="{{ !empty($SEO['meta_description']) ? replace_title($SEO['meta_description']) : '' }}" />
     <meta name="twitter:image" content="{{ !empty($SEO['image']) ? convertPathImage($SEO['image']) : '' }}" />
-    <meta name="robots" content="noindex,nofollow" />
+
+    <meta name="robots" content="index,follow" />
+    <meta name="Googlebot-News" content="index,follow">
     {{-- <meta name="robots" content="{{ !empty($SEO['is_robot']) ? 'index, follow' : 'noindex,nofollow' }}" />
     <meta name="Googlebot-News" content="{{ !empty($SEO['is_robot']) ? 'index, follow' : 'noindex,nofollow' }}"> --}}
 @else
@@ -34,13 +36,29 @@
     <meta name="twitter:title" content="{{ $config_seo->meta_title ?? '' }}" />
     <meta name="twitter:description" content="{{ $config_seo->meta_description ?? '' }}" />
     <meta name="twitter:image" content="{{ convertPathImage($config_website->logo ?? '') }}" />
-    <meta name="robots" content="noindex,nofollow" />
-    {{-- <meta name="robots" content="{{ !empty($config_seo->index) ? 'index,follow' : 'noindex,nofollow' }}" />
-    <meta name="Googlebot-News" content="{{ !empty($config_seo->index) ? 'index,follow' : 'noindex,nofollow' }}"> --}}
+
+    <meta name="robots" content="index,follow" />
+    <meta name="Googlebot-News" content="index,follow">
 @endif
 
 <link rel="canonical" href="{{ url()->current() }}" />
-<link rel="shortcut icon" sizes="32x32" href="{{ convertPathImage($config_website->favicon ?? '') }}" type="images/x-icon" >
- 
+<link rel="shortcut icon" sizes="32x32" href="{{ convertPathImage($config_website->favicon ?? '') }}"
+    type="images/x-icon">
+
 <meta property="fb:app_id" content="548802530697134" />
 <meta property="fb:admins" content="100036897402369" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-118VST7XRY"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-118VST7XRY');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3245384936464312"
+     crossorigin="anonymous"></script>
