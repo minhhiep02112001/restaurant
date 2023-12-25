@@ -91,8 +91,7 @@ class CrawlerDataYelp
                $crawler_href = "https://www.yelp.com" . $node->filter('h3.css-1agk4wl a')->attr('href');
                $slug = \Str::slug($title);
                return ['title' => $title, 'slug' => $slug, 'crawler_href' => $crawler_href];
-          });
-          dd($arr, $_url);
+          }); 
           if (!empty($arr)) {
                foreach (array_reverse($arr) as $item) {
                     if (empty($item)) continue;
