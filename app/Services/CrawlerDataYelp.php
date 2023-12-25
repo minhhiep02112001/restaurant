@@ -58,7 +58,7 @@ class CrawlerDataYelp
      public function download_list_category_post($page = 1)
      {
           $_categories = Category::orderBy('updated_at', 'desc')->get();
-          $countries = DB::table('st_country')->orderBy('id', 'desc')->orderBy('updated_at', 'desc')->where('parent_id', '!=', 0)->get();
+          $countries = DB::table('st_country')->orderBy('updated_at', 'desc')->where('parent_id', '!=', 0)->get();
        
           foreach ($countries as $coutry) {
                foreach ($_categories as $cate) {
