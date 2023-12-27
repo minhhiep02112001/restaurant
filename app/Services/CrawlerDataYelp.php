@@ -57,7 +57,7 @@ class CrawlerDataYelp
 
      public function download_list_category_post($page = 1)
      {
-          $_categories = Category::orderBy('updated_at', 'desc')->get();
+          $_categories = Category::orderBy('updated_at', 'asc')->get();
           $countries = DB::table('st_country')->orderBy('updated_at', 'desc') 
           ->where('parent_id', 2)->get();
        
@@ -101,6 +101,7 @@ class CrawlerDataYelp
                          $data = $this->curl_detail_post($item['crawler_href']);
 
                          $record = Post::where(['slug' => $data['slug']])->first();
+                         if(!empty($record)) continue;
                          $category = $data['category'];
                          $data['country_id'] = $country_id;
                          unset($data['category']);
