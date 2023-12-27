@@ -37,7 +37,7 @@
                     <div class="logo-wrapper">
                         <div class="logo-tagline">
                             <a href="/" title="{{$config_website->website}}" class="logo " style="min-width:85px">
-                                <img src="wp-content/uploads/2019/09/Shang-Palace-logo.svg" alt="{{$config_website->website}}"
+                                <img src="{{ convertPathImage($config_website->logo ?? '') }}" alt="{{$config_website->website}}"
                                     class="normal-logo" width="85" height="134" style="max-height: 134px;" />
                             </a>
                             <span class="site-tagline">Authentic Cantonese Cuisine</span>
