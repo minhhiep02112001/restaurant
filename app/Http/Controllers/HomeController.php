@@ -29,9 +29,7 @@ class HomeController extends Controller
         $this->cate_app_id = 20;
     }
     public function home(Request $request)
-    {
-        // $data['banners_game'] = Drag::getAllData('config_topic_game_home', 'game');
-
+    { 
         $data = [
             'title' => "Home", 
         ];

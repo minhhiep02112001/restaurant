@@ -1,145 +1,160 @@
-<div class="fixed-header-box sticky-header-state-reset" style>
-    <header class="main-header layout-logo-menu header-content-wrapper">
-        <div id="top-nav-wrapper" style="background-color:#D7CFC5;background-image:none;">
-            <nav class="top-nav text-menu">
-                <div class="limit-wrapper header-maybe-limit-wrapper top-nav-inner header-padding">
-                    <div class="row">
-                        <div class="row ">
-                            <div class="grid-1-2 lowres-width-override lowres-grid-1-2" id="top-nav-text">
-                            </div>
-                            <div class="grid-1-2 lowres-width-override lowres-grid-1-2 menu-wrapper">
-                                <div id="mega-menu-wrap-menu-top" class="mega-menu-wrap">
-                                    <div class="mega-menu-toggle">
-                                        <div class="mega-toggle-blocks-left">
-                                            <div class="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-1"
-                                                id="mega-toggle-block-1"><button aria-label="Toggle Menu"
-                                                    class="mega-toggle-animated mega-toggle-animated-slider"
-                                                    type="button" aria-expanded="false">
-                                                    <span class="mega-toggle-animated-box">
-                                                        <span class="mega-toggle-animated-inner"></span>
-                                                    </span>
-                                                </button></div>
-                                        </div>
-                                        <div class="mega-toggle-blocks-center"></div>
-                                        <div class="mega-toggle-blocks-right"></div>
-                                    </div>
+<div class="header header-main header-tem header-post-temlate">
+    <div class="container">
+        <div class="row">
+            <div class="header-left pull-left">
+                <div class="main-menu">
+                    <nav class="navbar navbar-default navbar-static-top">
+                        <div class="navbar-header">
+                            <div class="logo">
+                                <a href="/"><img src="/wp-content/uploads/2017/07/logo.jpg"></a>
+                            </div><!-- .logo -->
+                            <a href="/tim-kiem/" class="icon-search-mobile"><i class="fa fa-search"
+                                    aria-hidden="true"></i></a>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span
+                                    class="sr-only">Toggle navigation
+                                </span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="limit-wrapper header-maybe-limit-wrapper header-padding">
-            <div class="header-contents">
-                <div class="first-row">
-                    <div class="logo-wrapper">
-                        <div class="logo-tagline">
-                            <a href="/" title="{{$config_website->website}}" class="logo " style="min-width:85px">
-                                <img src="wp-content/uploads/2019/09/Shang-Palace-logo.svg" alt="{{$config_website->website}}"
-                                    class="normal-logo" width="85" height="134" style="max-height: 134px;" />
-                            </a>
-                            <span class="site-tagline">Authentic Cantonese Cuisine</span>
-                        </div>
-                        <div class="mobile-logo-additions">
-                            <div id="vamtam-megamenu-main-menu-toggle"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="second-row ">
-                    <div id="menus">
-                        <nav id="main-menu">
-                            <a href="#main" title="Skip to content" class="visuallyhidden">Skip to content</a>
-                            <div id="mega-menu-wrap-menu-header" class="mega-menu-wrap">
-                                <div class="mega-menu-toggle">
-                                    <div class="mega-toggle-blocks-left">
-                                        <div class="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-1"
-                                            id="mega-toggle-block-1"><button aria-label="Toggle Menu"
-                                                class="mega-toggle-animated mega-toggle-animated-slider" type="button"
-                                                aria-expanded="false">
-                                                <span class="mega-toggle-animated-box">
-                                                    <span class="mega-toggle-animated-inner"></span>
-                                                </span>
-                                            </button></div>
-                                    </div>
-                                    <div class="mega-toggle-blocks-center"></div>
-                                    <div class="mega-toggle-blocks-right"></div>
-                                </div>
-                                <ul id="mega-menu-menu-header"
-                                    class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js"
-                                    data-event="hover_intent" data-effect="slide" data-effect-speed="400"
-                                    data-effect-mobile="slide" data-effect-speed-mobile="600"
-                                    data-panel-width="#main-menu" data-mobile-force-width="false" data-second-click="go"
-                                    data-document-click="collapse" data-vertical-behaviour="accordion"
-                                    data-breakpoint="900" data-unbind="false">
-                                    <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-13968 vamtam-animated-page-scroll maybe-current-menu-item"
-                                        id="mega-menu-item-13968"><a class="mega-menu-link"
-                                            href="{{ url('/') }}#our-story" tabindex="0">Our Story</a></li>
-                                    <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13969 vamtam-animated-page-scroll maybe-current-menu-item"
-                                        id="mega-menu-item-13969"><a class="mega-menu-link"
-                                            href="{{ url('/') }}#menu" aria-haspopup="true" aria-expanded="false"
-                                            tabindex="0">Menu<span class="mega-indicator"></span></a>
-                                        <ul class="mega-sub-menu">
-                                            <li class="mega-desktop-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-14143 desktop-sub-menu-link"
-                                                id="mega-menu-item-14143"><a class="mega-menu-link" href="/">Dim
-                                                    Sum Menu</a></li>
-                                            <li class="mega-desktop-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-14144 desktop-sub-menu-link"
-                                                id="mega-menu-item-14144"><a class="mega-menu-link"
-                                                    href="/">Dining
-                                                    Menu</a></li>
-                                            <li class="mega-desktop-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-15564 desktop-sub-menu-link"
-                                                id="mega-menu-item-15564"><a  class="mega-menu-link"
-                                                    href="/">Set
-                                                    Menu</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="mega-mobile-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-hide-on-desktop mega-menu-item-14326 mobile-sub-menu-link"
-                                        id="mega-menu-item-14326"><a class="mega-menu-link" href="/"
-                                            tabindex="0">Dim Sum Menu</a></li>
-                                    <li class="mega-mobile-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-hide-on-desktop mega-menu-item-14327 mobile-sub-menu-link"
-                                        id="mega-menu-item-14327"><a class="mega-menu-link" href="/"
-                                            tabindex="0">Dining Menu</a></li>
-                                    <li class="mega-mobile-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-15567 mobile-sub-menu-link"
-                                        id="mega-menu-item-15567"><a class="mega-menu-link"
-                                            href="/" tabindex="0">Set Menu</a></li>
-                                    <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-13970 vamtam-animated-page-scroll maybe-current-menu-item"
-                                        id="mega-menu-item-13970"><a class="mega-menu-link"
-                                            href="{{ url('/') }}#promotions" tabindex="0">Special Offers</a>
-                                    </li>
-                                    <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-13971 vamtam-animated-page-scroll maybe-current-menu-item"
-                                        id="mega-menu-item-13971"><a class="mega-menu-link"
-                                            href="{{ url('/') }}#contact-us" tabindex="0">Contact Us</a></li>
-                                    <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-13972 vamtam-animated-page-scroll maybe-current-menu-item"
-                                        id="mega-menu-item-13972"><a class="mega-menu-link"
-                                            href="{{ url('/') }}#gallery" tabindex="0">Gallery</a></li>
-                                    <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14393 out-link-menu"
-                                        id="mega-menu-item-14393"><a class="mega-menu-link"
-                                            href="under-contruction/{{ url('/') }}" tabindex="0">News
-                                            Corner</a>
-                                    </li>
-                                    <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14394 out-link-menu"
-                                        id="mega-menu-item-14394"><a class="mega-menu-link"
-                                            href="under-contruction/{{ url('/') }}" tabindex="0">Privacy
-                                            Policy</a>
-                                    </li>
-                                    <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14395 out-link-menu"
-                                        id="mega-menu-item-14395"><a class="mega-menu-link"
-                                            href="under-contruction/{{ url('/') }}" tabindex="0">Careers</a>
-                                    </li>
-                                    <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14396 out-link-menu"
-                                        id="mega-menu-item-14396">
-                                        <a class="mega-menu-link" href="under-contruction/{{ url('/') }}"
-                                            tabindex="0"><span>Privilege Club</span>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <div class="menu-main-menu-ha-noi-container">
+                                <ul id="menu-main-menu-ha-noi" class="nav navbar-nav">
+                                    <li id="menu-item-302"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-302">
+                                        <a href="/top-events/">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">TOP EVENTS</font>
+                                            </font>
                                         </a>
                                     </li>
-
+                                    <li id="menu-item-218"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-218">
+                                        <a href="/combo-deals/">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">COMBO &amp; DEALS</font>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-219"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-219">
+                                        <a href="/karaoke/">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">KARAOKE</font>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-303"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-303">
+                                        <a href="/restaurants/">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">RESTAURANTS</font>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-6571"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6571">
+                                        <a href="/bar-lounge/">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">BAR &amp; LOUNGE</font>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-312"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-312">
+                                        <a href="/spa/">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">SPA</font>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-311"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-311">
+                                        <a href="/trip/">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">TRIP</font>
+                                            </font>
+                                        </a>
+                                    </li>
+                                    <li id="menu-item-221"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-221">
+                                        <a href="/blog/">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">BLOG</font>
+                                            </font>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-28917"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28917">
+                                                <a href="/top-goi-y/">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">TOP SUGGESTIONS
+                                                        </font>
+                                                    </font>
+                                                </a>
+                                            </li>
+                                            <li id="menu-item-28918"
+                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28918">
+                                                <a href="/diem-nhan/">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">HIGHLIGHT</font>
+                                                    </font>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
-                        </nav>
-                    </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
+            <div class="header-right pull-right">
+                <div class="hotline-footer">
+                    <a href="tel:9691 4852"><span>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Hotline: 9691 4852</font>
+                            </font>
+                        </span></a>
+                </div>
+            </div><!-- .header-right -->
         </div>
-    </header>
+    </div>
+</div>
+<div class="menu-post-temlate clearfix affix-top" style="width: 1519px;">
+    <div class="container">
+        <div class="row">
+            <ul class="navbar-nav nav">
+                <li class=""><a href="#abouts">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Introduce</font>
+                        </font>
+                    </a></li>
+                <li class=""><a href="#ticket-map">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Menu &amp; Reservations</font>
+                        </font>
+                    </a></li>
+                <li class=""><a href="#events-location">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Events</font>
+                        </font>
+                    </a></li>
+                <li class=""><a href="#artists-participating">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Photos</font>
+                        </font>
+                    </a></li>
+                <li class=""><a href="#organizer">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Map</font>
+                        </font>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
 </div>

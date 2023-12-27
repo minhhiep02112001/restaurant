@@ -24,34 +24,9 @@
   }
 }(function($) {
   'use strict'; 
-		var collheight1 = jQuery('.gioithieufield').offset().top;
-		var collheight2 = jQuery('.gioithieufield p').eq( 2 ).offset().top;
-		if((collheight2  - collheight1 )>0){
-			var collheight = collheight2 + $('.gioithieufield p').eq( 2 ).height() - collheight1;
-			console.log(collheight); 
-		}else{
-			var collheight = 180;
-			console.log('bbb'); 
-		}
+		 
 		
-		var readmore = 'readmore',
-		  defaults = {
-			speed: 100,
-			collapsedHeight: collheight,
-			heightMargin: 16,
-			moreLink: '<a href="#" class="readmore-h"><i class="fa fa-plus-square-o"></i> Xem thêm</a>',
-			lessLink: '<a href="#" class="readmore-h"><i class="fa fa-minus-square-o"></i> Rút gọn</a>', 
-			embedCSS: true,
-			blockCSS: 'display: block;',
-			startOpen: false,
-
-			// callbacks
-			beforeToggle: function(){},
-			afterToggle: function(){}
-		  },
-		  cssEmbedded = {},
-		  uniqueIdCounter = 0;
-	
+		 
 
   function debounce(func, wait, immediate) {
     var timeout;
