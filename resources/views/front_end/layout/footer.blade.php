@@ -14,43 +14,17 @@
                     </aside>
                 </div>
                 <div class="row">
-                    <aside class="cell-1-3 fit" data-id="2">
-                        <section id="icon-link-3" class="widget vamtam_icon_link">
-                            <ul>
-                                <li>
-                                    <span rel="nofollow" target="_blank" title="NORFOLK GROUP">
-                                        <span class="icon before " data-icon-type></span><span
-                                            class="content">NORFOLK GROUP</span></span>
-                                </li>
-                                <li>
-                                    <span rel="nofollow" target="_blank" title="NORFOLK MANSION">
-                                        <span class="icon before " data-icon-type></span><span
-                                            class="content">NORFOLK MANSION</span></span>
-                                </li>
-                                <li>
-                                    <span rel="nofollow" target="_blank" title="NORFOLK HOTEL">
-                                        <span class="icon before " data-icon-type></span><span
-                                            class="content">NORFOLK HOTEL</span></span>
-                                </li>
-                                <li>
-                                    <span rel="nofollow" target="_blank"
-                                        title="SIX SENSES CON DAO ">
-                                        <span class="icon before " data-icon-type></span><span
-                                            class="content">SIX SENSES CON DAO </span></span>
-                                </li>
-                            </ul>
-                        </section>
-                    </aside>
+                    
                     <aside class="cell-1-3 fit" data-id="3">
                         <section id="text-24" class="widget widget_text">
                             <div class="textwidget">
-                                <p><strong>Shang Palace</strong></p>
+                                <p><strong>Dumpling Story</strong></p>
                                 <p>1st Floor, Norfolk Mansion<br />
-                                    17-19-21 Ly Tu Trong, District. 1, HCMC</p>
-                                <p>Tel: <span href="tel:(+84 28) 3823 2221">(+84 28) 3823 2221</span>
+                                    2114 Fillmore St San Francisco, CA 94115</p>
+                                <p>Tel: <span href="tel:(+844158293664"> (415) 829-3664</span>
                                 </p>
                                 <p>Email: <span class="__cf_email__"
-                                        data-cfemail="acdec9dfc9dedacdd8c5c3c2ecdfc4cdc2cbdccdc0cdcfc982cfc3c182dac2">[email&#160;protected]</span>
+                                        data-cfemail="acdec9dfc9dedacdd8c5c3c2ecdfc4cdc2cbdccdc0cdcfc982cfc3c182dac2">dumplingstory@gmail.com</span>
                                 </p>
                             </div>
                         </section>

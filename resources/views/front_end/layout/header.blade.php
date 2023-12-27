@@ -78,19 +78,19 @@
                                             href="{{ url('/') }}#our-story" tabindex="0">Our Story</a></li>
                                     <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13969 vamtam-animated-page-scroll maybe-current-menu-item"
                                         id="mega-menu-item-13969"><a class="mega-menu-link"
-                                            href="{{ url('/') }}#menu" aria-haspopup="true" aria-expanded="false"
+                                            href="{{ url('/menu') }}" aria-haspopup="true" aria-expanded="false"
                                             tabindex="0">Menu<span class="mega-indicator"></span></a>
                                         <ul class="mega-sub-menu">
                                             <li class="mega-desktop-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-14143 desktop-sub-menu-link"
-                                                id="mega-menu-item-14143"><a class="mega-menu-link" href="/">Dim
+                                                id="mega-menu-item-14143"><a class="mega-menu-link" href="{{ url('/menu') }}">Dim
                                                     Sum Menu</a></li>
                                             <li class="mega-desktop-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-14144 desktop-sub-menu-link"
                                                 id="mega-menu-item-14144"><a class="mega-menu-link"
-                                                    href="/">Dining
+                                                    href="{{ url('/menu') }}">Dining
                                                     Menu</a></li>
                                             <li class="mega-desktop-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-15564 desktop-sub-menu-link"
                                                 id="mega-menu-item-15564"><a  class="mega-menu-link"
-                                                    href="/">Set
+                                                    href="{{ url('/menu') }}">Set
                                                     Menu</a></li>
                                         </ul>
                                     </li>
@@ -102,34 +102,34 @@
                                             tabindex="0">Dining Menu</a></li>
                                     <li class="mega-mobile-sub-menu-link mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-15567 mobile-sub-menu-link"
                                         id="mega-menu-item-15567"><a class="mega-menu-link"
-                                            href="/" tabindex="0">Set Menu</a></li>
+                                            href="/menu" tabindex="0">Set Menu</a></li>
                                     <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-13970 vamtam-animated-page-scroll maybe-current-menu-item"
                                         id="mega-menu-item-13970"><a class="mega-menu-link"
                                             href="{{ url('/') }}#promotions" tabindex="0">Special Offers</a>
                                     </li>
                                     <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-13971 vamtam-animated-page-scroll maybe-current-menu-item"
                                         id="mega-menu-item-13971"><a class="mega-menu-link"
-                                            href="{{ url('/') }}#contact-us" tabindex="0">Contact Us</a></li>
+                                            href="{{ url('/contact-us') }}" tabindex="0">Contact Us</a></li>
                                     <li class="mega-vamtam-animated-page-scroll mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current_page_item mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-13972 vamtam-animated-page-scroll maybe-current-menu-item"
                                         id="mega-menu-item-13972"><a class="mega-menu-link"
-                                            href="{{ url('/') }}#gallery" tabindex="0">Gallery</a></li>
+                                            href="{{ url('/gallery') }}" tabindex="0">Gallery</a></li>
                                     <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14393 out-link-menu"
                                         id="mega-menu-item-14393"><a class="mega-menu-link"
-                                            href="under-contruction/{{ url('/') }}" tabindex="0">News
+                                            href="/{{ url('/') }}" tabindex="0">News
                                             Corner</a>
                                     </li>
                                     <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14394 out-link-menu"
                                         id="mega-menu-item-14394"><a class="mega-menu-link"
-                                            href="under-contruction/{{ url('/') }}" tabindex="0">Privacy
+                                            href="/{{ url('/') }}" tabindex="0">Privacy
                                             Policy</a>
                                     </li>
                                     <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14395 out-link-menu"
                                         id="mega-menu-item-14395"><a class="mega-menu-link"
-                                            href="under-contruction/{{ url('/') }}" tabindex="0">Careers</a>
+                                            href="/{{ url('/') }}" tabindex="0">Careers</a>
                                     </li>
                                     <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14396 out-link-menu"
                                         id="mega-menu-item-14396">
-                                        <a class="mega-menu-link" href="under-contruction/{{ url('/') }}"
+                                        <a class="mega-menu-link" href="/{{ url('/') }}"
                                             tabindex="0"><span>Privilege Club</span>
                                         </a>
                                     </li>

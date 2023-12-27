@@ -1,240 +1,8 @@
 <div class="textwidget">
-    <div class="row ">
-        <div class="vamtam-grid grid-1-1 testimonial-section vamtam-first-level grid-1-1  first vamtam-cover-bg has-background unextended no-extended-padding"
-            style=" background: url({{ asset('/wp-content/uploads/Shang-Palace-Review-Bg_low.jpg') }}) no-repeat left top;background-size: cover; background-attachment: fixed;padding-top:30px;padding-bottom:30px;"
-            id="guests_reviews">
-            <div class="row ">
-                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
-                    style="padding-top:0.05px;padding-bottom:0.05px;"
-                    id="vamtam-column-8e2eac3e7f10b5834ae6544ff652ebc3">
-                    <h3 class="quote-header">Guest Reviews</h3>
-                </div>
-            </div>
-            <div class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></div>
-            <div class="row ">
-                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-fade-in animated-active no-extended-padding"
-                    style="padding-top:0.05px;padding-bottom:0.05px;"
-                    id="vamtam-column-250ede980aa120c1825308d4423c962c">
-                    <div class="vamtam-cubeportfolio cbp cbp-slider-edge vamtam-testimonials-slider"
-                        data-options="{&quot;layoutMode&quot;:&quot;slider&quot;,&quot;drag&quot;:true,&quot;auto&quot;:true,&quot;autoTimeout&quot;:5000,&quot;autoPauseOnHover&quot;:true,&quot;showNavigation&quot;:true,&quot;showPagination&quot;:false,&quot;rewindNav&quot;:true,&quot;scrollByPage&quot;:false,&quot;gridAdjustment&quot;:&quot;responsive&quot;,&quot;mediaQueries&quot;:[{&quot;width&quot;:1,&quot;cols&quot;:1}],&quot;gapHorizontal&quot;:0,&quot;gapVertical&quot;:0,&quot;caption&quot;:&quot;&quot;,&quot;displayType&quot;:&quot;default&quot;}">
-                        <div class="cbp-item">
-                            <blockquote
-                                class="clearfix small simple post-10255 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                <div class="quote-text">
-                                    <h4 class="quote-summary">"There are
-                                        Chinese speaking staffs and traditional
-                                        Chinese decoration, and the food is
-                                        authentically Cantonese. We had a meal
-                                        for 10 people and had a really good
-                                        time." </h4>
-                                    <div class="quote-thumbnail"><a
-                                            href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                            target="_blank" rel="noopener"><img width="25"
-                                                height="15"
-                                                src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt decoding="async" loading="lazy" /></a></div>
-                                    <div class="quote-title-wrapper clearfix">
-                                        <div class="quote-title"><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span>
-                                            <p class="the-title">
-                                                Legal_itinerant &#8211; Review
-                                                from TripAdvisor</p>
-                                        </div>
-                                    </div>
-                                    <div class="quote-content"></div>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <div class="cbp-item">
-                            <blockquote
-                                class="clearfix small simple post-13643 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                <div class="quote-text">
-                                    <h4 class="quote-summary">"Shang hits high
-                                        marks for its Cantonese delights. Dimsum
-                                        offers the standards plus some not so
-                                        common dishes. Seafood options are
-                                        plentiful and fresh. Noodles, roasted
-                                        meats and more are handled with skills
-                                        from the kitchen. This place is a great
-                                        find."</h4>
-                                    <div class="quote-thumbnail"><a
-                                            href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                            target="_blank" rel="noopener"><img width="25"
-                                                height="15"
-                                                src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt decoding="async" loading="lazy" /></a></div>
-                                    <div class="quote-title-wrapper clearfix">
-                                        <div class="quote-title"><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span>
-                                            <p class="the-title">sunraygrill
-                                                &#8211; Review from TripAdvisor
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="quote-content"></div>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <div class="cbp-item">
-                            <blockquote
-                                class="clearfix small simple post-13645 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                <div class="quote-text">
-                                    <h4 class="quote-summary">"The menu was
-                                        pretty extensive with a good spread of
-                                        dim sum and a-la-carte dishes. The
-                                        service was impeccable. I came here a
-                                        few times and am very pleased with all
-                                        my experiences so far. Bonus for those
-                                        staying at Norfolk Mansion as residents
-                                        get further discount."</h4>
-                                    <div class="quote-thumbnail"><a
-                                            href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                            target="_blank" rel="noopener"><img width="25"
-                                                height="15"
-                                                src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt decoding="async" loading="lazy" /></a></div>
-                                    <div class="quote-title-wrapper clearfix">
-                                        <div class="quote-title"><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span>
-                                            <p class="the-title">seahew
-                                                &#8211; Review from TripAdvisor
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="quote-content"></div>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <div class="cbp-item">
-                            <blockquote
-                                class="clearfix small simple post-14264 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                <div class="quote-text">
-                                    <h4 class="quote-summary">"My wife had
-                                        heard great reviews on this place so we
-                                        had to try it. I'm glad we made the
-                                        effort, the best pork belly I have had
-                                        anywhere in the world. What a melt in
-                                        the mouth flavour explosion and very
-                                        generous serves to add. Highly recommend
-                                        it and would definitely go back again.
-                                        My only regret is that I wish we had
-                                        found it on our earlier trips to this
-                                        magnificent area."</h4>
-                                    <div class="quote-thumbnail"><a
-                                            href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                            target="_blank" rel="noopener"><img width="25"
-                                                height="15"
-                                                src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt decoding="async" loading="lazy" /></a></div>
-                                    <div class="quote-title-wrapper clearfix">
-                                        <div class="quote-title"><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span>
-                                            <p class="the-title">dunchue1
-                                                &#8211; Review from TripAdvisor
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="quote-content"></div>
-                                </div>
-                            </blockquote>
-                        </div>
-                        <div class="cbp-item">
-                            <blockquote
-                                class="clearfix small simple post-14266 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                <div class="quote-text">
-                                    <h4 class="quote-summary">"We are retirees
-                                        from the Western Hemisphere who are
-                                        traveling in SE Asia for 6 months. We
-                                        have eaten dim sum in NYC, San
-                                        Francisco, Los Angelas, Washington,DC
-                                        (and suburbs), Baltimore, Texas and
-                                        elsewhere in the US as well as Mexico,
-                                        Panama, Singapore, Bangkok and here and
-                                        we have never had such good dim sum.
-                                        Everything we ordered arrived piping hot
-                                        and everything tasted fresh and homemade
-                                        rather than bulk/machine made. Service
-                                        was impeccable and we will enjoy it
-                                        later today as well because we ordered
-                                        enough to have extra to take away. This
-                                        was the smartest decision we’ve made
-                                        this week if not this month. Delicious
-                                        and we will return."</h4>
-                                    <div class="quote-thumbnail"><a
-                                            href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                            target="_blank" rel="noopener"><img width="25"
-                                                height="15"
-                                                src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                alt decoding="async" loading="lazy" /></a></div>
-                                    <div class="quote-title-wrapper clearfix">
-                                        <div class="quote-title"><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span><span
-                                                class="icon shortcode   use-hover"
-                                                style="color:#F8DF04;">&#57867;</span>
-                                            <p class="the-title">465sharonb
-                                                &#8211; Review from TripAdvisor
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="quote-content"></div>
-                                </div>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <div class="row ">
         <div class="vamtam-grid grid-1-1  vamtam-first-level grid-1-1  first has-background unextended no-extended-padding"
-            style="background-color:#F5F3F0;padding-top:0.05px;padding-bottom:0.05px;"
-            id="contact-us">
+            style="background-color:#F5F3F0;padding-top:0.05px;padding-bottom:0.05px;" id="contact-us">
             <style>
                 #contact-us,
                 #contact-us p,
@@ -271,57 +39,43 @@
             </div>
             <div class="row ">
                 <div class="vamtam-grid grid-1-4 location grid-1-4  first unextended no-extended-padding"
-                    style="padding-top:60px;padding-bottom:60px;"
-                    id="vamtam-column-a3d1db6240a02b831a1ab78fd9237c3f">
+                    style="padding-top:60px;padding-bottom:60px;" id="vamtam-column-a3d1db6240a02b831a1ab78fd9237c3f">
                     <div class="vamtam-blank-space  vamtam-hide-lowres" style="height:60px">
                     </div>
                     <div class="row ">
                         <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-fade-in animated-active no-extended-padding"
                             style="padding-top:0.05px;padding-bottom:0.05px;"
                             id="vamtam-column-980ca240387daf0ffb7a384a12ef2d9c">
-                            <img decoding="async" loading="lazy"
-                                class="size-full wp-image-13654 aligncenter"
-                                src="wp-content/uploads/2019/09/flag.svg" alt width="32"
-                                height="30" />
-                            <p class="textcenter"><span class="vamtam-blank-space "
-                                    style="margin-bottom:-12px"></span>
-                            <h3 class="title textcenter">SHANG PALACE</h3>
-                            <h5 class="phone textcenter"><a href="tel:(+84 28) 3823 2221">(+84
-                                    28)
-                                    3823 2221</a></h5>
-                            <p class="textcenter">1st Floor, Norfolk Mansion
-                                17-19-21 Ly Tu Trong, District 1, HCMC</p>
+                            <img decoding="async" loading="lazy" class="size-full wp-image-13654 aligncenter"
+                                src="wp-content/uploads/2019/09/flag.svg" alt width="32" height="30" />
+                            <p class="textcenter"><span class="vamtam-blank-space " style="margin-bottom:-12px"></span>
+                            <h3 class="title textcenter">DUMPLING STORY</h3>
+                            <h5 class="phone textcenter"><a href="tel:+84415829-3664">(415) 829-3664</a></h5>
+                            <p class="textcenter">2114 Fillmore St San Francisco, CA 94115</p>
                             <p class="view-maps-label textcenter"><a
                                     href="https://www.google.com/maps?ll=10.780955,106.703517&amp;z=18&amp;t=p&amp;hl=en&amp;gl=US&amp;mapclient=apiv3&amp;cid=18330733544030319300"
-                                    target="_blank" rel="noopener noreferrer"><img
-                                        decoding="async" loading="lazy"
+                                    target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy"
                                         class="alignnone size-full wp-image-13928 map-icon"
-                                        src="wp-content/uploads/2019/09/location-pin.svg" alt
-                                        width="15" height="22" />VIEW MAP</a></p>
+                                        src="wp-content/uploads/2019/09/location-pin.svg" alt width="15"
+                                        height="22" />VIEW MAP</a></p>
                             <p class="social-label textcenter">Follow us on
                             </p>
-                            <p class="social-icon textcenter"><a
-                                    href="https://www.facebook.com/shangpalace.hcmc/"><img
-                                        decoding="async" loading="lazy"
-                                        class="size-full wp-image-13657 aligncenter"
-                                        src="wp-content/uploads/2019/09/facebook-logo.svg" alt
-                                        width="20" height="20" /></a><a
+                            <p class="social-icon textcenter"><a href="https://www.facebook.com/shangpalace.hcmc/"><img
+                                        decoding="async" loading="lazy" class="size-full wp-image-13657 aligncenter"
+                                        src="wp-content/uploads/2019/09/facebook-logo.svg" alt width="20"
+                                        height="20" /></a><a
                                     href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"><img
-                                        decoding="async" loading="lazy"
-                                        class="size-full wp-image-13658 aligncenter"
-                                        src="wp-content/uploads/2019/09/tripadvisor-logo-black.svg"
-                                        alt width="26" height="16" /></a><a
-                                    href="https://www.instagram.com/shangpalace.Saigon"><img
-                                        decoding="async" loading="lazy"
-                                        class="size-full wp-image-13659 aligncenter"
-                                        src="wp-content/uploads/2019/09/iconmonstr-instagram-11.svg"
-                                        alt width="20" height="20" /></a></p>
+                                        decoding="async" loading="lazy" class="size-full wp-image-13658 aligncenter"
+                                        src="wp-content/uploads/2019/09/tripadvisor-logo-black.svg" alt width="26"
+                                        height="16" /></a><a href="https://www.instagram.com/shangpalace.Saigon"><img
+                                        decoding="async" loading="lazy" class="size-full wp-image-13659 aligncenter"
+                                        src="wp-content/uploads/2019/09/iconmonstr-instagram-11.svg" alt width="20"
+                                        height="20" /></a></p>
                         </div>
                     </div>
                 </div>
                 <div class="vamtam-grid grid-1-2 vamtam-add-ornaments-all grid-1-2 vamtam-add-ornaments-all has-background unextended has-extended-padding"
-                    style="background-color:#ffffff;padding-top:0.05px;padding-bottom:0.05px;"
-                    id="booking">
+                    style="background-color:#ffffff;padding-top:0.05px;padding-bottom:0.05px;" id="booking">
                     <style>
                         #booking,
                         #booking p,
@@ -368,8 +122,7 @@
                             id="vamtam-column-90aa2e9ca63c2c04ab5cb8d1ef3cff31">
                             <div class="vamtam-tabs horizontal" id="tabs-2">
                                 <ul class="ui-tabs-nav">
-                                    <li><a href="#tab-2-0-book-a-table"> <span
-                                                class="title-text">Book a
+                                    <li><a href="#tab-2-0-book-a-table"> <span class="title-text">Book a
                                                 table</span></a></li>
                                     <li><a href="#tab-2-1-book-your-event">
                                             <span class="title-text">Book your
@@ -381,13 +134,10 @@
                                             style="padding-top:0.05px;padding-bottom:0.05px;"
                                             id="vamtam-column-9e42c2637422d21138802808c15b8558">
 
-                                            <div id="fp_make_res" class="fp_make_res onpage"
-                                                data-lang="L1" data-type="onpage"
-                                                data-vald="0" data-blk24="0"
-                                                data-redirect="no">
+                                            <div id="fp_make_res" class="fp_make_res onpage" data-lang="L1"
+                                                data-type="onpage" data-vald="0" data-blk24="0" data-redirect="no">
                                                 <div class="inside">
-                                                    <a id="fp_close"><i
-                                                            class="fa fa-times"></i></a>
+                                                    <a id="fp_close"><i class="fa fa-times"></i></a>
                                                     <h2 class="title">Make a
                                                         Reservation</h2>
                                                     <p class="subtitle">For
@@ -396,22 +146,16 @@
                                                     <p class="divider"></p>
                                                     <div class="reservation_section">
                                                         <div class="fpres_form_datetime form_section_1 step"
-                                                            data-format="12" data-restrict="yes"
-                                                            data-start="10:00" data-end="22:00"
-                                                            data-incre="2"
+                                                            data-format="12" data-restrict="yes" data-start="10:00"
+                                                            data-end="22:00" data-incre="2"
                                                             data-dateformat="yy/mm/dd">
                                                             <p class="date">
                                                                 <span>Date</span><input
                                                                     class="resinput req fp_res_short_input fp_res_input_icon_calendar"
-                                                                    type="text"
-                                                                    name="date"
-                                                                    size="30" value
-                                                                    id="fp_res_date"
-                                                                    placeholder="Select Date"
-                                                                    autocomplete="off"
-                                                                    data-unres="no"
-                                                                    readonly="true" /><em
-                                                                    id="fp_unres"
+                                                                    type="text" name="date" size="30"
+                                                                    value id="fp_res_date" placeholder="Select Date"
+                                                                    autocomplete="off" data-unres="no"
+                                                                    readonly="true" /><em id="fp_unres"
                                                                     style="display:none"></em>
                                                             </p>
                                                             <p class="time" data-type>
@@ -567,13 +311,9 @@
                                                             </p>
                                                             <p class="size">
                                                                 <span>GUESTS</span>
-                                                                <input
-                                                                    class="resinput req fp_res_short_input"
-                                                                    type="text"
-                                                                    name="party"
-                                                                    placeholder="Qty"
-                                                                    value="1"
-                                                                    id="fp_res_people"
+                                                                <input class="resinput req fp_res_short_input"
+                                                                    type="text" name="party" placeholder="Qty"
+                                                                    value="1" id="fp_res_people"
                                                                     autocomplete="off">
                                                             </p>
                                                             <div class="clear">
@@ -584,30 +324,22 @@
                                                         <div class="form_section_2">
                                                             <p>
 
-                                                                <input type="text"
-                                                                    name="name"
-                                                                    class="resinput req"
-                                                                    placeholder="Your name" />
+                                                                <input type="text" name="name"
+                                                                    class="resinput req" placeholder="Your name" />
                                                             </p>
                                                             <p>
 
-                                                                <input type="text"
-                                                                    name="email"
-                                                                    class="resinput req"
-                                                                    placeholder="Email" />
+                                                                <input type="text" name="email"
+                                                                    class="resinput req" placeholder="Email" />
                                                             </p>
                                                             <p>
-                                                                <input id="fp_phone_"
-                                                                    class="resinput req"
-                                                                    type="tel"
-                                                                    name="phone"
+                                                                <input id="fp_phone_" class="resinput req"
+                                                                    type="tel" name="phone"
                                                                     placeholder="Phone number" />
                                                                 <br>
-                                                                <span id="phone-valid-msg"
-                                                                    class="hide">✓
+                                                                <span id="phone-valid-msg" class="hide">✓
                                                                     Valid</span>
-                                                                <span id="phone-error-msg"
-                                                                    class="hide">Invalid
+                                                                <span id="phone-error-msg" class="hide">Invalid
                                                                     number</span>
                                                                 <a id="fp_reservation_submit"
                                                                     class="reserve-submit fp_reservation_submit">Book
@@ -645,8 +377,7 @@
                                                                 soon at Shang
                                                                 Palace!</div>
                                                         </div>
-                                                        <div id="fpres_form_msg"
-                                                            class="fpres_form_msg"
+                                                        <div id="fpres_form_msg" class="fpres_form_msg"
                                                             style="display:none">
                                                             {"succ_m":"Posted
                                                             successfully","err":"Required
@@ -675,54 +406,39 @@
                                         <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
                                             style="padding-top:0.05px;padding-bottom:0.05px;"
                                             id="vamtam-column-12293d3f6004e355508e6df2e7cf6ff3">
-                                            <div role="form" class="wpcf7"
-                                                id="wpcf7-f13967-p16416-o1" lang="en-US"
-                                                dir="ltr">
+                                            <div role="form" class="wpcf7" id="wpcf7-f13967-p16416-o1"
+                                                lang="en-US" dir="ltr">
                                                 <div class="screen-reader-response">
                                                 </div>
                                                 <form
                                                     action="https://shangpalace.thenorfolkgroup.com/#wpcf7-f13967-p16416-o1"
-                                                    method="post" class="wpcf7-form"
-                                                    novalidate="novalidate">
+                                                    method="post" class="wpcf7-form" novalidate="novalidate">
                                                     <div style="display: none;">
-                                                        <input type="hidden" name="_wpcf7"
-                                                            value="13967" />
-                                                        <input type="hidden"
-                                                            name="_wpcf7_version"
-                                                            value="5.1.4" />
-                                                        <input type="hidden"
-                                                            name="_wpcf7_locale"
-                                                            value="en_US" />
-                                                        <input type="hidden"
-                                                            name="_wpcf7_unit_tag"
+                                                        <input type="hidden" name="_wpcf7" value="13967" />
+                                                        <input type="hidden" name="_wpcf7_version" value="5.1.4" />
+                                                        <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                                        <input type="hidden" name="_wpcf7_unit_tag"
                                                             value="wpcf7-f13967-p16416-o1" />
-                                                        <input type="hidden"
-                                                            name="_wpcf7_container_post"
+                                                        <input type="hidden" name="_wpcf7_container_post"
                                                             value="16416" />
                                                     </div>
                                                     <div class="grid-1-1" id="book_yr_event">
-                                                        <input type="hidden"
-                                                            name="referer-page"
+                                                        <input type="hidden" name="referer-page"
                                                             value="https://shangpalace.thenorfolkgroup.com/"
                                                             class="wpcf7-form-control wpcf7-hidden" />
-                                                        <div class="fp_make_res onpage"
-                                                            data-lang="L1" data-type="onpage"
-                                                            data-vald="0" data-blk24="0"
+                                                        <div class="fp_make_res onpage" data-lang="L1"
+                                                            data-type="onpage" data-vald="0" data-blk24="0"
                                                             data-redirect="no">
                                                             <div class="inside">
                                                                 <div class="resv-section">
-                                                                    <div class="row"
-                                                                        id="event-info-group-1">
-                                                                        <div
-                                                                            class="grid-1-2 lowres-width-override">
-                                                                            <div
-                                                                                class="control-group">
+                                                                    <div class="row" id="event-info-group-1">
+                                                                        <div class="grid-1-2 lowres-width-override">
+                                                                            <div class="control-group">
                                                                                 <label>
                                                                                     <span>DATE</span><span
                                                                                         class="wpcf7-form-control-wrap event-date"><input
                                                                                             type="text"
-                                                                                            name="event-date"
-                                                                                            value
+                                                                                            name="event-date" value
                                                                                             size="40"
                                                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required event-date"
                                                                                             id="event_date"
@@ -732,17 +448,14 @@
                                                                             </div>
                                                                             </p>
                                                                         </div>
-                                                                        <div
-                                                                            class="grid-1-2 lowres-width-override">
-                                                                            <div
-                                                                                class="control-group">
+                                                                        <div class="grid-1-2 lowres-width-override">
+                                                                            <div class="control-group">
                                                                                 <label>
                                                                                     <span>GUESTS</span>
                                                                                     <span
                                                                                         class="wpcf7-form-control-wrap num-of-guests"><input
                                                                                             type="number"
-                                                                                            name="num-of-guests"
-                                                                                            value
+                                                                                            name="num-of-guests" value
                                                                                             class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number num-of-guests"
                                                                                             id="num_of_guests"
                                                                                             min="1"
@@ -751,10 +464,8 @@
                                                                             </div>
                                                                             </p>
                                                                         </div>
-                                                                        <div
-                                                                            class="grid-1-2 lowres-width-override">
-                                                                            <div
-                                                                                class="control-group">
+                                                                        <div class="grid-1-2 lowres-width-override">
+                                                                            <div class="control-group">
                                                                                 <label>
                                                                                     <span>START
                                                                                         TIME</span><br />
@@ -763,84 +474,64 @@
                                                                                             name="starttime"
                                                                                             class="wpcf7-form-control wpcf7-select"
                                                                                             aria-invalid="false">
-                                                                                            <option
-                                                                                                value="10:30">
+                                                                                            <option value="10:30">
                                                                                                 10:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="11:00">
+                                                                                            <option value="11:00">
                                                                                                 11:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="11:30">
+                                                                                            <option value="11:30">
                                                                                                 11:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="12:00">
+                                                                                            <option value="12:00">
                                                                                                 12:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="12:30">
+                                                                                            <option value="12:30">
                                                                                                 12:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="13:00">
+                                                                                            <option value="13:00">
                                                                                                 13:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="13:30">
+                                                                                            <option value="13:30">
                                                                                                 13:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="14:00">
+                                                                                            <option value="14:00">
                                                                                                 14:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="14:30">
+                                                                                            <option value="14:30">
                                                                                                 14:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="17:00">
+                                                                                            <option value="17:00">
                                                                                                 17:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="17:30">
+                                                                                            <option value="17:30">
                                                                                                 17:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="18:00">
+                                                                                            <option value="18:00">
                                                                                                 18:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="18:30">
+                                                                                            <option value="18:30">
                                                                                                 18:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="19:00">
+                                                                                            <option value="19:00">
                                                                                                 19:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="19:30">
+                                                                                            <option value="19:30">
                                                                                                 19:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="20:00">
+                                                                                            <option value="20:00">
                                                                                                 20:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="20:30">
+                                                                                            <option value="20:30">
                                                                                                 20:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="21:00">
+                                                                                            <option value="21:00">
                                                                                                 21:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="21:30">
+                                                                                            <option value="21:30">
                                                                                                 21:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="22:00">
+                                                                                            <option value="22:00">
                                                                                                 22:00
                                                                                             </option>
                                                                                         </select></span><br />
@@ -848,10 +539,8 @@
                                                                             </div>
                                                                             </p>
                                                                         </div>
-                                                                        <div
-                                                                            class="grid-1-2 lowres-width-override">
-                                                                            <div
-                                                                                class="control-group">
+                                                                        <div class="grid-1-2 lowres-width-override">
+                                                                            <div class="control-group">
                                                                                 <label>
                                                                                     <span>END
                                                                                         TIME</span><br />
@@ -860,84 +549,64 @@
                                                                                             name="endtime"
                                                                                             class="wpcf7-form-control wpcf7-select"
                                                                                             aria-invalid="false">
-                                                                                            <option
-                                                                                                value="10:30">
+                                                                                            <option value="10:30">
                                                                                                 10:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="11:00">
+                                                                                            <option value="11:00">
                                                                                                 11:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="11:30">
+                                                                                            <option value="11:30">
                                                                                                 11:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="12:00">
+                                                                                            <option value="12:00">
                                                                                                 12:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="12:30">
+                                                                                            <option value="12:30">
                                                                                                 12:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="13:00">
+                                                                                            <option value="13:00">
                                                                                                 13:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="13:30">
+                                                                                            <option value="13:30">
                                                                                                 13:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="14:00">
+                                                                                            <option value="14:00">
                                                                                                 14:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="14:30">
+                                                                                            <option value="14:30">
                                                                                                 14:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="17:00">
+                                                                                            <option value="17:00">
                                                                                                 17:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="17:30">
+                                                                                            <option value="17:30">
                                                                                                 17:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="18:00">
+                                                                                            <option value="18:00">
                                                                                                 18:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="18:30">
+                                                                                            <option value="18:30">
                                                                                                 18:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="19:00">
+                                                                                            <option value="19:00">
                                                                                                 19:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="19:30">
+                                                                                            <option value="19:30">
                                                                                                 19:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="20:00">
+                                                                                            <option value="20:00">
                                                                                                 20:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="20:30">
+                                                                                            <option value="20:30">
                                                                                                 20:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="21:00">
+                                                                                            <option value="21:00">
                                                                                                 21:00
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="21:30">
+                                                                                            <option value="21:30">
                                                                                                 21:30
                                                                                             </option>
-                                                                                            <option
-                                                                                                value="22:00">
+                                                                                            <option value="22:00">
                                                                                                 22:00
                                                                                             </option>
                                                                                         </select></span><br />
@@ -947,34 +616,27 @@
                                                                         </div>
                                                                         </p>
                                                                     </div>
-                                                                    <div class="row"
-                                                                        id="event-info-group-2">
+                                                                    <div class="row" id="event-info-group-2">
                                                                         <div class="grid-1-1">
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap your-name"><input
-                                                                                    type="text"
-                                                                                    name="your-name"
-                                                                                    value
-                                                                                    size="40"
+                                                                                    type="text" name="your-name"
+                                                                                    value size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                     aria-required="true"
                                                                                     aria-invalid="false"
                                                                                     placeholder="Your name" /></span><br />
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap your-company"><input
-                                                                                    type="text"
-                                                                                    name="your-company"
-                                                                                    value
-                                                                                    size="40"
+                                                                                    type="text" name="your-company"
+                                                                                    value size="40"
                                                                                     class="wpcf7-form-control wpcf7-text"
                                                                                     aria-invalid="false"
                                                                                     placeholder="Company" /></span><br />
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap your-tel"><input
-                                                                                    type="tel"
-                                                                                    name="your-tel"
-                                                                                    value
-                                                                                    size="40"
+                                                                                    type="tel" name="your-tel"
+                                                                                    value size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
                                                                                     id="your_telephone"
                                                                                     aria-required="true"
@@ -982,10 +644,8 @@
                                                                                     placeholder="Phone number" /></span><br />
                                                                             <span
                                                                                 class="wpcf7-form-control-wrap your-email"><input
-                                                                                    type="email"
-                                                                                    name="your-email"
-                                                                                    value
-                                                                                    size="40"
+                                                                                    type="email" name="your-email"
+                                                                                    value size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                     id="your_email"
                                                                                     aria-required="true"
@@ -1000,26 +660,21 @@
                                                                         </p>
                                                                     </div>
                                                                     <div class="row text-center">
-                                                                        <input type="submit"
-                                                                            value="SUBMIT"
+                                                                        <input type="submit" value="SUBMIT"
                                                                             class="wpcf7-form-control wpcf7-submit" />
                                                                     </div>
                                                                     </p>
                                                                 </div>
                                                                 <div class="form_message">
-                                                                    <p class="error"
-                                                                        style="display:none">
+                                                                    <p class="error" style="display:none">
                                                                         Error
                                                                         Message
                                                                     </p>
                                                                     <div class="fp_res_success">
-                                                                        <div
-                                                                            class="fp_res_success_icon">
+                                                                        <div class="fp_res_success_icon">
                                                                         </div>
-                                                                        <div
-                                                                            class="fp_res_success_title">
-                                                                            <span
-                                                                                data-field="your-name"
+                                                                        <div class="fp_res_success_title">
+                                                                            <span data-field="your-name"
                                                                                 class="name">&nbsp;</span>
                                                                             Awesome,
                                                                             we
@@ -1027,8 +682,7 @@
                                                                             your
                                                                             reservation!
                                                                         </div>
-                                                                        <div
-                                                                            class="reservation_info">
+                                                                        <div class="reservation_info">
                                                                             Reservation
                                                                             Information
                                                                             <p><span>DATE:
@@ -1039,8 +693,7 @@
                                                                             </p>
                                                                             <p><span>START
                                                                                     TIME:
-                                                                                </span><span
-                                                                                    data-field="starttime">
+                                                                                </span><span data-field="starttime">
                                                                                 </span><span>END
                                                                                     TIME:
                                                                                 </span><span
@@ -1070,8 +723,7 @@
                                                                                     data-field="your-special-request"></span>
                                                                             </p>
                                                                         </div>
-                                                                        <div
-                                                                            class="fp_res_success_message">
+                                                                        <div class="fp_res_success_message">
                                                                             Our
                                                                             team
                                                                             will
@@ -1093,8 +745,7 @@
                                                                         </div>
                                                                         </p>
                                                                     </div>
-                                                                    <div id="cf7_form_msg"
-                                                                        class="cf7_form_msg"
+                                                                    <div id="cf7_form_msg" class="cf7_form_msg"
                                                                         style="display:none">
                                                                         {"event-date":"Event
                                                                         Date","num-of-guests":"Number
@@ -1117,8 +768,7 @@
                                                     </div>
                                                     <input type="hidden" class="wpcf7-pum"
                                                         value="{&quot;closepopup&quot;:false,&quot;closedelay&quot;:0,&quot;openpopup&quot;:false,&quot;openpopup_id&quot;:0}" />
-                                                    <div
-                                                        class="wpcf7-response-output wpcf7-display-none">
+                                                    <div class="wpcf7-response-output wpcf7-display-none">
                                                     </div>
                                                 </form>
                                             </div>
@@ -1166,25 +816,15 @@
                         <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-fade-in animated-active no-extended-padding"
                             style="padding-top:0.05px;padding-bottom:0.05px;"
                             id="vamtam-column-15e6fbb1ab2bd66c75525cb755deb015">
-                            <img decoding="async" loading="lazy"
-                                class="size-full wp-image-13664 aligncenter"
-                                src="wp-content/uploads/2019/09/hotel-reception-bell.svg" alt
-                                width="41" height="26" />
+                            <img decoding="async" loading="lazy" class="size-full wp-image-13664 aligncenter"
+                                src="wp-content/uploads/2019/09/hotel-reception-bell.svg" alt width="41"
+                                height="26" />
                             <p class="textcenter"><span class="vamtam-blank-space "
                                     style="margin-bottom:-12px"></span>
-                            <h3 class="open-time-label textcenter">TIME</h3>
-                            <p class="weekdays textcenter">Mondays &#8211;
-                                Saturdays</p>
-                            <p class="time-weekdays textcenter">Lunch: 10h30 –
-                                14h00</p>
-                            <p class="time-weekdays textcenter">Dinner: 17h00
-                                – 22h00</p>
-                            <p class="weekends textcenter">Sundays &amp;
-                                Public Holidays</p>
-                            <p class="time-weekends textcenter">Lunch: 10h30 –
-                                14h30</p>
-                            <p class="time-weekends textcenter">Dinner: 17h00
-                                – 22h00</p>
+                            <h3 class="open-time-label textcenter">TIME</h3> 
+
+                            <p class="time-weekdays textcenter"><b>Sun &#8211; Thu</b>: 11:30 am - 8:30 pm</p>
+                            <p class="time-weekdays textcenter"><b>Fri, Sat</b>: 11:30 am - 9:00 pm</p> 
                         </div>
                     </div>
                 </div>
@@ -1193,8 +833,7 @@
     </div>
     <div class="row ">
         <div class="vamtam-grid grid-1-1  vamtam-first-level grid-1-1  first has-background unextended no-extended-padding"
-            style="background-color:#F5F3F0;padding-top:0.05px;padding-bottom:0.05px;"
-            id="google-map-section">
+            style="background-color:#F5F3F0;padding-top:0.05px;padding-bottom:0.05px;" id="google-map-section">
             <style>
                 #google-map-section,
                 #google-map-section p,
@@ -1233,10 +872,13 @@
                 <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
                     style="padding-top:0.05px;padding-bottom:0.05px;"
                     id="vamtam-column-c0dabf1a725f85ea89d5953d7f8df054"><a
-                        href="https://g.page/shangpalacesaigon?share" target="_blank"
-                        rel="noopener noreferrer"><img decoding="async" loading="lazy"
-                            class="aligncenter" src="wp-content/uploads/2020/05/map-shang-1.svg"
-                            alt width="1920" height="500" /></a>
+                        href="https://g.page/shangpalacesaigon?share" target="_blank" rel="noopener noreferrer">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12612.124984078831!2d-122.4337137!3d37.7893075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085814fdd29f565%3A0xb7e38985692c4aee!2sDumpling%20Story!5e0!3m2!1sen!2sus!4v1703660537736!5m2!1sen!2sus"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
                     <div
                         style="position: absolute; left: 69%; top: 16%; width: 7%; height: 17%; background-color: rgba(0, 0, 0, 0);">
                     </div>
