@@ -59,7 +59,7 @@ class CrawlerDataYelp
      {
           $_categories = Category::orderBy('updated_at', 'desc')->get();
           $countries = DB::table('st_country')->orderBy('updated_at', 'desc') 
-          ->where('parent_id', 2)->get();
+          ->whereIn('parent_id', [2,3,4,5])->get();
        
           foreach ($countries as $coutry) {
                try{
