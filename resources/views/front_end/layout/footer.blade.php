@@ -19,8 +19,7 @@
                         <section id="text-24" class="widget widget_text">
                             <div class="textwidget">
                                 <p><strong>Dumpling Story</strong></p>
-                                <p>1st Floor, Norfolk Mansion<br />
-                                    2114 Fillmore St San Francisco, CA 94115</p>
+                                <p>2114 Fillmore St San Francisco, CA 94115</p>
                                 <p>Tel: <span href="tel:(+844158293664"> (415) 829-3664</span>
                                 </p>
                                 <p>Email: <span class="__cf_email__"

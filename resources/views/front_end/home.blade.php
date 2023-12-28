@@ -52,7 +52,7 @@
                                     <div class="vamtam-grid grid-1-3  grid-1-3  first unextended no-extended-padding"
                                         style="padding-top:0.05px;padding-bottom:0.05px;"
                                         id="vamtam-column-5f3cf76f357cf44e2d546ab0fe4193cf">
-                                        {!!$content_home!!}
+                                        {!! $content_home !!}
                                     </div>
                                     <div class="vamtam-grid grid-1-3  grid-1-3  unextended no-extended-padding"
                                         style="padding-top:30px;padding-bottom:45px;"
@@ -157,9 +157,11 @@
                                                         id="vamtam-column-d72974832ec4ba184b81e5b1ba068ed3">
                                                         <span class="vamtam-blank-space  vamtam-hide-lowres"
                                                             style="height:30px"></span>
-                                                        <p class="textcenter head-resv-desc">Your exceptional Chinese dining experience at Dumpling Story.</p>
+                                                        <p class="textcenter head-resv-desc">Your exceptional Chinese dining
+                                                            experience at Dumpling Story.</p>
                                                         <h4 class="textcenter"><a href="tel:+844158293664"><strong><span
-                                                                        style="color: #a71c20;">(415) 829-3664</span></strong></a></h4>
+                                                                        style="color: #a71c20;">(415)
+                                                                        829-3664</span></strong></a></h4>
                                                         <span class="vamtam-blank-space  vamtam-hide-lowres"
                                                             style="height:5px"></span>
                                                         <p class="textcenter"><a id="makearevbtn" href="#booking"
@@ -252,15 +254,19 @@
                                             class="vamtam-blank-space  vamtam-hide-lowres" style="height:200px"></span>
                                         <p><img decoding="async" loading="lazy"
                                                 class="size-full wp-image-13361 aligncenter"
-                                                src="{{asset('/images/dimsum.jpg')}}"
-                                                alt="{{$config_website->website}} Dumpling" style="border-radius: 50%;width:156px;height:156px" /></p>
+                                                src="{{ asset('/images/dimsum.jpg') }}"
+                                                alt="{{ $config_website->website }} Dumpling"
+                                                style="border-radius: 50%;width:156px;height:156px" /></p>
                                         <p class="textcenter"><span class="vamtam-blank-space  vamtam-hide-lowres"
                                                 style="height:20px"></span>
-                                        <h4 class="textcenter"><span style="color: #a71c20;"><strong>Dumpling</strong></span>
+                                        <h4 class="textcenter"><span
+                                                style="color: #a71c20;"><strong>Dumpling</strong></span>
                                         </h4>
                                         <p class="textcenter resv-desc"><span
                                                 class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
-                                            A symphony of flavors, a burst of deliciousness in every bite. The tender, doughy embrace encapsulates a savory medley of meats and vegetables, seasoned to perfection, leaving an indelible memory of culinary bliss.
+                                            A symphony of flavors, a burst of deliciousness in every bite. The tender,
+                                            doughy embrace encapsulates a savory medley of meats and vegetables, seasoned to
+                                            perfection, leaving an indelible memory of culinary bliss.
                                         </p>
                                         <span class="vamtam-blank-space " style="height:60px"></span>
                                     </div>
@@ -371,7 +377,8 @@
                                                             exceptional Cantonese dining
                                                             experience<br />
                                                             in Saigon awaits at Shang Palace.</p>
-                                                        <h4 class="textcenter"><strong><span style="color: #a71c20;">(415) 829-3664</span></strong></h4>
+                                                        <h4 class="textcenter"><strong><span style="color: #a71c20;">(415)
+                                                                    829-3664</span></strong></h4>
                                                         <span class="vamtam-blank-space  vamtam-hide-lowres"
                                                             style="height:5px"></span>
                                                         <p class="textcenter"><a id="makearev" href="#booking"
@@ -391,15 +398,19 @@
                                             class="vamtam-blank-space  vamtam-hide-lowres" style="height:200px"></span>
                                         <p><img decoding="async" loading="lazy"
                                                 class="aligncenter wp-image-15370 size-full"
-                                                src="{{asset('/images/dan-dan-noodles.jpg')}}" alt="Dandan Noodles"
-                                                style="border-radius: 50%;width:156px;height:156px"  />
+                                                src="{{ asset('/images/dan-dan-noodles.jpg') }}" alt="Dandan Noodles"
+                                                style="border-radius: 50%;width:156px;height:156px" />
                                         </p>
                                         <p class="textcenter"><span class="vamtam-blank-space  vamtam-hide-lowres"
                                                 style="height:20px"></span>
-                                        <h4 class="textcenter"><span style="color: #a71c20;"><strong> Dandan Noodles</strong></span></h4>
+                                        <h4 class="textcenter"><span style="color: #a71c20;"><strong> Dandan
+                                                    Noodles</strong></span></h4>
                                         <p class="textcenter resv-desc"><span
                                                 class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
-                                                Dan dan noodles a culinary masterpiece of spicy, savory bliss. The chewy noodles dance in a symphony of flavors—rich sesame paste, fiery chili oil, and minced pork. Each twirl of the fork is a journey through layers of delicious complexity, a spicy and satisfying culinary revelation.</p>
+                                            Dan dan noodles a culinary masterpiece of spicy, savory bliss. The chewy noodles
+                                            dance in a symphony of flavors—rich sesame paste, fiery chili oil, and minced
+                                            pork. Each twirl of the fork is a journey through layers of delicious
+                                            complexity, a spicy and satisfying culinary revelation.</p>
                                         <span class="vamtam-blank-space " style="height:60px"></span>
                                     </div>
                                 </div>
@@ -448,21 +459,42 @@
                                     #aboutus-section:after {
                                         background-color: #fff;
                                     }
+
+                                    #content_home h1 {
+                                        font-size: 28px;
+                                        line-height: 28px;
+                                    }
+
+                                    #content_home h2 {
+                                        font-size: 25px;
+                                        line-height: 25px;
+                                    }
+
+                                    #content_home h3 {
+                                        font-size: 23px;
+                                        line-height: 23px;
+                                    }
+
+                                    #content_home h4 {
+                                        font-size: 20px;
+                                        line-height: 20px;
+                                    }
+
+                                    #content_home p ,#content_home li {
+                                        font-size: 16px;
+                                        line-height: 20px;
+                                    }
                                 </style>
-                                <div class="vamtam-blank-space  vamtam-hide-lowres" style="height:60px"></div>
+                                 
                                 <div class="row ">
                                     <div class="vamtam-grid grid-1-6  grid-1-6  first unextended has-extended-padding"
                                         style="padding-top:0.05px;padding-bottom:0.05px;"
                                         id="vamtam-column-48cc56af5d1188a84e64a359ad805f94"></div>
-                                    <div class="vamtam-grid grid-2-3  grid-2-3  unextended animation-fade-in animated-active no-extended-padding"
-                                        style="padding-top:0.05px;padding-bottom:0.05px;"
-                                        id="vamtam-column-56574136fc651154314cadc5c8826718">
+                                    <div class="vamtam-grid  unextended animation-fade-in animated-active no-extended-padding"
+                                        style="padding-top:0.05px;padding-bottom:0.05px;" id="content_home">
                                         {!! $content_home !!}
                                         <span class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
-                                        <p><img decoding="async" class="aligncenter wp-image-14007 size-full"
-                                                role="img"
-                                                src="wp-content/uploads/2019/09/shang-palace-aboutus-icon.svg" alt
-                                                width="26.589" height="68.804" /></p>
+
                                     </div>
                                 </div>
                                 <div class="vamtam-blank-space " style="height:60px"></div>
@@ -470,7 +502,7 @@
                         </div>
                         <div class="row ">
                             <div class="vamtam-grid grid-1-1 signature-dishes-section vamtam-first-level grid-1-1 vamtam-add-ornaments-top first vamtam-cover-bg has-background unextended no-extended-padding"
-                                style="background: url('{{ asset('/images/dan-dan-noodles.jpg') }}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;"
+                                style="background: url('{{ asset('/images/dumpling.jpg') }}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;"
                                 id="menu">
                                 <style>
                                     #menu,
@@ -574,7 +606,7 @@
                                                                     <a href="/"
                                                                         title="Shang Palace’s Braised Buddha  Jump Over The Wall">
                                                                         <img width="210" height="210"
-                                                                            src="{{asset('/images/mon_1.jpg')}}"
+                                                                            src="{{ asset('/images/mon_1.jpg') }}"
                                                                             class="attachment-theme-loop-3 size-theme-loop-3 wp-post-image"
                                                                             alt decoding="async" loading="lazy" /> <span
                                                                             class="icon shortcode theme  use-hover"
@@ -585,8 +617,7 @@
                                                                 <header class="single">
                                                                     <div class="content">
                                                                         <h4>
-                                                                            <a href="/"
-                                                                                title="Juicy Pork Bao"
+                                                                            <a href="/" title="Juicy Pork Bao"
                                                                                 class="entry-title">Juicy Pork Bao</a>
                                                                         </h4>
                                                                     </div>
@@ -613,7 +644,7 @@
                                                                     <a href="/"
                                                                         title="Fried Mantis Prawn withDried Chili &#038; Garlic">
                                                                         <img width="210" height="210"
-                                                                            src="{{asset('/images/mon_2.jpg')}}"
+                                                                            src="{{ asset('/images/mon_2.jpg') }}"
                                                                             class="attachment-theme-loop-3 size-theme-loop-3 wp-post-image"
                                                                             alt decoding="async" loading="lazy" /> <span
                                                                             class="icon shortcode theme  use-hover"
@@ -624,8 +655,7 @@
                                                                 <header class="single">
                                                                     <div class="content">
                                                                         <h4>
-                                                                            <a href="/"
-                                                                                title="Dan Dan Noodles"
+                                                                            <a href="/" title="Dan Dan Noodles"
                                                                                 class="entry-title">Dan Dan Noodles</a>
                                                                         </h4>
                                                                     </div>
@@ -634,8 +664,7 @@
                                                                 </div>
                                                                 <div class="post-actions-wrapper clearfix">
                                                                     <div class="post-date vamtam-meta-date">
-                                                                        <a href="/"
-                                                                            title="Dan Dan Noodles">
+                                                                        <a href="/" title="Dan Dan Noodles">
                                                                             07 Sep 2019 </a>
                                                                     </div>
                                                                 </div>
@@ -652,7 +681,7 @@
                                                                     <a href="/"
                                                                         title="Fried Rice with Seafood&#038; Spinach Puree">
                                                                         <img width="210" height="210"
-                                                                            src="{{asset('/images/mon_3.jpg')}}"
+                                                                            src="{{ asset('/images/mon_3.jpg') }}"
                                                                             class="attachment-theme-loop-3 size-theme-loop-3 wp-post-image"
                                                                             alt decoding="async" loading="lazy" /> <span
                                                                             class="icon shortcode theme  use-hover"
@@ -663,8 +692,7 @@
                                                                 <header class="single">
                                                                     <div class="content">
                                                                         <h4>
-                                                                            <a href="/"
-                                                                                title="Xiao Long Bao"
+                                                                            <a href="/" title="Xiao Long Bao"
                                                                                 class="entry-title">Xiao Long Bao</a>
                                                                         </h4>
                                                                     </div>
@@ -673,8 +701,7 @@
                                                                 </div>
                                                                 <div class="post-actions-wrapper clearfix">
                                                                     <div class="post-date vamtam-meta-date">
-                                                                        <a href="/"
-                                                                            title="Xiao Long Bao">
+                                                                        <a href="/" title="Xiao Long Bao">
                                                                             07 Sep 2019 </a>
                                                                     </div>
                                                                 </div>
@@ -691,9 +718,9 @@
                                                                     <a href="/"
                                                                         title="Double-Boiled SeafoodSoup in Whole Melon">
                                                                         <img width="210" height="210"
-                                                                            src="{{asset('/images/mon_4.jpg')}}
-                                                                            class="attachment-theme-loop-3 size-theme-loop-3 wp-post-image"
-                                                                            alt decoding="async" loading="lazy" /> <span
+                                                                            src="{{ asset('/images/mon_4.jpg') }}" class="attachment-theme-loop-3
+                                                                            size-theme-loop-3 wp-post-image" alt
+                                                                            decoding="async" loading="lazy" /> <span
                                                                             class="icon shortcode theme  use-hover"
                                                                             style>&#58897;</span> </a>
                                                                 </div>
@@ -702,8 +729,7 @@
                                                                 <header class="single">
                                                                     <div class="content">
                                                                         <h4>
-                                                                            <a href="/"
-                                                                                title="Soup Dumplings"
+                                                                            <a href="/" title="Soup Dumplings"
                                                                                 class="entry-title">Soup Dumplings</a>
                                                                         </h4>
                                                                     </div>
@@ -712,8 +738,7 @@
                                                                 </div>
                                                                 <div class="post-actions-wrapper clearfix">
                                                                     <div class="post-date vamtam-meta-date">
-                                                                        <a href="/"
-                                                                            title="Soup Dumplings">
+                                                                        <a href="/" title="Soup Dumplings">
                                                                             07 Sep 2019 </a>
                                                                     </div>
                                                                 </div>
@@ -730,7 +755,7 @@
                                                                     <a href="/"
                                                                         title="Chilled Cream of Sago withMango &#038; Vanilla Ice-Cream">
                                                                         <img width="210" height="210"
-                                                                            src="{{asset('/images/mon_5.jpg')}}"
+                                                                            src="{{ asset('/images/mon_5.jpg') }}"
                                                                             class="attachment-theme-loop-3 size-theme-loop-3 wp-post-image"
                                                                             alt decoding="async" loading="lazy" /> <span
                                                                             class="icon shortcode theme  use-hover"
@@ -743,7 +768,8 @@
                                                                         <h4>
                                                                             <a href="/"
                                                                                 title="Dry Fried Chicken Wings"
-                                                                                class="entry-title">Dry Fried Chicken Wings</a>
+                                                                                class="entry-title">Dry Fried Chicken
+                                                                                Wings</a>
                                                                         </h4>
                                                                     </div>
                                                                 </header>
@@ -751,8 +777,7 @@
                                                                 </div>
                                                                 <div class="post-actions-wrapper clearfix">
                                                                     <div class="post-date vamtam-meta-date">
-                                                                        <a href="/"
-                                                                            title="Dry Fried Chicken Wings">
+                                                                        <a href="/" title="Dry Fried Chicken Wings">
                                                                             07 Sep 2019 </a>
                                                                     </div>
                                                                 </div>
@@ -769,7 +794,7 @@
                                                                     <a href="/"
                                                                         title="Sweetened Ginger Soup withSesame Glutinous Rice Balls">
                                                                         <img width="210" height="210"
-                                                                            src="{{asset('/images/mon_6.jpg')}}"
+                                                                            src="{{ asset('/images/mon_6.jpg') }}"
                                                                             class="attachment-theme-loop-3 size-theme-loop-3 wp-post-image"
                                                                             alt decoding="async" loading="lazy" /> <span
                                                                             class="icon shortcode theme  use-hover"
@@ -780,8 +805,7 @@
                                                                 <header class="single">
                                                                     <div class="content">
                                                                         <h4>
-                                                                            <a href="/"
-                                                                                title="Pan Fried Pork Bunss"
+                                                                            <a href="/" title="Pan Fried Pork Bunss"
                                                                                 class="entry-title">Pan Fried Pork Buns</a>
                                                                         </h4>
                                                                     </div>
@@ -790,8 +814,7 @@
                                                                 </div>
                                                                 <div class="post-actions-wrapper clearfix">
                                                                     <div class="post-date vamtam-meta-date">
-                                                                        <a href="/"
-                                                                            title="Pan Fried Pork Buns">
+                                                                        <a href="/" title="Pan Fried Pork Buns">
                                                                             07 Sep 2019 </a>
                                                                     </div>
                                                                 </div>
@@ -803,7 +826,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                         <div class="row ">
@@ -893,8 +916,8 @@
                                 <div class="vamtam-blank-space " style="height:20px"></div>
                             </div>
                         </div>
-                        
-                          
+
+
                         {{-- @include('front_end.block.location') --}}
                     </div>
                     <div class="limit-wrapper">
