@@ -57,18 +57,23 @@ class CrawlerDataYelp
 
      public function download_list_category_post($page = 1)
      {
-          $_categories = Category::orderBy('updated_at', 'asc')->get();
-          $countries = DB::table('st_country')->orderBy('updated_at', 'desc') 
-          ->where('parent_id', 2)->get();
+          $_categories = Category::orderBy('updated_at', 'desc')->get();
+          $countries = DB::table('st_country')->orderBy('updated_at', 'asc') 
+          ->where('parent_id', '!=', 0)->get();
        
           foreach ($countries as $coutry) {
-               foreach ($_categories as $cate) {
-                    $url = $this->convert_search($coutry->title, $cate->title);
-                    $this->download_list_url($url, 0, $cate['id'], $coutry->id);
-                    echo "\n Done all {$coutry->title}";
+               try{
+                    foreach ($_categories as $cate) {
+                         $url = $this->convert_search($coutry->title, $cate->title);
+                         $this->download_list_url($url, 0, $cate['id'], $coutry->id);
+                         echo "\n Done category {$cate->title}";
+                    }
+                    DB::table('st_category')->where('id', $cate->id)->update(['updated_at' => date('Y-m-d H:i:s')]);
+               }catch(\Exception $ex){
+                    echo "\n Error country {$coutry->title} ,  {$cate->title}";
                }
                DB::table('st_country')->where('id', $coutry->id)->update(['updated_at' => date('Y-m-d H:i:s')]);
-               echo "\n Done all {$cate->title}";
+               echo "\n Done all {$coutry->title} ||  {$cate->title}";
           }
           echo "\nDone all";
      }
@@ -98,6 +103,7 @@ class CrawlerDataYelp
                     if (empty($item)) continue;
                     // $record = Post::where(['slug' => $item['slug']])->first();
                     try {
+                         
                          $data = $this->curl_detail_post($item['crawler_href']);
 
                          $record = Post::where(['slug' => $data['slug']])->first();
