@@ -115,21 +115,21 @@
                                             href="{{ url('/gallery') }}" tabindex="0">Gallery</a></li>
                                     <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14393 out-link-menu"
                                         id="mega-menu-item-14393"><a class="mega-menu-link"
-                                            href="/{{ url('/') }}" tabindex="0">News
+                                            href="{{ url('/') }}" tabindex="0">News
                                             Corner</a>
                                     </li>
                                     <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14394 out-link-menu"
                                         id="mega-menu-item-14394"><a class="mega-menu-link"
-                                            href="/{{ url('/') }}" tabindex="0">Privacy
+                                            href="{{ url('/') }}" tabindex="0">Privacy
                                             Policy</a>
                                     </li>
                                     <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14395 out-link-menu"
                                         id="mega-menu-item-14395"><a class="mega-menu-link"
-                                            href="/{{ url('/') }}" tabindex="0">Careers</a>
+                                            href="{{ url('/') }}" tabindex="0">Careers</a>
                                     </li>
                                     <li class="mega-out-link-menu mega-new-tab-link mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14396 out-link-menu"
                                         id="mega-menu-item-14396">
-                                        <a class="mega-menu-link" href="/{{ url('/') }}"
+                                        <a class="mega-menu-link" href="{{ url('/') }}"
                                             tabindex="0"><span>Privilege Club</span>
                                         </a>
                                     </li>
