@@ -479,7 +479,9 @@
                                         font-size: 20px;
                                         line-height: 20px;
                                     }
-
+                                    #content_home{
+                                        text-align: justify;
+                                    }
                                     #content_home p ,#content_home li {
                                         font-size: 16px;
                                         line-height: 20px;
