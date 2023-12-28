@@ -6,7 +6,7 @@
                     <nav class="navbar navbar-default navbar-static-top">
                         <div class="navbar-header">
                             <div class="logo">
-                                <a href="/"><img src="/wp-content/uploads/2017/07/logo.jpg"></a>
+                                <a href="/" title="{{$config_website->website}}"><img src="{{ convertPathImage($config_website->logo ?? '') }}" alt="{{$config_website->website}}"></a>
                             </div><!-- .logo -->
                             <a href="/tim-kiem/" class="icon-search-mobile"><i class="fa fa-search"
                                     aria-hidden="true"></i></a>
@@ -125,7 +125,7 @@
         </div>
     </div>
 </div>
-<div class="menu-post-temlate clearfix affix-top" style="width: 1519px;">
+<div class="menu-post-temlate clearfix affix-top" >
     <div class="container">
         <div class="row">
             <ul class="navbar-nav nav">
