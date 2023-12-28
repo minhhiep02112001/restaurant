@@ -825,6 +825,11 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div style="width:100%;display:flex;">
+                                                <div class="button" style="margin: 0 auto;">
+                                                    <a href="{{url('/menu')}}">All menu</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
