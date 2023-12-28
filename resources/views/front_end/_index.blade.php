@@ -1,38 +1,32 @@
-@php
-    $config_seo = json_decode(getValueSetting('config_seo'));
-    $config_website = json_decode(getValueSetting('config_website'));
-    $ver = '1.1.2';
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US">
 
-@endphp
-
-<!DOCTYPE html>
-<html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- Mirrored from www.kookbbq.ca/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Dec 2023 16:41:23 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
-    @include('front_end.layout.config_seo_header')
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1">
 
-    <link rel="stylesheet" href="{{ asset('assets/plugin/font-awesome/css/font-awesome.min.css') }}?v=1.2.2"
-        media="all" type="text/css">
-    <link rel="stylesheet" href="{{ asset('wp-content/themes/jquery_ui.css' . "?v=$ver") }}" />
-    @yield('css')
-
-
-    <link rel="stylesheet" id="fp_google_fonts-css"
-        href="http://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C600%2C700%2C400%2C300&amp;ver=6.1.4"
-        type="text/css" media="screen" />
-
-       
+    <!-- This is Squarespace. --><!-- algae-plums-fwsc -->
+    <base #href="">
+    <meta charset="utf-8" />
+    <title>Kook Korean BBQ</title>
+    <script type="text/javascript"
+        src="../use.typekit.net/ik/LA-1AxTs23-vU7SDXYy6RYUWz0AsKu3Zqo5aBbzMzttfe73ffFHN4UJLFRbh52jhWDmRF2ShFcjaZA9UFD9oFQ9kw2F8ZRJhjs7wMPG0jAU1jA9lSeUudWwlZ1iDjkoDSWmyScmDSeBRZPoRdhXCjAU1jA9lSeUudWwlZ1iDjk">
+    </script>
+    <script type="text/javascript">
+        try {
+            Typekit.load();
+        } catch (e) {}
+    </script>
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700">
     <script type="text/javascript" crossorigin="anonymous" defer="defer" nomodule="nomodule"
-        src="../assets.squarespace.com/%40sqs/polyfiller/1.6/legacy.js"></script>
-    <script type="text/javascript" crossorigin="anonymous" defer="defer"
-        src="../assets.squarespace.com/%40sqs/polyfiller/1.6/modern.js"></script>
+        src="/assets/%40sqs/polyfiller/1.6/legacy.js"></script>
+    <script type="text/javascript" crossorigin="anonymous" defer="defer" src="/assets/%40sqs/polyfiller/1.6/modern.js">
+    </script>
     <script type="text/javascript">
         SQUARESPACE_ROLLUPS = {};
     </script>
@@ -42,51 +36,72 @@
                 rollups[name] = {};
             }
             rollups[name].js = [
-                "//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-2963c05c4a543d9dceff-min.en-US.js"
+                "/assets/universal/scripts-compressed/extract-css-runtime-2963c05c4a543d9dceff-min.en-US.js"
             ];
         })(SQUARESPACE_ROLLUPS, 'squarespace-extract_css_runtime');
     </script>
     <script crossorigin="anonymous"
-        src="../assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-2963c05c4a543d9dceff-min.en-US.js"
-        defer></script>
+        src="/assets/universal/scripts-compressed/extract-css-runtime-2963c05c4a543d9dceff-min.en-US.js" defer></script>
     <script>
         (function(rollups, name) {
             if (!rollups[name]) {
                 rollups[name] = {};
             }
             rollups[name].js = [
-                "//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-f36b6dc9867ad0b8d0a8-min.en-US.js"
+                "/assets/universal/scripts-compressed/extract-css-moment-js-vendor-f36b6dc9867ad0b8d0a8-min.en-US.js"
             ];
         })(SQUARESPACE_ROLLUPS, 'squarespace-extract_css_moment_js_vendor');
     </script>
     <script crossorigin="anonymous"
-        src="../assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-f36b6dc9867ad0b8d0a8-min.en-US.js"
-        defer></script>
+        src="/assets/universal/scripts-compressed/extract-css-moment-js-vendor-f36b6dc9867ad0b8d0a8-min.en-US.js" defer>
+    </script>
     <script>
         (function(rollups, name) {
             if (!rollups[name]) {
                 rollups[name] = {};
             }
             rollups[name].js = [
-                "//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-a682f7ad337741eb05d6-min.en-US.js"
+                "/assets/universal/scripts-compressed/cldr-resource-pack-a682f7ad337741eb05d6-min.en-US.js"
             ];
         })(SQUARESPACE_ROLLUPS, 'squarespace-cldr_resource_pack');
     </script>
     <script crossorigin="anonymous"
-        src="../assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-a682f7ad337741eb05d6-min.en-US.js"
-        defer></script>
+        src="/assets/universal/scripts-compressed/cldr-resource-pack-a682f7ad337741eb05d6-min.en-US.js" defer></script>
     <script>
         (function(rollups, name) {
             if (!rollups[name]) {
                 rollups[name] = {};
             }
             rollups[name].js = [
-                "//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-f9df4447a2af25df5875-min.en-US.js"
+                "/assets/universal/scripts-compressed/common-vendors-stable-f9df4447a2af25df5875-min.en-US.js"
             ];
         })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors_stable');
     </script>
     <script crossorigin="anonymous"
-        src="../assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-f9df4447a2af25df5875-min.en-US.js"
+        src="/assets/universal/scripts-compressed/common-vendors-stable-f9df4447a2af25df5875-min.en-US.js" defer></script>
+    <script>
+        (function(rollups, name) {
+            if (!rollups[name]) {
+                rollups[name] = {};
+            }
+            rollups[name].js = [
+                "/assets/universal/scripts-compressed/common-vendors-b57c326404c88a7dc9cf-min.en-US.js"
+            ];
+        })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors');
+    </script>
+    <script crossorigin="anonymous"
+        src="/assets/universal/scripts-compressed/common-vendors-b57c326404c88a7dc9cf-min.en-US.js" defer></script>
+    <script>
+        (function(rollups, name) {
+            if (!rollups[name]) {
+                rollups[name] = {};
+            }
+            rollups[name].js = [
+                "/assets/universal/scripts-compressed/common-c9110343498015b052f5-min.en-US.js"
+            ];
+        })(SQUARESPACE_ROLLUPS, 'squarespace-common');
+    </script>
+    <script crossorigin="anonymous" src="/assets/universal/scripts-compressed/common-c9110343498015b052f5-min.en-US.js"
         defer></script>
     <script>
         (function(rollups, name) {
@@ -94,39 +109,12 @@
                 rollups[name] = {};
             }
             rollups[name].js = [
-                "//assets.squarespace.com/universal/scripts-compressed/common-vendors-b57c326404c88a7dc9cf-min.en-US.js"
-            ];
-        })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors');
-    </script>
-    <script crossorigin="anonymous"
-        src="../assets.squarespace.com/universal/scripts-compressed/common-vendors-b57c326404c88a7dc9cf-min.en-US.js" defer>
-    </script>
-    <script>
-        (function(rollups, name) {
-            if (!rollups[name]) {
-                rollups[name] = {};
-            }
-            rollups[name].js = [
-                "//assets.squarespace.com/universal/scripts-compressed/common-c9110343498015b052f5-min.en-US.js"
-            ];
-        })(SQUARESPACE_ROLLUPS, 'squarespace-common');
-    </script>
-    <script crossorigin="anonymous"
-        src="../assets.squarespace.com/universal/scripts-compressed/common-c9110343498015b052f5-min.en-US.js" defer>
-    </script>
-    <script>
-        (function(rollups, name) {
-            if (!rollups[name]) {
-                rollups[name] = {};
-            }
-            rollups[name].js = [
-                "//assets.squarespace.com/universal/scripts-compressed/performance-b37c73015d73b8ed459e-min.en-US.js"
+                "/assets/universal/scripts-compressed/performance-b37c73015d73b8ed459e-min.en-US.js"
             ];
         })(SQUARESPACE_ROLLUPS, 'squarespace-performance');
     </script>
-    <script crossorigin="anonymous"
-        src="../assets.squarespace.com/universal/scripts-compressed/performance-b37c73015d73b8ed459e-min.en-US.js" defer>
-    </script>
+    <script crossorigin="anonymous" src="/assets/universal/scripts-compressed/performance-b37c73015d73b8ed459e-min.en-US.js"
+        defer></script>
     <script data-name="static-context">
         Static = window.Static || {};
         Static.SQUARESPACE_CONTEXT = {
@@ -134,97 +122,97 @@
             "facebookApiVersion": "v6.0",
             "rollups": {
                 "squarespace-announcement-bar": {
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/announcement-bar-4f8569e19299e13caeb0-min.en-US.js"
+                    "js": "/assets/universal/scripts-compressed/announcement-bar-4f8569e19299e13caeb0-min.en-US.js"
                 },
                 "squarespace-audio-player": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/audio-player-68f0d70f87aaddb33c87-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/audio-player-bbf1aa952e078ee03756-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/audio-player-68f0d70f87aaddb33c87-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/audio-player-bbf1aa952e078ee03756-min.en-US.js"
                 },
                 "squarespace-blog-collection-list": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/blog-collection-list-1e4496937ccd55da84b7-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-048663ba2cf6a7a7e2ab-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/blog-collection-list-1e4496937ccd55da84b7-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/blog-collection-list-048663ba2cf6a7a7e2ab-min.en-US.js"
                 },
                 "squarespace-calendar-block-renderer": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-17dca3f66c4211bf16d1-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-fa2e6aedd62e6a8b414b-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/calendar-block-renderer-17dca3f66c4211bf16d1-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/calendar-block-renderer-fa2e6aedd62e6a8b414b-min.en-US.js"
                 },
                 "squarespace-chartjs-helpers": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-d3ebe653c1c873022724-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-b563233accd8cb73f20e-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/chartjs-helpers-d3ebe653c1c873022724-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/chartjs-helpers-b563233accd8cb73f20e-min.en-US.js"
                 },
                 "squarespace-comments": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/comments-6800f146d3c87a3960c8-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/comments-2efc61a824c254f85298-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/comments-6800f146d3c87a3960c8-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/comments-2efc61a824c254f85298-min.en-US.js"
                 },
                 "squarespace-custom-css-popup": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/custom-css-popup-45ae66e97b26da4fda4c-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-9383160d2bf6a1438076-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/custom-css-popup-45ae66e97b26da4fda4c-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/custom-css-popup-9383160d2bf6a1438076-min.en-US.js"
                 },
                 "squarespace-dialog": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/dialog-7be2c8cd6843b640aee5-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/dialog-bfdd258c970b42fe7c15-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/dialog-7be2c8cd6843b640aee5-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/dialog-bfdd258c970b42fe7c15-min.en-US.js"
                 },
                 "squarespace-events-collection": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/events-collection-17dca3f66c4211bf16d1-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/events-collection-a649370265fba922e862-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/events-collection-17dca3f66c4211bf16d1-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/events-collection-a649370265fba922e862-min.en-US.js"
                 },
                 "squarespace-form-rendering-utils": {
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-a9b2fb0748b06222632b-min.en-US.js"
+                    "js": "/assets/universal/scripts-compressed/form-rendering-utils-a9b2fb0748b06222632b-min.en-US.js"
                 },
                 "squarespace-forms": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/forms-e6610e528d6f92fd5031-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/forms-5a24b58285aec0ea71c6-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/forms-e6610e528d6f92fd5031-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/forms-5a24b58285aec0ea71c6-min.en-US.js"
                 },
                 "squarespace-gallery-collection-list": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-1e4496937ccd55da84b7-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-0d09e1a7a1ba0fc881ec-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/gallery-collection-list-1e4496937ccd55da84b7-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/gallery-collection-list-0d09e1a7a1ba0fc881ec-min.en-US.js"
                 },
                 "squarespace-image-zoom": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/image-zoom-1e4496937ccd55da84b7-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/image-zoom-5bdea60b820a46f64491-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/image-zoom-1e4496937ccd55da84b7-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/image-zoom-5bdea60b820a46f64491-min.en-US.js"
                 },
                 "squarespace-pinterest": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/pinterest-1e4496937ccd55da84b7-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/pinterest-3c146d573623ad66d063-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/pinterest-1e4496937ccd55da84b7-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/pinterest-3c146d573623ad66d063-min.en-US.js"
                 },
                 "squarespace-popup-overlay": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/popup-overlay-667fa2c6bd659fe9a639-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/popup-overlay-0727c83e5ef61c9cdab3-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/popup-overlay-667fa2c6bd659fe9a639-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/popup-overlay-0727c83e5ef61c9cdab3-min.en-US.js"
                 },
                 "squarespace-product-quick-view": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/product-quick-view-f2c5750b07447cd0e8c5-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/product-quick-view-39ca99af040caa81f9b3-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/product-quick-view-f2c5750b07447cd0e8c5-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/product-quick-view-39ca99af040caa81f9b3-min.en-US.js"
                 },
                 "squarespace-products-collection-item-v2": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-1e4496937ccd55da84b7-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-5e2b4cf8f4bdec870aea-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/products-collection-item-v2-1e4496937ccd55da84b7-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/products-collection-item-v2-5e2b4cf8f4bdec870aea-min.en-US.js"
                 },
                 "squarespace-products-collection-list-v2": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-1e4496937ccd55da84b7-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-3d5df27a47a9216f9489-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/products-collection-list-v2-1e4496937ccd55da84b7-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/products-collection-list-v2-3d5df27a47a9216f9489-min.en-US.js"
                 },
                 "squarespace-search-page": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/search-page-622dbcc4356d75bd674a-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/search-page-f8664d38996cf88a9452-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/search-page-622dbcc4356d75bd674a-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/search-page-f8664d38996cf88a9452-min.en-US.js"
                 },
                 "squarespace-search-preview": {
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/search-preview-1e9f95528608b73e8a51-min.en-US.js"
+                    "js": "/assets/universal/scripts-compressed/search-preview-1e9f95528608b73e8a51-min.en-US.js"
                 },
                 "squarespace-simple-liking": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/simple-liking-3a1fa618b156b16f9a32-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/simple-liking-360f950698a5d7a4ccf0-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/simple-liking-3a1fa618b156b16f9a32-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/simple-liking-360f950698a5d7a4ccf0-min.en-US.js"
                 },
                 "squarespace-social-buttons": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/social-buttons-5ccc4fc16300710a0a68-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/social-buttons-b0bea80d6e3fe5b5e9e7-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/social-buttons-5ccc4fc16300710a0a68-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/social-buttons-b0bea80d6e3fe5b5e9e7-min.en-US.js"
                 },
                 "squarespace-tourdates": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/tourdates-1e4496937ccd55da84b7-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/tourdates-965069177a8abeca3218-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/tourdates-1e4496937ccd55da84b7-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/tourdates-965069177a8abeca3218-min.en-US.js"
                 },
                 "squarespace-website-overlays-manager": {
-                    "css": "//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-03eed1717232cc37078d-min.en-US.css",
-                    "js": "//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-d581e1121362ca700802-min.en-US.js"
+                    "css": "/assets/universal/styles-compressed/website-overlays-manager-03eed1717232cc37078d-min.en-US.css",
+                    "js": "/assets/universal/scripts-compressed/website-overlays-manager-d581e1121362ca700802-min.en-US.js"
                 }
             },
             "pageType": 1,
@@ -244,14 +232,7 @@
                 "siteTitle": "Kook Korean BBQ",
                 "fullSiteTitle": "Kook Korean BBQ",
                 "siteDescription": "",
-                "location": {
-                    "mapLat": 49.26916370000001,
-                    "mapLng": -123.0463411,
-                    "addressTitle": "Kook BBQ",
-                    "addressLine1": "2800 East 1st Avenue",
-                    "addressLine2": "Vancouver, BC, V5M 4P3",
-                    "addressCountry": "Canada"
-                },
+
                 "logoImageId": "5eb0877b53413f5fb4d0f397",
                 "socialLogoImageId": "5c4fa6f57ba7fc601bbda4bc",
                 "shareButtonOptions": {
@@ -259,12 +240,7 @@
                     "2": true,
                     "3": true
                 },
-                "logoImageUrl": "//images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1588627323969-8A99TT8UPKP5I543JTY3/kook-logo-gold-01.png",
-                "socialLogoImageUrl": "//images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548723996672-Z1A2Q0PGHK48TMB0IDVV/kook-logo-black_%25EB%258C%2580%25EC%25A7%2580%2B1.jpg",
-                "authenticUrl": "https://www.kookbbq.ca",
-                "internalUrl": "https://algae-plums-fwsc.squarespace.com",
-                "baseUrl": "https://www.kookbbq.ca",
-                "primaryDomain": "www.kookbbq.ca",
+
                 "sslSetting": 3,
                 "isHstsEnabled": false,
                 "socialAccounts": [{
@@ -634,11 +610,8 @@
         Squarespace.afterBodyLoad(Y);
     </script>
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="homea409?format=rss" />
-    <script type="application/ld+json">{"url":"https://www.kookbbq.ca","name":"Kook Korean BBQ","description":"","image":"//images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1588627323969-8A99TT8UPKP5I543JTY3/kook-logo-gold-01.png","@context":"http://schema.org","@type":"WebSite"}</script>
-    <script type="application/ld+json">{"legalName":"Kook BBQ","address":"2800 East 1st Avenue\nVancouver, BC, V5M 4P3\nCanada","email":"info@koookbbq.ca","telephone":"","sameAs":["mailto:info@kookbbq.ca","https://www.facebook.com/kookbbq/","http://instagram.com/kookbbq"],"@context":"http://schema.org","@type":"Organization"}</script>
-    <script type="application/ld+json">{"address":"2800 East 1st Avenue\nVancouver, BC, V5M 4P3\nCanada","image":"https://static1.squarespace.com/static/5c4766f7ee175955203ef26a/t/5eb0877b53413f5fb4d0f397/1694202887389/","name":"Kook BBQ","openingHours":"Mo 11:00-15:00, Mo 17:00-22:00, Tu 11:00-15:00, Tu 17:00-22:00, We 11:00-15:00, We 17:00-22:00, Th 11:00-15:00, Th 17:00-22:00, Fr 11:00-15:00, Fr 17:00-22:00, Sa 11:00-15:00, Sa 17:00-22:00, Su 11:00-15:00, Su 17:00-22:00","@context":"http://schema.org","@type":"LocalBusiness"}</script>
     <link rel="stylesheet" type="text/css"
-        href="../static1.squarespace.com/static/sitecss/5c4766f7ee175955203ef26a/96/55f0aac0e4b0f0a5b7e0b22e/5c4766f7ee175955203ef27f/352/site.css" />
+        href="/static1.squarespace.com/static/sitecss/5c4766f7ee175955203ef26a/96/55f0aac0e4b0f0a5b7e0b22e/5c4766f7ee175955203ef27f/352/site.css" />
     <script>
         Static.COOKIE_BANNER_CAPABLE = true;
     </script>
@@ -812,28 +785,9 @@
 
     <div class="Parallax-host-outer">
         <div class="Parallax-host" data-parallax-host>
-
-
-
-
-
-
             <div class="Parallax-item" data-parallax-item data-parallax-id="5c4768b1cd83663a096f569f"></div>
 
-
-
-
-
-
-
-
-
-
-
             <div class="Parallax-item" data-parallax-item data-parallax-id="5c4a4eb2f950b7808b449434"></div>
-
-
-
 
 
         </div>
@@ -913,772 +867,22 @@
 
         <div class="Site-inner Site-inner--index" data-controller="HeaderOverlay">
 
-            <header class="Header Header--bottom Header--overlay">
-                <div class="Header-inner Header-inner--bottom" data-nc-group="bottom">
-                    <div data-nc-container="bottom-left">
-                        <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav"
-                            data-content-field="navigation">
-
-                            <div class="Header-nav-inner">
-                                <a href="index.html" class="Header-nav-item Header-nav-item--active"
-                                    data-test="template-nav">Home</a><a href="kookbbqmenu.html"
-                                    class="Header-nav-item" data-test="template-nav">Menu</a><a href="about.html"
-                                    class="Header-nav-item" data-test="template-nav">About</a><a
-                                    href="reservations.html" class="Header-nav-item"
-                                    data-test="template-nav">Reservations</a><a href="contact.html"
-                                    class="Header-nav-item" data-test="template-nav">Contact</a>
-                            </div>
-
-                        </nav>
-                    </div>
-                    <div data-nc-container="bottom-center">
-
-                        <a href="index.html" class="Header-branding" data-nc-element="branding"
-                            data-content-field="site-title">
-
-
-                            <img src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1588627323969-8A99TT8UPKP5I543JTY3/kook-logo-gold-0126f7.png?format=1500w"
-                                alt="Kook Korean BBQ" class="Header-branding-logo" />
-
-
-                        </a>
-
-
-                    </div>
-                    <div data-nc-container="bottom-right">
-
-                        <nav class="Header-nav Header-nav--secondary" data-nc-element="secondary-nav"
-                            data-content-field="navigation">
-
-                        </nav>
-
-                    </div>
-                </div>
-            </header>
+            @include('front_end.layout.header')
 
             <div class="Content-outer">
 
 
-                <main class="Index" data-collection-id="5c4a47c71ae6cf770c90fd6e"
-                    data-controller="IndexFirstSectionHeight, Parallax, IndexNavigation">
-
-                    <section id="modern-organic-thai" class="Index-page Index-page--has-image"
-                        data-parallax-original-element data-collection-id="5c4768b1cd83663a096f569f"
-                        data-parallax-id="5c4768b1cd83663a096f569f" data-edit-main-image="Background">
-
-                        <div class="Index-page-scroll-indicator hidden" data-controller="ScrollIndicator">
-                            <div class="Index-page-scroll-indicator-text">Scroll</div>
-                            <svg class="Index-page-scroll-indicator-arrow Icon Icon--caretLarge--down"
-                                viewBox="0 0 48 23">
-                                <use xlink:href="assets/ui-icons.svg#caret-down-large-icon"></use>
-                            </svg>
-                            <div class="Index-page-scroll-indicator-line"></div>
-                        </div>
-
-                        <div class="Index-page-content  sqs-alternate-block-style-container">
-                            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page"
-                                data-updated-on="1550694809322" id="page-5c4768b1cd83663a096f569f">
-                                <div class="row sqs-row">
-                                    <div class="col sqs-col-12 span-12">
-                                        <div class="sqs-block html-block sqs-block-html" data-block-type="2"
-                                            id="block-yui_3_17_2_1_1549045800952_21703">
-                                            <div class="sqs-block-content">
-
-                                                <div class="sqs-html-content">
-                                                    <h2 style="text-align:center;white-space:pre-wrap;">Welcome to the
-                                                        most exciting Korean BBQ in Vancouver! </h2>
-                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <figure class="Index-page-image" data-parallax-image-wrapper>
-
-                            <img data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548969390666-C048X88TCMR4YANWJ4JM/IMG_1752.jpg"
-                                data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548969390666-C048X88TCMR4YANWJ4JM/IMG_1752.jpg"
-                                data-image-dimensions="2500x1874" data-image-focal-point="0.47,0.8"
-                                alt="IMG_1752.jpg" data-load="false" alt="" />
-
-                        </figure>
-
-
-                    </section>
-
-
-
-
-
-
-
-                    <section id="about-02" class="Index-page" data-collection-id="5c4b8a5e42bfc120277d72fc"
-                        data-parallax-id="5c4b8a5e42bfc120277d72fc" data-edit-main-image="Background">
-
-                        <div class="Index-page-content ">
-                            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page"
-                                data-updated-on="1588614612834" id="page-5c4b8a5e42bfc120277d72fc">
-                                <div class="row sqs-row">
-                                    <div class="col sqs-col-12 span-12">
-                                        <div class="sqs-block gallery-block sqs-block-gallery"
-                                            data-block-json="&#123;&quot;methodOption&quot;:&quot;transient&quot;,&quot;existingGallery&quot;:null,&quot;newWindow&quot;:false,&quot;aspect-ratio&quot;:&quot;standard-vertical&quot;,&quot;aspectRatio&quot;:null,&quot;auto-crop&quot;:true,&quot;blockAnimation&quot;:&quot;none&quot;,&quot;collectionId&quot;:&quot;5c4b8a5e42bfc120277d72f4&quot;,&quot;design&quot;:&quot;grid&quot;,&quot;lightbox&quot;:false,&quot;padding&quot;:24,&quot;show-meta&quot;:true,&quot;show-meta-basic&quot;:true,&quot;show-meta-only-title&quot;:false,&quot;show-meta-only-description&quot;:false,&quot;square-thumbs&quot;:false,&quot;thumbnails-per-row&quot;:4,&quot;vSize&quot;:null,&quot;transientGalleryId&quot;:&quot;5c4b8a5e42bfc120277d72f4&quot;&#125;"
-                                            data-block-type="8" id="block-b174ee8f81c5986f3b50">
-                                            <div class="sqs-block-content">
-
-
-
-
-
-
-
-
-
-                                                <div
-                                                    class="
-  sqs-gallery-container
-  sqs-gallery-block-grid
-  sqs-gallery-aspect-ratio-standard-vertical
-  sqs-gallery-thumbnails-per-row-4
-  
-  
-
-  
-    
-    
-  
-  sqs-gallery-block-show-meta
-  
-  
-
-  
-  
-
-  
-  block-animation-none
-  clear">
-                                                    <div class="sqs-gallery">
-
-
-
-
-
-
-
-
-
-                                                        <div class="slide" data-type="image"
-                                                            data-animation-role="image">
-                                                            <div class="margin-wrapper">
-
-                                                                <a role="presentation"
-                                                                    class="
-                    image-slide-anchor
-                    
-                    content-fit
-                  ">
-
-                                                                    <noscript><img
-                                                                            src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692607364-1HX25SG0LRRBDPYJ7BHH/Kook-8.jpg"
-                                                                            alt="Kook-8.jpg" /></noscript><img
-                                                                        class="thumb-image"
-                                                                        data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692607364-1HX25SG0LRRBDPYJ7BHH/Kook-8.jpg"
-                                                                        data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692607364-1HX25SG0LRRBDPYJ7BHH/Kook-8.jpg"
-                                                                        data-image-dimensions="2500x3745"
-                                                                        data-image-focal-point="0.5,0.5"
-                                                                        alt="Kook-8.jpg" data-load="false"
-                                                                        data-image-id="5e83bfa38022342990fbaa9a"
-                                                                        data-type="image" />
-                                                                </a>
-
-                                                            </div>
-                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                        <div class="slide" data-type="image"
-                                                            data-animation-role="image">
-                                                            <div class="margin-wrapper">
-
-                                                                <a role="presentation"
-                                                                    class="
-                    image-slide-anchor
-                    
-                    content-fit
-                  ">
-
-                                                                    <noscript><img
-                                                                            src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692610710-24BDH5UK382PB4JKDY2B/Kook-50.jpg"
-                                                                            alt="Kook-50.jpg" /></noscript><img
-                                                                        class="thumb-image"
-                                                                        data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692610710-24BDH5UK382PB4JKDY2B/Kook-50.jpg"
-                                                                        data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692610710-24BDH5UK382PB4JKDY2B/Kook-50.jpg"
-                                                                        data-image-dimensions="2500x3745"
-                                                                        data-image-focal-point="0.5,0.5"
-                                                                        alt="Kook-50.jpg" data-load="false"
-                                                                        data-image-id="5e83bfa8970e8e58270da576"
-                                                                        data-type="image" />
-                                                                </a>
-
-                                                            </div>
-                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                        <div class="slide" data-type="image"
-                                                            data-animation-role="image">
-                                                            <div class="margin-wrapper">
-
-                                                                <a role="presentation"
-                                                                    class="
-                    image-slide-anchor
-                    
-                    content-fit
-                  ">
-
-                                                                    <noscript><img
-                                                                            src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692583395-DZ8C12Z5ICNZC0RI5IQ0/Kook-5.jpg"
-                                                                            alt="Kook-5.jpg" /></noscript><img
-                                                                        class="thumb-image"
-                                                                        data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692583395-DZ8C12Z5ICNZC0RI5IQ0/Kook-5.jpg"
-                                                                        data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692583395-DZ8C12Z5ICNZC0RI5IQ0/Kook-5.jpg"
-                                                                        data-image-dimensions="2500x3745"
-                                                                        data-image-focal-point="0.5,0.5"
-                                                                        alt="Kook-5.jpg" data-load="false"
-                                                                        data-image-id="5e83bf8f0dfa0d0c21abfeea"
-                                                                        data-type="image" />
-                                                                </a>
-
-                                                            </div>
-                                                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                        <div class="slide" data-type="image"
-                                                            data-animation-role="image">
-                                                            <div class="margin-wrapper">
-
-                                                                <a role="presentation"
-                                                                    class="
-                    image-slide-anchor
-                    
-                    content-fit
-                  ">
-
-                                                                    <noscript><img
-                                                                            src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692579070-CLENMEFY4ADNUAD3Q6N4/Kook-7.jpg"
-                                                                            alt="Kook-7.jpg" /></noscript><img
-                                                                        class="thumb-image"
-                                                                        data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692579070-CLENMEFY4ADNUAD3Q6N4/Kook-7.jpg"
-                                                                        data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692579070-CLENMEFY4ADNUAD3Q6N4/Kook-7.jpg"
-                                                                        data-image-dimensions="2500x3745"
-                                                                        data-image-focal-point="0.5,0.5"
-                                                                        alt="Kook-7.jpg" data-load="false"
-                                                                        data-image-id="5e83bf8f2bdce735b5fc5c67"
-                                                                        data-type="image" />
-                                                                </a>
-
-                                                            </div>
-                                                        </div>
-
-
-
-
-
-
-
-                                                    </div>
-
-
-
-                                                </div>
-
-
-
-
-                                                <style type="text/css" id="design-grid-css">
-                                                    #block-b174ee8f81c5986f3b50 .sqs-gallery-block-grid .sqs-gallery-design-grid {
-                                                        margin-right: -24px;
-                                                    }
-
-                                                    #block-b174ee8f81c5986f3b50 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper {
-                                                        margin-right: 24px;
-                                                        margin-bottom: 24px;
-                                                    }
-                                                </style>
-
-
-
-                                            </div>
-                                        </div>
-                                        <div class="sqs-block html-block sqs-block-html" data-block-type="2"
-                                            id="block-310e3162239704f893a2">
-                                            <div class="sqs-block-content">
-
-                                                <div class="sqs-html-content">
-                                                    <p style="text-align:center;white-space:pre-wrap;" class="">
-                                                        At Kook, we are <strong>CRAZY</strong> about<strong>
-                                                            BBQ</strong> and we are here to set a new standard to your
-                                                        Korean BBQ experience. Serving only premium meats, every table
-                                                        is equipped with the Rolls-Royce<br>of smokeless grills (Shinpo
-                                                        Systems).&nbsp; The restaurant is perfectly air balanced with
-                                                        the best ventilation system to ensure you smell the same way you
-                                                        came in.&nbsp;</p>
-                                                    <p style="text-align:center;white-space:pre-wrap;" class="">
-                                                        We want to ensure that we please your eyes as much as your taste
-                                                        buds.&nbsp; Our interior design is themed around the ancient
-                                                        five core elements (Gold, wood, water, fire, earth). From our
-                                                        golden ring of banchan to the cherry wood bench you are sitting
-                                                        on, you will find this theme throughout our restaurant. Let our
-                                                        energy channel your inner chef to take control and cook, or
-                                                        simply sit back and let our BBQ experts take over.</p>
-                                                    <p style="text-align:center;white-space:pre-wrap;" class="">
-                                                        Our dedicated team is here to serve you with one goal in
-                                                        mind:<br><strong><em>“A Korean BBQ dining experience you won’t
-                                                                soon forget!”</em></strong></p>
-                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            </div>
-                                        </div>
-                                        <div class="sqs-block button-block sqs-block-button" data-block-type="53"
-                                            id="block-31a339d66502e82d642b">
-                                            <div class="sqs-block-content">
-
-                                                <div class="sqs-block-button-container sqs-block-button-container--center"
-                                                    data-animation-role="button" data-alignment="center"
-                                                    data-button-size="medium" data-button-type="primary">
-                                                    <a href="kookbbqmenu.html"
-                                                        class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element">
-                                                        View Menu
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </section>
-
-
-
-
-
-
-
-                    <section id="eat-together" class="Index-page Index-page--has-image" data-parallax-original-element
-                        data-collection-id="5c4a4eb2f950b7808b449434" data-parallax-id="5c4a4eb2f950b7808b449434"
-                        data-edit-main-image="Background">
-
-                        <div class="Index-page-content  sqs-alternate-block-style-container">
-                            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page"
-                                data-updated-on="1550692609997" id="page-5c4a4eb2f950b7808b449434">
-                                <div class="row sqs-row">
-                                    <div class="col sqs-col-12 span-12">
-                                        <div class="sqs-block html-block sqs-block-html" data-block-type="2"
-                                            id="block-c2dc0b66ff706542d4a2">
-                                            <div class="sqs-block-content">
-
-                                                <div class="sqs-html-content">
-                                                    <h2 style="text-align:center;white-space:pre-wrap;">EAT
-                                                        TOGETHER<br></h2>
-                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            </div>
-                                        </div>
-                                        <div class="sqs-block button-block sqs-block-button" data-block-type="53"
-                                            id="block-yui_3_17_2_3_1442344515890_5231">
-                                            <div class="sqs-block-content">
-
-                                                <div class="sqs-block-button-container sqs-block-button-container--center"
-                                                    data-animation-role="button" data-alignment="center"
-                                                    data-button-size="small" data-button-type="tertiary">
-                                                    <a href="reservations.html"
-                                                        class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element">
-                                                        Make a Reservation
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <figure class="Index-page-image" data-parallax-image-wrapper>
-
-                            <img data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585690892220-UOH8HZC3IBQZFIW7T9XA/Kook-49.jpg"
-                                data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585690892220-UOH8HZC3IBQZFIW7T9XA/Kook-49.jpg"
-                                data-image-dimensions="2500x1392" data-image-focal-point="0.5,0.5" alt="Kook-49.jpg"
-                                data-load="false" alt="" />
-
-                        </figure>
-
-
-                    </section>
-
-
-
-
-
-
-                    <nav class="Index-nav">
-                        <div class="Index-nav-inner">
-
-                            <a href="#modern-organic-thai" class="Index-nav-item active">
-                                <div class="Index-nav-indicator"></div>
-                                <div class="Index-nav-text"><span>Modern Organic Thai</span></div>
-                            </a>
-
-                            <a href="#about-02" class="Index-nav-item">
-                                <div class="Index-nav-indicator"></div>
-                                <div class="Index-nav-text"><span>About 02</span></div>
-                            </a>
-
-                            <a href="#eat-together" class="Index-nav-item">
-                                <div class="Index-nav-indicator"></div>
-                                <div class="Index-nav-text"><span>Eat Together</span></div>
-                            </a>
-
-                        </div>
-                    </nav>
-
-                </main>
+                @yield('content')
 
             </div>
         </div>
 
-        <footer class="Footer" role="contentinfo" data-controller="FooterBreakpoints">
-
-            <div class="Footer-inner clear">
-
-                <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--top sqs-alternate-block-style-container empty"
-                    data-layout-label="Footer Top Blocks" data-type="block-field" data-updated-on="1549323724828"
-                    id="footerBlocksTop">
-                    <div class="row sqs-row">
-                        <div class="col sqs-col-12 span-12"></div>
-                    </div>
-                </div>
-
-                <div class="Footer-middle">
-                    <div class="Footer-business">
-
-
-                        <div class="Footer-business-info">
-
-
-                            <div class="Footer-business-info-item Footer-business-info-item--name">Kook BBQ</div>
-                            <div class="Footer-business-info-item">2800 East 1st Avenue,</div>
-                            <div class="Footer-business-info-item">Vancouver, BC, V5M 4P3,</div>
-                            <div class="Footer-business-info-item Footer-business-info-item--country">Canada</div>
-
-
-
-
-                            <a href="mailto:info@koookbbq.ca" title="info@koookbbq.ca" target="_blank"
-                                class="Footer-business-info-item Footer-business-info-item--email">info@koookbbq.ca</a>
-
-                        </div>
-
-
-
-
-                        <div class="Footer-business-hours">
-                            <div class="Footer-business-hours-heading">Hours</div>
-                            <div class="Footer-business-hours-item">Mon 11:00 - 15:00, 17:00 - 22:00</div>
-                            <div class="Footer-business-hours-item">Tue 11:00 - 15:00, 17:00 - 22:00</div>
-                            <div class="Footer-business-hours-item">Wed 11:00 - 15:00, 17:00 - 22:00</div>
-                            <div class="Footer-business-hours-item">Thu 11:00 - 15:00, 17:00 - 22:00</div>
-                            <div class="Footer-business-hours-item">Fri 11:00 - 15:00, 17:00 - 22:00</div>
-                            <div class="Footer-business-hours-item">Sat 11:00 - 15:00, 17:00 - 22:00</div>
-                            <div class="Footer-business-hours-item">Sun 11:00 - 15:00, 17:00 - 22:00</div>
-                        </div>
-
-
-
-                    </div>
-
-                    <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--middle sqs-alternate-block-style-container"
-                        data-layout-label="Footer Middle Blocks" data-type="block-field"
-                        data-updated-on="1681516948680" id="footerBlocksMiddle">
-                        <div class="row sqs-row">
-                            <div class="col sqs-col-8 span-8">
-                                <div class="row sqs-row">
-                                    <div class="col sqs-col-4 span-4">
-                                        <div class="sqs-block html-block sqs-block-html" data-block-type="2"
-                                            id="block-0554e277b5a6bb1da859">
-                                            <div class="sqs-block-content">
-
-                                                <div class="sqs-html-content">
-                                                    <h3 style="white-space:pre-wrap;"><strong>LOCATIONS</strong></h3>
-                                                    <p class="" style="white-space:pre-wrap;"><a
-                                                            href="https://www.google.com/search?rlz=1C1CHBF_enCA808CA808&amp;site=async/lcl_akp&amp;q=kook+korean+bbq+restaurant+address&amp;stick=H4sIAAAAAAAAAOPgE-LVT9c3NEyvNCyoKE9J15LNTrbSz8lPTizJzM-DM6wSU1KKUouLAS6HRJYwAAAA&amp;ludocid=11461357236156559500&amp;sa=X&amp;ved=2ahUKEwiM2c2iwIfgAhVKBjQIHfXZDQAQ6BMwA3oECAEQFg"
-                                                            target="_blank"><strong>Address</strong></a><strong>:</strong><br>2800
-                                                        E 1st Ave #211A<br>Vancouver, BC<br>V5M
-                                                        4N9<br><br><strong>Phone: </strong><a
-                                                            href="tel:6045665665">604.566.5665</a></p>
-                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col sqs-col-4 span-4">
-                                        <div class="sqs-block html-block sqs-block-html" data-block-type="2"
-                                            id="block-yui_3_17_2_22_1488316984327_15015">
-                                            <div class="sqs-block-content">
-
-                                                <div class="sqs-html-content">
-                                                    <h3 style="white-space:pre-wrap;"><strong>HOURS</strong></h3>
-                                                    <p class="" style="white-space:pre-wrap;">Monday
-                                                        12:00pm-11:00pm<br>Tuesday 12:00pm-11:00pm<br>Wednesday
-                                                        12:00pm-11:00pm<br>Thursday 12:00pm-11:00pm<br>Friday
-                                                        12:00pm-12:00am<br>Saturday 12:00pm-12:00am<br>Sunday
-                                                        12:00pm-11:00pm</p>
-                                                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2"
-                                    data-block-type="54" id="block-yui_3_17_2_1_1548712779604_6109">
-                                    <div class="sqs-block-content">
-
-
-
-                                        <div
-                                            class="sqs-svg-icon--outer social-icon-alignment-left social-icons-color-white social-icons-size-large social-icons-shape-circle social-icons-style-knockout">
-                                            <style>
-                                                #block-yui_3_17_2_1_1548712779604_6109 .social-icons-style-border .sqs-svg-icon--wrapper {
-
-                                                    box-shadow: 0 0 0 2px inset;
-
-                                                    border: none;
-                                                }
-                                            </style>
-                                            <nav class="sqs-svg-icon--list">
-                                                <a href="mailto:info@kookbbq.ca" target="_blank"
-                                                    class="sqs-svg-icon--wrapper email" aria-label="info@kookbbq.ca">
-                                                    <div>
-                                                        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
-                                                            <use class="sqs-use--icon" xlink:href="#email-icon"></use>
-                                                            <use class="sqs-use--mask" xlink:href="#email-mask"></use>
-                                                        </svg>
-                                                    </div>
-                                                </a><a href="https://www.facebook.com/kookbbq/" target="_blank"
-                                                    class="sqs-svg-icon--wrapper facebook"
-                                                    aria-label="Kook Korean BBQ">
-                                                    <div>
-                                                        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
-                                                            <use class="sqs-use--icon" xlink:href="#facebook-icon">
-                                                            </use>
-                                                            <use class="sqs-use--mask" xlink:href="#facebook-mask">
-                                                            </use>
-                                                        </svg>
-                                                    </div>
-                                                </a><a href="http://instagram.com/kookbbq" target="_blank"
-                                                    class="sqs-svg-icon--wrapper instagram"
-                                                    aria-label="Kook Korean BBQ">
-                                                    <div>
-                                                        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
-                                                            <use class="sqs-use--icon" xlink:href="#instagram-icon">
-                                                            </use>
-                                                            <use class="sqs-use--mask" xlink:href="#instagram-mask">
-                                                            </use>
-                                                        </svg>
-                                                    </div>
-                                                </a>
-                                            </nav>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col sqs-col-4 span-4">
-                                <div class="sqs-block map-block sqs-block-map" data-aspect-ratio="54.72837022132797"
-                                    data-block-json="&#123;&quot;location&quot;:&#123;&quot;mapLat&quot;:49.26916370000001,&quot;mapLng&quot;:-123.0463411,&quot;mapZoom&quot;:12,&quot;markerLat&quot;:49.26916370000001,&quot;markerLng&quot;:-123.0463411,&quot;addressLine1&quot;:&quot;2800 E 1st Ave #211A&quot;,&quot;addressLine2&quot;:&quot;Vancouver, BC&quot;,&quot;addressCountry&quot;:&quot;Canada&quot;,&quot;addressTitle&quot;:&quot;Kook BBQ&quot;&#125;,&quot;vSize&quot;:null,&quot;style&quot;:2,&quot;labels&quot;:true,&quot;terrain&quot;:false,&quot;controls&quot;:false,&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;aspectRatio&quot;:54.72837022132797&#125;"
-                                    data-block-type="4" id="block-yui_3_17_2_1_1548371255737_19802">
-                                    <div class="sqs-block-content">&nbsp;</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--bottom sqs-alternate-block-style-container"
-                    data-layout-label="Footer Bottom Blocks" data-type="block-field" data-updated-on="1548370757103"
-                    id="footerBlocksBottom">
-                    <div class="row sqs-row">
-                        <div class="col sqs-col-12 span-12">
-                            <div class="row sqs-row">
-                                <div class="col sqs-col-0 span-0"></div>
-                                <div class="col sqs-col-12 span-12">
-                                    <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1"
-                                        data-block-type="21" id="block-yui_3_17_2_22_1488316984327_21907">
-                                        <div class="sqs-block-content">&nbsp;</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </footer>
+        @include('front_end.layout.footer')
 
 
     </div>
 
-    <script defer="defer" src="../static1.squarespace.com/static/ta/55f0a9b0e4b0f3eb70352f6d/352/scripts/site-bundle.js"
+    <script defer="defer" src="/static1.squarespace.com/static/ta/55f0a9b0e4b0f3eb70352f6d/352/scripts/site-bundle.js"
         type="text/javascript"></script>
 
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none" data-usage="social-icons-svg">
