@@ -24,7 +24,7 @@
                                 <font style="vertical-align: inherit;">Contact email</font>
                             </font><br><i class="fa fa-envelope"></i>
                             <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">topgo.vn@gmail.com</font>
+                                <font style="vertical-align: inherit;">contact@tiantianhainanesechickenrice.com</font>
                             </font>
                         </li>
                         <li>
@@ -42,75 +42,75 @@
                         <ul id="menu-main-menu-footer-ha-noi" class="">
                             <li id="menu-item-28976"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28976">
-                                <a href="/bar-lounge/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">BAR &amp; LOUNGE</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                             <li id="menu-item-28978"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28978">
-                                <a href="/combo-deals/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">COMBO &amp; DEALS</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                             <li id="menu-item-28980"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28980">
-                                <a href="/karaoke/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">KARAOKE</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                             <li id="menu-item-28982"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-28982">
-                                <a href="/restaurants/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">RESTAURANTS</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                             <li id="menu-item-28984"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28984">
-                                <a href="/top-events/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">TOP EVENTS</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                             <li id="menu-item-28985"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28985">
-                                <a href="/top-goi-y/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">TOP SUGGESTIONS</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                             <li id="menu-item-28981"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28981">
-                                <a href="/nha-tai-tro/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">DONORS</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                             <li id="menu-item-28983"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28983">
-                                <a href="/spa/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">SPA</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                             <li id="menu-item-28977"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28977">
-                                <a href="/blog/">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">BLOG</font>
                                     </font>
-                                </a>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -120,19 +120,19 @@
                     <div class="menu-menu-about-company-ha-noi-container">
                         <ul id="menu-menu-about-company-ha-noi" class="menuaboutcompany">
                             <li id="menu-item-28986"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28986"><a
-                                    href="#">
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28986">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">Introduce</font>
                                     </font>
-                                </a></li>
+                                </span></li>
                             <li id="menu-item-28987"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28987"><a
-                                    href="#">
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28987">
+                                <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">Company</font>
                                     </font>
-                                </a></li>
+                                </span></li>
                         </ul>
                     </div> <!--<h5>Đăng kí email nhận thông tin</h5>-->
                     <h5>
@@ -141,20 +141,15 @@
                         </font>
                     </h5>
                     <div class="social-footer">
-                        <a rel="nofollow" target="_blank" href="/"><i class="fa fa-facebook-square"
-                                aria-hidden="true"></i></a>
+                        <span rel="nofollow"  ><i class="fa fa-facebook-square"
+                                aria-hidden="true"></i></span>
                         <!--<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>-->
                     </div>
                 </div><!-- .footer-column -->
             </div>
-            <div class="copy-right">
-                <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">
-                        © {{$config_website->website}} </font>
-                </font>
-            </div>
+            
         </div>
     </div>
 
