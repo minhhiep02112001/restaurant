@@ -62,10 +62,14 @@ class CrawlerDataYelp
           ->where('parent_id', 2)->get();
        
           foreach ($countries as $coutry) {
-               foreach ($_categories as $cate) {
-                    $url = $this->convert_search($coutry->title, $cate->title);
-                    $this->download_list_url($url, 0, $cate['id'], $coutry->id);
-                    echo "\n Done all {$coutry->title}";
+               try{
+                    foreach ($_categories as $cate) {
+                         $url = $this->convert_search($coutry->title, $cate->title);
+                         $this->download_list_url($url, 0, $cate['id'], $coutry->id);
+                         echo "\n Done all {$coutry->title}";
+                    }
+               }catch(\Exception $ex){
+                    echo "\n Error country {$coutry->title} ,  {$coutry->title}";
                }
                DB::table('st_country')->where('id', $coutry->id)->update(['updated_at' => date('Y-m-d H:i:s')]);
                echo "\n Done all {$cate->title}";
@@ -98,9 +102,11 @@ class CrawlerDataYelp
                     if (empty($item)) continue;
                     // $record = Post::where(['slug' => $item['slug']])->first();
                     try {
+                         
                          $data = $this->curl_detail_post($item['crawler_href']);
 
                          $record = Post::where(['slug' => $data['slug']])->first();
+                         if (empty($record)) continue;
                          $category = $data['category'];
                          $data['country_id'] = $country_id;
                          unset($data['category']);
