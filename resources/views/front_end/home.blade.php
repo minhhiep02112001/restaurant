@@ -826,8 +826,7 @@
                                                 </div>
                                             </div>
                                             <div style="width:100%;display:flex;justify-content: center;">
-                                                <a id="makearev" href="{{url('/menu')}}" target="_self" style="font-size: 13px;" class="vamtam-button accent5  vamtam-animated-page-scroll border-btn button-filled hover-accent1 "><span class="btext" data-text="MAKE A RESERVATION">MAKE
-                                                    ALL MENU</span></a> 
+                                                <a id="makearev" href="{{url('/menu')}}" target="_self" style="font-size: 13px;" class="vamtam-button accent5  vamtam-animated-page-scroll border-btn button-filled hover-accent1 "><span class="btext" data-text="ALL MENU">ALL MENU</span></a> 
                                             </div>
                                         </div>
                                     </div>
