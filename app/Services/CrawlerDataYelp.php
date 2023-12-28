@@ -59,7 +59,7 @@ class CrawlerDataYelp
      {
           $_categories = Category::orderBy('updated_at', 'asc')->get();
           $countries = DB::table('st_country')->orderBy('updated_at', 'desc') 
-          ->whereIn('parent_id', [2,3,4,5])->get();
+          ->whereIn('parent_id', 0)->get();
        
           foreach ($countries as $coutry) {
                try{
@@ -68,6 +68,7 @@ class CrawlerDataYelp
                          $this->download_list_url($url, 0, $cate['id'], $coutry->id);
                          echo "\n Done all {$coutry->title}";
                     }
+                    DB::table('st_category')->where('id', $cate->id)->update(['updated_at' => date('Y-m-d H:i:s')]);
                }catch(\Exception $ex){
                     echo "\n Error country {$coutry->title} ,  {$coutry->title}";
                }
