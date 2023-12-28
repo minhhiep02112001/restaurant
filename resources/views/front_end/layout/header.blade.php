@@ -26,7 +26,7 @@
                                 <ul id="menu-main-menu-ha-noi" class="nav navbar-nav">
                                     <li id="menu-item-302"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-302">
-                                        <a href="/top-events/">
+                                        <a href="/">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">TOP EVENTS</font>
                                             </font>
@@ -34,7 +34,7 @@
                                     </li>
                                     <li id="menu-item-218"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-218">
-                                        <a href="/combo-deals/">
+                                        <a href="/">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">COMBO &amp; DEALS</font>
                                             </font>
@@ -42,7 +42,7 @@
                                     </li>
                                     <li id="menu-item-219"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-219">
-                                        <a href="/karaoke/">
+                                        <a href="/">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">KARAOKE</font>
                                             </font>
@@ -50,63 +50,22 @@
                                     </li>
                                     <li id="menu-item-303"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-303">
-                                        <a href="/restaurants/">
+                                        <a href="{{url('/about')}}">
                                             <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">RESTAURANTS</font>
+                                                <font style="vertical-align: inherit;">ABOUT</font>
                                             </font>
                                         </a>
                                     </li>
-                                    <li id="menu-item-6571"
-                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6571">
-                                        <a href="/bar-lounge/">
-                                            <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">BAR &amp; LOUNGE</font>
-                                            </font>
-                                        </a>
-                                    </li>
-                                    <li id="menu-item-312"
-                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-312">
-                                        <a href="/spa/">
-                                            <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">SPA</font>
-                                            </font>
-                                        </a>
-                                    </li>
+                                   
                                     <li id="menu-item-311"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-311">
-                                        <a href="/trip/">
+                                        <a href="{{url('/gallery')}}">
                                             <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">TRIP</font>
+                                                <font style="vertical-align: inherit;">GALLERY</font>
                                             </font>
                                         </a>
                                     </li>
-                                    <li id="menu-item-221"
-                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-221">
-                                        <a href="/blog/">
-                                            <font style="vertical-align: inherit;">
-                                                <font style="vertical-align: inherit;">BLOG</font>
-                                            </font>
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li id="menu-item-28917"
-                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28917">
-                                                <a href="/top-goi-y/">
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">TOP SUGGESTIONS
-                                                        </font>
-                                                    </font>
-                                                </a>
-                                            </li>
-                                            <li id="menu-item-28918"
-                                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28918">
-                                                <a href="/diem-nhan/">
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">HIGHLIGHT</font>
-                                                    </font>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                     
                                 </ul>
                             </div>
                         </div>
@@ -139,14 +98,14 @@
                             <font style="vertical-align: inherit;">Menu &amp; Reservations</font>
                         </font>
                     </a></li>
-                <li class=""><a href="#events-location">
+                <li class=""><a href="{{url('/about')}}">
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Events</font>
+                            <font style="vertical-align: inherit;">About</font>
                         </font>
                     </a></li>
-                <li class=""><a href="#artists-participating">
+                <li class=""><a href="{{url('/gallery')}}">
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Photos</font>
+                            <font style="vertical-align: inherit;">Gallery</font>
                         </font>
                     </a></li>
                 <li class=""><a href="#organizer">
