@@ -825,10 +825,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div style="width:100%;display:flex;">
-                                                <div class="button" style="margin: 0 auto;">
-                                                    <a href="{{url('/menu')}}">All menu</a>
-                                                </div>
+                                            <div style="width:100%;display:flex;justify-content: center;">
+                                                <a id="makearev" href="{{url('/menu')}}" target="_self" style="font-size: 13px;" class="vamtam-button accent5  vamtam-animated-page-scroll border-btn button-filled hover-accent1 "><span class="btext" data-text="MAKE A RESERVATION">MAKE
+                                                    ALL MENU</span></a> 
                                             </div>
                                         </div>
                                     </div>
