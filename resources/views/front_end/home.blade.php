@@ -490,7 +490,7 @@
                                     <div class="vamtam-grid grid-1-6  grid-1-6  first unextended has-extended-padding"
                                         style="padding-top:0.05px;padding-bottom:0.05px;"
                                         id="vamtam-column-48cc56af5d1188a84e64a359ad805f94"></div>
-                                    <div class="vamtam-grid  unextended animation-fade-in animated-active no-extended-padding"
+                                    <div class="vamtam-grid unextended animation-fade-in no-extended-padding animated-active animation-ended"
                                         style="padding-top:0.05px;padding-bottom:0.05px;" id="content_home">
                                         {!! $content_home !!}
                                         <span class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
