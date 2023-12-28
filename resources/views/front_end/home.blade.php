@@ -499,7 +499,7 @@
 
                                     </div>
                                 </div>
-                                <div class="vamtam-blank-space " style="height:60px"></div>
+                                <div class="vamtam-blank-space " style="height:20px"></div>
                             </div>
                         </div>
                         <div class="row ">
