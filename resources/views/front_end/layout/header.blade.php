@@ -1,3 +1,7 @@
+@php
+    $menu = getMenuParent(0, 0);
+@endphp
+
 <div class="header header-main header-tem header-post-temlate">
     <div class="container">
         <div class="row">
@@ -6,7 +10,9 @@
                     <nav class="navbar navbar-default navbar-static-top">
                         <div class="navbar-header">
                             <div class="logo">
-                                <a href="/" title="{{$config_website->website}}"><img src="{{ convertPathImage($config_website->logo ?? '') }}" alt="{{$config_website->website}}"></a>
+                                <a href="/" title="{{ $config_website->website }}"><img
+                                        src="{{ convertPathImage($config_website->logo ?? '') }}"
+                                        alt="{{ $config_website->website }}"></a>
                             </div><!-- .logo -->
                             <a href="/tim-kiem/" class="icon-search-mobile"><i class="fa fa-search"
                                     aria-hidden="true"></i></a>
@@ -50,30 +56,30 @@
                                     </li>
                                     <li id="menu-item-303"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-303">
-                                        <a href="{{url('/about')}}">
+                                        <a href="{{ url('/about') }}">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">ABOUT</font>
                                             </font>
                                         </a>
                                     </li>
-                                   
+
                                     <li id="menu-item-311"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-311">
-                                        <a href="{{url('/gallery')}}">
+                                        <a href="{{ url('/gallery') }}">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">GALLERY</font>
                                             </font>
                                         </a>
                                     </li>
-                                      <li id="menu-item-311"
+                                    <li id="menu-item-311"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-311">
-                                        <a href="{{url('/contact')}}">
+                                        <a href="{{ url('/contact') }}">
                                             <font style="vertical-align: inherit;">
                                                 <font style="vertical-align: inherit;">CONTACT</font>
                                             </font>
                                         </a>
                                     </li>
-                                     
+
                                 </ul>
                             </div>
                         </div>
@@ -92,35 +98,21 @@
         </div>
     </div>
 </div>
-<div class="menu-post-temlate clearfix affix-top" >
+<div class="menu-post-temlate clearfix affix-top">
     <div class="container">
         <div class="row">
             <ul class="navbar-nav nav">
-                <li class=""><a href="#abouts">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Introduce</font>
-                        </font>
-                    </a></li>
-                <li class=""><a href="#ticket-map">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Menu &amp; Reservations</font>
-                        </font>
-                    </a></li>
-                <li class=""><a href="{{url('/about')}}">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">About</font>
-                        </font>
-                    </a></li>
-                <li class=""><a href="{{url('/gallery')}}">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Gallery</font>
-                        </font>
-                    </a></li>
-                <li class=""><a href="{{url('/contact')}}">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Contact</font>
-                        </font>
-                    </a></li>
+                @if (!empty($menu))
+                    @foreach ($menu as $item)
+                        <li class="">
+                            <a href="{{url($item->link)}}">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">{{$item->title}}</font>
+                                </font>
+                            </a>
+                        </li>
+                    @endforeach
+                @endif 
             </ul>
         </div>
     </div>
