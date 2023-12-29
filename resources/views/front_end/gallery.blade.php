@@ -118,10 +118,13 @@
         #content-about h4 {
             font-size: 20px;
         }
-        #content-about{
-          font-size: 16px;
+
+        #content-about {
+            font-size: 16px;
         }
-        #content-about p,#content-about li {
+
+        #content-about p,
+        #content-about li {
             font-size: 16px;
         }
     </style>
@@ -257,5 +260,121 @@
                     </span></div>
             </div>
         </div>
+    </div>
+    <div style="margin: 20px 0px;">
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Alpine.js -->
+        <script src="//unpkg.com/alpinejs" defer></script>
+
+        <div class="w-full flex items-center justify-center">
+            <div class="max-w-[650px]">
+                <div x-data="{ activeSlide: 1, slideCount: 5 }" class="overflow-hidden relative">
+                    <!-- Slider -->
+                    <!-- You can remove x-init if you dont want to autoplay -->
+                    <div class="whitespace-nowrap transition-transform duration-500 ease-in-out"
+                        :style="'transform: translateX(-' + (activeSlide - 1) * 100.5 + '%)'" x-init="setInterval(() => { activeSlide = activeSlide < slideCount ? activeSlide + 1 : 1 }, 5000)">
+                        <!-- Item 1 -->
+                        <div class="inline-block w-full">
+                            <span class="yelp-review" data-review-id="emHuMnWAJrcoTONzFwLF-Q"
+                                data-hostname="www.yelp.com">Read <a
+                                    href="https://www.yelp.com/user_details?userid=ls9Z1mRQ9m4sYG4f-WzoUA"
+                                    rel="nofollow noopener">Mike L.</a>'s <a
+                                    href="https://www.yelp.com/biz/tian-tian-hainanese-chicken-rice-singapore-7?hrid=emHuMnWAJrcoTONzFwLF-Q"
+                                    rel="nofollow noopener">review</a> of <a
+                                    href="https://www.yelp.com/biz/fY1IkBnRft1KR0O2tqu7pg" rel="nofollow noopener">Tian
+                                    Tian Hainanese Chicken Rice</a> on <a href="https://www.yelp.com"
+                                    rel="nofollow noopener">Yelp</a>
+                                <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                            </span>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="inline-block w-full">
+                            <span class="yelp-review" data-review-id="fL1hjHUMZda-FydRRjuRtw"
+                                data-hostname="www.yelp.com">Read <a
+                                    href="https://www.yelp.com/user_details?userid=GYQtbBi3L7Vs-PeD7xsQVA"
+                                    rel="nofollow noopener">Stephen C.</a>'s <a
+                                    href="https://www.yelp.com/biz/tian-tian-hainanese-chicken-rice-singapore-7?hrid=fL1hjHUMZda-FydRRjuRtw"
+                                    rel="nofollow noopener">review</a> of <a
+                                    href="https://www.yelp.com/biz/fY1IkBnRft1KR0O2tqu7pg" rel="nofollow noopener">Tian
+                                    Tian Hainanese Chicken Rice</a> on <a href="https://www.yelp.com"
+                                    rel="nofollow noopener">Yelp</a>
+                                <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                            </span>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="inline-block w-full">
+                            <span class="yelp-review" data-review-id="R870_AV1FEik0kFViC7zng"
+                                data-hostname="www.yelp.com">Read <a
+                                    href="https://www.yelp.com/user_details?userid=lB6wTQ-xAa5oG9mHP-2Axw"
+                                    rel="nofollow noopener">Caili C.</a>'s <a
+                                    href="https://www.yelp.com/biz/tian-tian-hainanese-chicken-rice-singapore-7?hrid=R870_AV1FEik0kFViC7zng"
+                                    rel="nofollow noopener">review</a> of <a
+                                    href="https://www.yelp.com/biz/fY1IkBnRft1KR0O2tqu7pg" rel="nofollow noopener">Tian
+                                    Tian Hainanese Chicken Rice</a> on <a href="https://www.yelp.com"
+                                    rel="nofollow noopener">Yelp</a>
+                                <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                            </span>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="inline-block w-full">
+                            <span class="yelp-review" data-review-id="pjNchhBn85wL9VU7E2wU0g"
+                                data-hostname="www.yelp.com">Read <a
+                                    href="https://www.yelp.com/user_details?userid=VlkXMgJwPLE7ntaakRbj5Q"
+                                    rel="nofollow noopener">Tracey N.</a>'s <a
+                                    href="https://www.yelp.com/biz/tian-tian-hainanese-chicken-rice-singapore-7?hrid=pjNchhBn85wL9VU7E2wU0g"
+                                    rel="nofollow noopener">review</a> of <a
+                                    href="https://www.yelp.com/biz/fY1IkBnRft1KR0O2tqu7pg" rel="nofollow noopener">Tian
+                                    Tian Hainanese Chicken Rice</a> on <a href="https://www.yelp.com"
+                                    rel="nofollow noopener">Yelp</a>
+                                <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                            </span>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="inline-block w-full"> 
+
+                            <span class="yelp-review" data-review-id="pjNchhBn85wL9VU7E2wU0g"
+                                data-hostname="www.yelp.com">Read <a
+                                    href="https://www.yelp.com/user_details?userid=VlkXMgJwPLE7ntaakRbj5Q"
+                                    rel="nofollow noopener">Tracey N.</a>'s <a
+                                    href="https://www.yelp.com/biz/tian-tian-hainanese-chicken-rice-singapore-7?hrid=pjNchhBn85wL9VU7E2wU0g"
+                                    rel="nofollow noopener">review</a> of <a
+                                    href="https://www.yelp.com/biz/fY1IkBnRft1KR0O2tqu7pg" rel="nofollow noopener">Tian
+                                    Tian Hainanese Chicken Rice</a> on <a href="https://www.yelp.com"
+                                    rel="nofollow noopener">Yelp</a>
+                                <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                            </span>
+
+                        </div>
+                         
+                    </div>
+
+                    <!-- Prev/Next Arrows -->
+                    <div class="absolute inset-0 flex items-center justify-between px-2">
+                        <button @click="activeSlide = activeSlide > 1 ? activeSlide - 1 : slideCount"
+                            class="w-[30px] h-[30px] flex items-center bg-black/30 text-white p-2 rounded-full">
+                            &#8592;
+                        </button>
+                        <button @click="activeSlide = activeSlide < slideCount ? activeSlide + 1 : 1"
+                            class="w-[30px] h-[30px] flex items-center bg-black/30 text-white p-2 rounded-full">
+                            &#8594;
+                        </button>
+                    </div>
+
+                    <!-- Dots Navigation -->
+                    <div class="absolute bottom-0 left-0 right-0 flex justify-center space-x-2 p-4">
+                        <template x-for="slideIndex in slideCount" :key="slideIndex">
+                            <button @click="activeSlide = slideIndex" class="h-2 w-2 rounded-full"
+                                :class="{
+                                    'bg-orange-500': activeSlide === slideIndex,
+                                    'bg-white/50': activeSlide !==
+                                        slideIndex
+                                }"></button>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 @endsection
