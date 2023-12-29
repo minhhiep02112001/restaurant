@@ -65,6 +65,14 @@
                                             </font>
                                         </a>
                                     </li>
+                                      <li id="menu-item-311"
+                                        class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-311">
+                                        <a href="{{url('/contact')}}">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">CONTACT</font>
+                                            </font>
+                                        </a>
+                                    </li>
                                      
                                 </ul>
                             </div>
@@ -108,9 +116,9 @@
                             <font style="vertical-align: inherit;">Gallery</font>
                         </font>
                     </a></li>
-                <li class=""><a href="#organizer">
+                <li class=""><a href="{{url('/contact')}}">
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Map</font>
+                            <font style="vertical-align: inherit;">Contact</font>
                         </font>
                     </a></li>
             </ul>
