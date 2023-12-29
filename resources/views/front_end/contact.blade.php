@@ -204,14 +204,11 @@
                                             class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full">
                                             <div class="field-items">
                                                 <div class="field-item even">
-                                                    <p><span style="font-size:20px;">We'd love to hear from you! If your
-                                                            feedback or questions are about a <u><strong><span>Panda
-                                                                        Express<span></strong></u> location, please visit
-                                                            this&nbsp;<u><strong><span>Panda
-                                                                        Express Contact Us Form</span></strong></u>.</span>
+                                                    <p><span style="font-size:20px;">
+                                                        We'd love to hear from you! If your feedback or questions are about a Tian Tian Hainanese Chicken Rice location, please visit this Tian Tian Hainanese Chicken Rice Contact Us Form.
+                                                    </span>
                                                     </p>
-                                                    <p><span style="font-size: 20px;">For Panda Restuarant Group, Inc.
-                                                            feedback or questions, please use the form below.&nbsp;</span>
+                                                    <p><span style="font-size: 20px;">For Tian Tian Hainanese Chicken Rice, Inc. feedback or questions, please use the form below.</span>
                                                     </p>
                                                 </div>
                                             </div>
