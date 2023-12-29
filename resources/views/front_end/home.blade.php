@@ -416,7 +416,7 @@
                         
                         <div class="row ">
                             <div class="vamtam-grid grid-1-1 signature-dishes-section vamtam-first-level grid-1-1 vamtam-add-ornaments-top first vamtam-cover-bg has-background unextended no-extended-padding"
-                                style="background: url('{{ asset('/images/dumpling.jpg') }}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;"
+                                style="background: url('{{ asset('/images/dumpling.jpg') }}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;overflow:hidden;"
                                 id="menu">
                                 <style>
                                     .row .row{
@@ -749,7 +749,7 @@
 
                             </div>
                         </div>
-                        
+
                         <div class="row ">
                             <div class="vamtam-grid grid-1-1 vamtam-add-ornaments-all vamtam-first-level grid-1-1  first has-background unextended no-extended-padding"
                                 style="background-color:#ffffff;padding-top:20px;padding-bottom:20px;"
