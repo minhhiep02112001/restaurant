@@ -504,6 +504,9 @@
                                 style="background: url('{{ asset('/images/dumpling.jpg') }}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;"
                                 id="menu">
                                 <style>
+                                    .row .row{
+                                        margin-bottom: 20px;
+                                    }
                                     #menu,
                                     #menu p,
                                     #menu em,
