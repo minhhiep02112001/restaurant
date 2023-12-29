@@ -868,7 +868,9 @@
                         #SITE_PAGES {
                             left:0; margin-left:0; width:100%; min-width:0;
                         }
-
+                        #SITE_PAGES {
+                            padding-top: 30px;
+                        }
                         #comp-kp09f54m {
                             width:5px; height:5px;
                         }
