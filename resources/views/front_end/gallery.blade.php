@@ -322,6 +322,18 @@
                                         </div>
                                     </div>
                                     <div class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></div>
+                                    <style>
+                                        blockquote.simple {
+                                            overflow: auto;
+                                            display: flex;
+                                            margin: 0;
+                                            padding: 20px 0 10px;
+                                            padding-left: 0;
+                                            border-left: 0;
+                                            text-align: center;
+                                            justify-content: center;
+                                        }
+                                    </style>
                                     <div class="row ">
                                         <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-fade-in animated-active no-extended-padding"
                                             style="padding-top:0.05px;padding-bottom:0.05px;"
@@ -331,210 +343,120 @@
                                                 <div class="cbp-item">
                                                     <blockquote
                                                         class="clearfix small simple post-10255 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                                        <div class="quote-text">
-                                                            <h4 class="quote-summary">"There are
-                                                                Chinese speaking staffs and traditional
-                                                                Chinese decoration, and the food is
-                                                                authentically Cantonese. We had a meal
-                                                                for 10 people and had a really good
-                                                                time." </h4>
-                                                            <div class="quote-thumbnail"><a
-                                                                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                                                    target="_blank" rel="noopener"><img width="25"
-                                                                        height="15"
-                                                                        src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                                        class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                                        alt decoding="async" loading="lazy" /></a></div>
-                                                            <div class="quote-title-wrapper clearfix">
-                                                                <div class="quote-title"><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span>
-                                                                    <p class="the-title">
-                                                                        Legal_itinerant &#8211; Review
-                                                                        from TripAdvisor</p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="quote-content"></div>
-                                                        </div>
+                                                        <span class="yelp-review" data-review-id="0oUQETSuh2uNFfQOf2gLsw"
+                                                            data-hostname="www.yelp.com">Read <a
+                                                                href="https://www.yelp.com/user_details?userid=xPFP7nMaMAV4nahUAk3KWg"
+                                                                rel="nofollow noopener">Jane D.</a>'s <a
+                                                                href="https://www.yelp.com/biz/dumpling-story-san-francisco?hrid=0oUQETSuh2uNFfQOf2gLsw"
+                                                                rel="nofollow noopener">review</a> of <a
+                                                                href="https://www.yelp.com/biz/x0CorPaOx_2o-Pkwqy-B3Q"
+                                                                rel="nofollow noopener">Dumpling Story</a> on <a
+                                                                href="https://www.yelp.com"
+                                                                rel="nofollow noopener">Yelp</a>
+                                                            <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                                                        </span>
                                                     </blockquote>
                                                 </div>
                                                 <div class="cbp-item">
                                                     <blockquote
                                                         class="clearfix small simple post-13643 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                                        <div class="quote-text">
-                                                            <h4 class="quote-summary">"Shang hits high
-                                                                marks for its Cantonese delights. Dimsum
-                                                                offers the standards plus some not so
-                                                                common dishes. Seafood options are
-                                                                plentiful and fresh. Noodles, roasted
-                                                                meats and more are handled with skills
-                                                                from the kitchen. This place is a great
-                                                                find."</h4>
-                                                            <div class="quote-thumbnail"><a
-                                                                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                                                    target="_blank" rel="noopener"><img width="25"
-                                                                        height="15"
-                                                                        src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                                        class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                                        alt decoding="async" loading="lazy" /></a></div>
-                                                            <div class="quote-title-wrapper clearfix">
-                                                                <div class="quote-title"><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span>
-                                                                    <p class="the-title">sunraygrill
-                                                                        &#8211; Review from TripAdvisor
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="quote-content"></div>
-                                                        </div>
+                                                        <span class="yelp-review" data-review-id="x9i0slmX-DQLG9aVmC93UQ"
+                                                            data-hostname="www.yelp.com">Read <a
+                                                                href="https://www.yelp.com/user_details?userid=lnQNavyz-gCqzH3Hc2MJCw"
+                                                                rel="nofollow noopener">Angela Y.</a>'s <a
+                                                                href="https://www.yelp.com/biz/dumpling-story-san-francisco?hrid=x9i0slmX-DQLG9aVmC93UQ"
+                                                                rel="nofollow noopener">review</a> of <a
+                                                                href="https://www.yelp.com/biz/x0CorPaOx_2o-Pkwqy-B3Q"
+                                                                rel="nofollow noopener">Dumpling Story</a> on <a
+                                                                href="https://www.yelp.com"
+                                                                rel="nofollow noopener">Yelp</a>
+                                                            <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                                                        </span>
                                                     </blockquote>
                                                 </div>
                                                 <div class="cbp-item">
-                                                    <blockquote
-                                                        class="clearfix small simple post-13645 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                                        <div class="quote-text">
-                                                            <h4 class="quote-summary">"The menu was
-                                                                pretty extensive with a good spread of
-                                                                dim sum and a-la-carte dishes. The
-                                                                service was impeccable. I came here a
-                                                                few times and am very pleased with all
-                                                                my experiences so far. Bonus for those
-                                                                staying at Norfolk Mansion as residents
-                                                                get further discount."</h4>
-                                                            <div class="quote-thumbnail"><a
-                                                                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                                                    target="_blank" rel="noopener"><img width="25"
-                                                                        height="15"
-                                                                        src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                                        class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                                        alt decoding="async" loading="lazy" /></a></div>
-                                                            <div class="quote-title-wrapper clearfix">
-                                                                <div class="quote-title"><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span>
-                                                                    <p class="the-title">seahew
-                                                                        &#8211; Review from TripAdvisor
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="quote-content"></div>
-                                                        </div>
+                                                    <blockquote class="clearfix small simple post-13645 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
+                                                        <span class="yelp-review" data-review-id="Ij7KsC_e4krxI7lwBwbC3Q"
+                                                            data-hostname="www.yelp.com">Read <a
+                                                                href="https://www.yelp.com/user_details?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                                                rel="nofollow noopener">Stef S.</a>'s <a
+                                                                href="https://www.yelp.com/biz/dumpling-story-san-francisco?hrid=Ij7KsC_e4krxI7lwBwbC3Q"
+                                                                rel="nofollow noopener">review</a> of <a
+                                                                href="https://www.yelp.com/biz/x0CorPaOx_2o-Pkwqy-B3Q"
+                                                                rel="nofollow noopener">Dumpling Story</a> on <a
+                                                                href="https://www.yelp.com"
+                                                                rel="nofollow noopener">Yelp</a>
+                                                            <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                                                        </span>  
                                                     </blockquote>
                                                 </div>
                                                 <div class="cbp-item">
                                                     <blockquote
                                                         class="clearfix small simple post-14264 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                                        <div class="quote-text">
-                                                            <h4 class="quote-summary">"My wife had
-                                                                heard great reviews on this place so we
-                                                                had to try it. I'm glad we made the
-                                                                effort, the best pork belly I have had
-                                                                anywhere in the world. What a melt in
-                                                                the mouth flavour explosion and very
-                                                                generous serves to add. Highly recommend
-                                                                it and would definitely go back again.
-                                                                My only regret is that I wish we had
-                                                                found it on our earlier trips to this
-                                                                magnificent area."</h4>
-                                                            <div class="quote-thumbnail"><a
-                                                                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                                                    target="_blank" rel="noopener"><img width="25"
-                                                                        height="15"
-                                                                        src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                                        class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                                        alt decoding="async" loading="lazy" /></a></div>
-                                                            <div class="quote-title-wrapper clearfix">
-                                                                <div class="quote-title"><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span>
-                                                                    <p class="the-title">dunchue1
-                                                                        &#8211; Review from TripAdvisor
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="quote-content"></div>
-                                                        </div>
+                                                        <span class="yelp-review" data-review-id="Ij7KsC_e4krxI7lwBwbC3Q"
+                                                            data-hostname="www.yelp.com">Read <a
+                                                                href="https://www.yelp.com/user_details?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                                                rel="nofollow noopener">Stef S.</a>'s <a
+                                                                href="https://www.yelp.com/biz/dumpling-story-san-francisco?hrid=Ij7KsC_e4krxI7lwBwbC3Q"
+                                                                rel="nofollow noopener">review</a> of <a
+                                                                href="https://www.yelp.com/biz/x0CorPaOx_2o-Pkwqy-B3Q"
+                                                                rel="nofollow noopener">Dumpling Story</a> on <a
+                                                                href="https://www.yelp.com"
+                                                                rel="nofollow noopener">Yelp</a>
+                                                            <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                                                        </span>
                                                     </blockquote>
                                                 </div>
                                                 <div class="cbp-item">
                                                     <blockquote
                                                         class="clearfix small simple post-14266 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
-                                                        <div class="quote-text">
-                                                            <h4 class="quote-summary">"We are retirees
-                                                                from the Western Hemisphere who are
-                                                                traveling in SE Asia for 6 months. We
-                                                                have eaten dim sum in NYC, San
-                                                                Francisco, Los Angelas, Washington,DC
-                                                                (and suburbs), Baltimore, Texas and
-                                                                elsewhere in the US as well as Mexico,
-                                                                Panama, Singapore, Bangkok and here and
-                                                                we have never had such good dim sum.
-                                                                Everything we ordered arrived piping hot
-                                                                and everything tasted fresh and homemade
-                                                                rather than bulk/machine made. Service
-                                                                was impeccable and we will enjoy it
-                                                                later today as well because we ordered
-                                                                enough to have extra to take away. This
-                                                                was the smartest decision we’ve made
-                                                                this week if not this month. Delicious
-                                                                and we will return."</h4>
-                                                            <div class="quote-thumbnail"><a
-                                                                    href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d5498563-Reviews-Shang_Palace_Cantonese_Restaurant-Ho_Chi_Minh_City.html"
-                                                                    target="_blank" rel="noopener"><img width="25"
-                                                                        height="15"
-                                                                        src="wp-content/uploads/2019/09/shang-palace-tripadvisor-logotype.svg"
-                                                                        class="attachment-thumbnail size-thumbnail wp-post-image"
-                                                                        alt decoding="async" loading="lazy" /></a></div>
-                                                            <div class="quote-title-wrapper clearfix">
-                                                                <div class="quote-title"><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span><span
-                                                                        class="icon shortcode   use-hover"
-                                                                        style="color:#F8DF04;">&#57867;</span>
-                                                                    <p class="the-title">465sharonb
-                                                                        &#8211; Review from TripAdvisor
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="quote-content"></div>
-                                                        </div>
+                                                        <span class="yelp-review" data-review-id="Ij7KsC_e4krxI7lwBwbC3Q"
+                                                            data-hostname="www.yelp.com">Read <a
+                                                                href="https://www.yelp.com/user_details?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                                                rel="nofollow noopener">Stef S.</a>'s <a
+                                                                href="https://www.yelp.com/biz/dumpling-story-san-francisco?hrid=Ij7KsC_e4krxI7lwBwbC3Q"
+                                                                rel="nofollow noopener">review</a> of <a
+                                                                href="https://www.yelp.com/biz/x0CorPaOx_2o-Pkwqy-B3Q"
+                                                                rel="nofollow noopener">Dumpling Story</a> on <a
+                                                                href="https://www.yelp.com"
+                                                                rel="nofollow noopener">Yelp</a>
+                                                            <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                                                        </span>
+                                                    </blockquote>
+                                                </div>
+
+                                                <div class="cbp-item">
+                                                    <blockquote
+                                                        class="clearfix small simple post-14266 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
+                                                        <span class="yelp-review" data-review-id="Ij7KsC_e4krxI7lwBwbC3Q"
+                                                            data-hostname="www.yelp.com">Read <a
+                                                                href="https://www.yelp.com/user_details?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                                                rel="nofollow noopener">Stef S.</a>'s <a
+                                                                href="https://www.yelp.com/biz/dumpling-story-san-francisco?hrid=Ij7KsC_e4krxI7lwBwbC3Q"
+                                                                rel="nofollow noopener">review</a> of <a
+                                                                href="https://www.yelp.com/biz/x0CorPaOx_2o-Pkwqy-B3Q"
+                                                                rel="nofollow noopener">Dumpling Story</a> on <a
+                                                                href="https://www.yelp.com"
+                                                                rel="nofollow noopener">Yelp</a>
+                                                            <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                                                        </span>
+                                                    </blockquote>
+                                                </div>
+                                                <div class="cbp-item">
+                                                    <blockquote
+                                                        class="clearfix small simple post-14266 jetpack-testimonial type-jetpack-testimonial status-publish has-post-thumbnail hentry">
+                                                        <span class="yelp-review" data-review-id="Ij7KsC_e4krxI7lwBwbC3Q"
+                                                            data-hostname="www.yelp.com">Read <a
+                                                                href="https://www.yelp.com/user_details?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                                                rel="nofollow noopener">Stef S.</a>'s <a
+                                                                href="https://www.yelp.com/biz/dumpling-story-san-francisco?hrid=Ij7KsC_e4krxI7lwBwbC3Q"
+                                                                rel="nofollow noopener">review</a> of <a
+                                                                href="https://www.yelp.com/biz/x0CorPaOx_2o-Pkwqy-B3Q"
+                                                                rel="nofollow noopener">Dumpling Story</a> on <a
+                                                                href="https://www.yelp.com"
+                                                                rel="nofollow noopener">Yelp</a>
+                                                            <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
+                                                        </span>
                                                     </blockquote>
                                                 </div>
                                             </div>
