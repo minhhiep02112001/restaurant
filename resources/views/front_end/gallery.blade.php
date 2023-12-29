@@ -312,7 +312,7 @@
                         <div class="textwidget">
                             <div class="row ">
                                 <div class="vamtam-grid grid-1-1 testimonial-section vamtam-first-level grid-1-1  first vamtam-cover-bg has-background unextended no-extended-padding"
-                                    style=" background: url( {{ asset('/images/feedback.jpg') }} ) no-repeat left top;background-size: cover; background-attachment: fixed;padding-top:30px;padding-bottom:30px;"
+                                    style=" background: url( {{ asset('/images/feedback.jpg') }} ) no-repeat left top;background-size: cover; background-attachment: fixed;padding-top:30px;padding-bottom:30px;margin-bottom:30px;"
                                     id="guests_reviews">
                                     <div class="row ">
                                         <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding"
