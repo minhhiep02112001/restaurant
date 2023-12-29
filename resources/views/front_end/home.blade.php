@@ -373,10 +373,7 @@
                                                         id="vamtam-column-b5dfffe6187cb8caea655d88b8ae9b6e">
                                                         <span class="vamtam-blank-space  vamtam-hide-lowres"
                                                             style="height:30px"></span>
-                                                        <p class="textcenter head-resv-desc">Your
-                                                            exceptional Cantonese dining
-                                                            experience<br />
-                                                            in Saigon awaits at Shang Palace.</p>
+                                                        <p class="textcenter head-resv-desc">Your exceptional Chinese dining experience at Dumpling Story.</p>
                                                         <h4 class="textcenter"><strong><span style="color: #a71c20;">(415)
                                                                     829-3664</span></strong></h4>
                                                         <span class="vamtam-blank-space  vamtam-hide-lowres"
