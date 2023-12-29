@@ -5,7 +5,7 @@
         <div class="limit-wrapper">
             <div class="row page-wrapper">
                 <article id="post-16416" class=" post-16416 page type-page status-publish hentry">
-                    <div class="page-content pitoki">
+                    <div class="page-content pitoki" style="margin-bottom: 30px;">
                           
                         <div class="row ">
                             <div class="vamtam-grid grid-1-1 vamtam-add-ornaments-all vamtam-first-level grid-1-1  first has-background unextended no-extended-padding"

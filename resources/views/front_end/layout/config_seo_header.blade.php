@@ -16,11 +16,6 @@
     <meta name="twitter:description"
         content="{{ !empty($SEO['meta_description']) ? replace_title($SEO['meta_description']) : '' }}" />
     <meta name="twitter:image" content="{{ !empty($SEO['image']) ? convertPathImage($SEO['image']) : '' }}" />
-
-    <meta name="robots" content="noindex,nofollow" />
-    <meta name="Googlebot-News" content="noindex,nofollow">
-    {{-- <meta name="robots" content="{{ !empty($SEO['is_robot']) ? 'index, follow' : 'noindex,nofollow' }}" />
-    <meta name="Googlebot-News" content="{{ !empty($SEO['is_robot']) ? 'index, follow' : 'noindex,nofollow' }}"> --}}
 @else
     <title>{{ $config_seo->meta_title ?? '' }}</title>
     <meta name="keyword" content="{{ $config_seo->meta_keyword ?? '' }}">
@@ -36,10 +31,9 @@
     <meta name="twitter:title" content="{{ $config_seo->meta_title ?? '' }}" />
     <meta name="twitter:description" content="{{ $config_seo->meta_description ?? '' }}" />
     <meta name="twitter:image" content="{{ convertPathImage($config_website->logo ?? '') }}" />
-    <meta name="robots" content="noindex,nofollow" />
-    <meta name="Googlebot-News" content="noindex,nofollow">
 @endif
-
+<meta name="robots" content="index,follow" />
+<meta name="Googlebot-News" content="index,follow">
 <link rel="canonical" href="{{ url()->current() }}" />
 <link rel="shortcut icon" sizes="32x32" href="{{ convertPathImage($config_website->favicon ?? '') }}"
     type="images/x-icon">
@@ -48,3 +42,12 @@
 <meta property="fb:admins" content="100036897402369" />
 
 <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X6PXQCT8V9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X6PXQCT8V9');
+</script>

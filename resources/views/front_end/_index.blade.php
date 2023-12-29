@@ -57,7 +57,7 @@
     <script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2" id="jquery-migrate-js">
     </script>
 
- 
+
     <style type="text/css" id="wp-custom-css">
         /* latin-ext */
         @font-face {
@@ -82,6 +82,12 @@
             position: -webkit-sticky;
             position: sticky;
             top: 0;
+        }
+
+        .today {
+            background-color: #ffcccc;
+            /* Màu đỏ */
+            font-weight: bold;
         }
 
         .admin-bar .fixed-header-box {
@@ -143,8 +149,8 @@
                                                 data-lazyload="{{ asset('wp-content/uploads/2023/01/big-bowl-scaled.jpg') }}"
                                                 data-bg="p:right center;" data-parallax="off" class="rev-slidebg"
                                                 data-no-retina>
-                                            <rs-layer id="slider-18-slide-86-layer-1" class="rs-pxl-1"
-                                                data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on"
+                                            <rs-layer id="slider-18-slide-86-layer-1" class="rs-pxl-1" data-type="text"
+                                                data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on"
                                                 data-xy="x:c;xo:-363px,-302px,-126px,-25px;y:m;yo:172px,157px,101px,222px;"
                                                 data-text="w:normal;s:30,30,30,25;l:30,30,30,34;"
                                                 data-dim="w:500px,408px,auto,340px;h:60px,33px,33px,69px;"
@@ -201,11 +207,11 @@
                 <div id="main-content">
                     @yield('content')
                 </div>
-               @include('front_end.layout.footer')
+                @include('front_end.layout.footer')
             </div>
         </div>
     </div>
-    
+
     <div id="scroll-to-top" class="icon">&#59662;</div>
 
 
@@ -350,7 +356,7 @@
                 "; path=/; secure; SameSite=Lax";
         }());
     </script>
-    
+
     <script>
         var htmlDivCss = unescape(
             "%23rev_slider_18_1_wrapper%20.hesperiden.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A1000%3B%0A%20%20%20%20border-radius%3A%2050%25%3B%0A%7D%0A%23rev_slider_18_1_wrapper%20.hesperiden.tparrows%3Ahover%20%7B%0A%09background%3A%23000000%3B%0A%7D%0A%23rev_slider_18_1_wrapper%20.hesperiden.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%27revicons%27%3B%0A%09font-size%3A20px%3B%0A%09color%3A%23ffffff%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A%23rev_slider_18_1_wrapper%20.hesperiden.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%27%5Ce82c%27%3B%0A%20%20%20%20margin-left%3A-3px%3B%0A%7D%0A%23rev_slider_18_1_wrapper%20.hesperiden.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%27%5Ce82d%27%3B%0A%20%20%20%20margin-right%3A-3px%3B%0A%7D%0A%23rev_slider_18_1_wrapper%20.persephone%20.tp-bullet%20%7B%0A%09width%3A4px%3B%0A%09height%3A4px%3B%0A%09position%3Aabsolute%3B%0A%09background%3A%23ffffff%3B%0A%09border%3A1px%20solid%20%23a71c20%3B%09%0A%09cursor%3A%20pointer%3B%0A%09box-sizing%3Acontent-box%3B%0A%7D%0A%23rev_slider_18_1_wrapper%20.persephone%20.tp-bullet%3Ahover%2C%0A%23rev_slider_18_1_wrapper%20.persephone%20.tp-bullet.selected%20%7B%0A%09background%3A%23a71c20%3B%0A%7D%0A%0A%0A"
@@ -364,7 +370,71 @@
             document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
         }
     </script>
+    <script>
+        const calendarBody = document.getElementById("calendar-body");
+        if (calendarBody) {
+            function createCalendar(year, month) {
+                calendarBody.innerHTML = "";
+                const date = new Date(year, month - 1, 1);
+                const daysInMonth = new Date(year, month, 0).getDate();
+                const startingDay = date.getDay() - 1;
+                let row = document.createElement("tr");
+                let day = 1;
+                let monthYearString = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+                document.getElementById('title_calendar').innerHTML = monthYearString; 
+                // Tạo ô trống cho các ngày trước ngày đầu tiên trong tháng
+                for (let i = 0; i < startingDay; i++) {
+                    let cell = document.createElement("td");
+                    cell.textContent = "";
+                    row.appendChild(cell);
+                }
 
+                for (let i = startingDay; i < 7; i++) {
+                    let cell = document.createElement("td");
+                    if (day <= daysInMonth) {
+                        cell.textContent = day;
+                        if (isToday(year, month, day)) {
+                            cell.setAttribute('id', "today"); // Thêm lớp CSS "today" cho ngày hiện tại
+                        }
+                        day++;
+                    }
+                    row.appendChild(cell);
+                }
+
+                calendarBody.appendChild(row);
+
+                // Tạo các dòng tiếp theo cho các ngày còn lại trong tháng
+                while (day <= daysInMonth) {
+                    let newRow = document.createElement("tr");
+                    for (let i = 0; i < 7 && day <= daysInMonth; i++) {
+                        let cell = document.createElement("td");
+                        cell.textContent = day;
+                        if (isToday(year, month, day)) {
+                            cell.setAttribute('id', "today"); // Thêm lớp CSS "today" cho ngày hiện tại
+                        }
+                        day++;
+                        newRow.appendChild(cell);
+                    }
+                    calendarBody.appendChild(newRow);
+                }
+            }
+
+            function isToday(year, month, day) {
+                const currentDate = new Date();
+                return currentDate.getFullYear() === year && currentDate.getMonth() + 1 === month && currentDate
+                    .getDate() === day;
+            }
+
+            // Sử dụng hàm để tạo lịch cho tháng và năm hiện tại (được lấy từ máy tính của người dùng)
+            const currentDate = new Date().toLocaleString("en-US", {
+                timeZone: "America/New_York"
+            });
+            const currentYear = new Date(currentDate).getFullYear();
+            const currentMonth = new Date(currentDate).getMonth() + 1; // Tháng trong JavaScript đếm từ 0
+
+            createCalendar(currentYear, currentMonth);
+        }
+    </script>
 </body>
 
 <!-- Mirrored from shangpalace.thenorfolkgroup.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Dec 2023 15:49:39 GMT -->
