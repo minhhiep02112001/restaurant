@@ -416,146 +416,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row ">
-                            <div class="vamtam-grid grid-1-1 vamtam-add-ornaments-all vamtam-first-level grid-1-1  first has-background unextended no-extended-padding"
-                                style="background-color:#ffffff;padding-top:20px;padding-bottom:20px;"
-                                id="aboutus-section">
-                                <style>
-                                    #aboutus-section,
-                                    #aboutus-section p,
-                                    #aboutus-section em,
-                                    #aboutus-section h1,
-                                    #aboutus-section h2,
-                                    #aboutus-section h3,
-                                    #aboutus-section h4,
-                                    #aboutus-section h5,
-                                    #aboutus-section h6,
-                                    #aboutus-section h1 a:not(:hover),
-                                    #aboutus-section h2 a:not(:hover),
-                                    #aboutus-section h3 a:not(:hover),
-                                    #aboutus-section h4 a:not(:hover),
-                                    #aboutus-section h5 a:not(:hover),
-                                    #aboutus-section h6 a:not(:hover),
-                                    #aboutus-section .column-title,
-                                    #aboutus-section .sep-text h2.regular-title-wrapper,
-                                    #aboutus-section .text-divider-double,
-                                    #aboutus-section .sep-text .sep-text-line,
-                                    #aboutus-section .sep,
-                                    #aboutus-section .sep-2,
-                                    #aboutus-section .sep-3,
-                                    #aboutus-section .portfolio-filters .inner-wrapper .cbp-filter-item,
-                                    #aboutus-section .portfolio-filters .inner-wrapper .cbp-filter-item:hover,
-                                    #aboutus-section .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active,
-                                    #aboutus-section td,
-                                    #aboutus-section th,
-                                    #aboutus-section caption {
-                                        color: #333;
-                                    }
 
-                                    #aboutus-section:before {
-                                        background-color: #fff;
-                                    }
-
-                                    #aboutus-section:after {
-                                        background-color: #fff;
-                                    }
-
-                                    #content_home h1 {
-                                        font-size: 28px;
-                                        line-height: 28px;
-                                    }
-
-                                    #content_home h2 {
-                                        font-size: 25px;
-                                        line-height: 25px;
-                                    }
-
-                                    #content_home h3 {
-                                        font-size: 23px;
-                                        line-height: 23px;
-                                    }
-
-                                    #content_home h4 {
-                                        font-size: 20px;
-                                        line-height: 20px;
-                                    }
-                                    #content_home{
-                                        text-align: justify;
-                                    }
-                                    #content_home p ,#content_home li {
-                                        font-size: 16px;
-                                        line-height: 20px;
-                                    }
-                                </style>
-                                 
-                                <div class="row ">
-                                    <div class="vamtam-grid grid-1-6  grid-1-6  first unextended has-extended-padding"
-                                        style="padding-top:0.05px;padding-bottom:0.05px;"
-                                        id="vamtam-column-48cc56af5d1188a84e64a359ad805f94"></div>
-                                    <div class="vamtam-grid unextended animation-fade-in no-extended-padding animated-active animation-ended"
-                                        style="padding-top:0.05px;padding-bottom:0.05px;" id="content_home">
-                                        {!! $content_home !!}
-                                        <span class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
-
-                                    </div>
-                                </div>
-                                <div class="vamtam-blank-space " style="height:20px"></div>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="vamtam-grid grid-1-1 signature-dishes-section vamtam-first-level grid-1-1 vamtam-add-ornaments-top first vamtam-cover-bg has-background unextended no-extended-padding"
-                                style="background: url('{{ asset('/images/dumpling.jpg') }}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;"
-                                id="menu">
-                                <style>
-                                    #menu,
-                                    #menu p,
-                                    #menu em,
-                                    #menu h1,
-                                    #menu h2,
-                                    #menu h3,
-                                    #menu h4,
-                                    #menu h5,
-                                    #menu h6,
-                                    #menu h1 a:not(:hover),
-                                    #menu h2 a:not(:hover),
-                                    #menu h3 a:not(:hover),
-                                    #menu h4 a:not(:hover),
-                                    #menu h5 a:not(:hover),
-                                    #menu h6 a:not(:hover),
-                                    #menu .column-title,
-                                    #menu .sep-text h2.regular-title-wrapper,
-                                    #menu .text-divider-double,
-                                    #menu .sep-text .sep-text-line,
-                                    #menu .sep,
-                                    #menu .sep-2,
-                                    #menu .sep-3,
-                                    #menu .portfolio-filters .inner-wrapper .cbp-filter-item,
-                                    #menu .portfolio-filters .inner-wrapper .cbp-filter-item:hover,
-                                    #menu .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active,
-                                    #menu td,
-                                    #menu th,
-                                    #menu caption {
-                                        color: #fff;
-                                    }
-
-                                    #menu:before {
-                                        background-color: #4a4a4a;
-                                    }
-                                </style>
-                                <div class="vamtam-blank-space " style="height:150px"></div>
-                                <div class="row ">
-                                    <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-from-bottom animated-active no-extended-padding"
-                                        style="padding-top:0.05px;padding-bottom:0.05px;"
-                                        id="vamtam-column-9773a3e98d0ea7f51c17093d36804f5f">
-                                        <h2 class="text-divider-double">
-                                            Signature Dishes
-                                        </h2>
-                                        <div class="sep"></div>
-                                    </div>
-                                </div>
-                                <div class="vamtam-blank-space " style="height:130px"></div>
-                            </div>
-                        </div>
                         <div class="row ">
                             <div class="vamtam-grid grid-1-1 menu-slider vamtam-first-level grid-1-1  first has-background unextended no-extended-padding"
                                 style="background-color:#F5F3F0;padding-top:80px;padding-bottom:80px;"
@@ -834,6 +695,149 @@
 
                             </div>
                         </div>
+
+                        <div class="row ">
+                            <div class="vamtam-grid grid-1-1 vamtam-add-ornaments-all vamtam-first-level grid-1-1  first has-background unextended no-extended-padding"
+                                style="background-color:#ffffff;padding-top:20px;padding-bottom:20px;"
+                                id="aboutus-section">
+                                <style>
+                                    #aboutus-section,
+                                    #aboutus-section p,
+                                    #aboutus-section em,
+                                    #aboutus-section h1,
+                                    #aboutus-section h2,
+                                    #aboutus-section h3,
+                                    #aboutus-section h4,
+                                    #aboutus-section h5,
+                                    #aboutus-section h6,
+                                    #aboutus-section h1 a:not(:hover),
+                                    #aboutus-section h2 a:not(:hover),
+                                    #aboutus-section h3 a:not(:hover),
+                                    #aboutus-section h4 a:not(:hover),
+                                    #aboutus-section h5 a:not(:hover),
+                                    #aboutus-section h6 a:not(:hover),
+                                    #aboutus-section .column-title,
+                                    #aboutus-section .sep-text h2.regular-title-wrapper,
+                                    #aboutus-section .text-divider-double,
+                                    #aboutus-section .sep-text .sep-text-line,
+                                    #aboutus-section .sep,
+                                    #aboutus-section .sep-2,
+                                    #aboutus-section .sep-3,
+                                    #aboutus-section .portfolio-filters .inner-wrapper .cbp-filter-item,
+                                    #aboutus-section .portfolio-filters .inner-wrapper .cbp-filter-item:hover,
+                                    #aboutus-section .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active,
+                                    #aboutus-section td,
+                                    #aboutus-section th,
+                                    #aboutus-section caption {
+                                        color: #333;
+                                    }
+
+                                    #aboutus-section:before {
+                                        background-color: #fff;
+                                    }
+
+                                    #aboutus-section:after {
+                                        background-color: #fff;
+                                    }
+
+                                    #content_home h1 {
+                                        font-size: 28px;
+                                        line-height: 28px;
+                                    }
+
+                                    #content_home h2 {
+                                        font-size: 25px;
+                                        line-height: 25px;
+                                    }
+
+                                    #content_home h3 {
+                                        font-size: 23px;
+                                        line-height: 23px;
+                                    }
+
+                                    #content_home h4 {
+                                        font-size: 20px;
+                                        line-height: 20px;
+                                    }
+                                    #content_home{
+                                        text-align: justify;
+                                    }
+                                    #content_home p ,#content_home li {
+                                        font-size: 16px;
+                                        line-height: 20px;
+                                    }
+                                </style>
+                                 
+                                <div class="row ">
+                                    <div class="vamtam-grid grid-1-6  grid-1-6  first unextended has-extended-padding"
+                                        style="padding-top:0.05px;padding-bottom:0.05px;"
+                                        id="vamtam-column-48cc56af5d1188a84e64a359ad805f94"></div>
+                                    <div class="vamtam-grid unextended animation-fade-in no-extended-padding animated-active animation-ended"
+                                        style="padding-top:0.05px;padding-bottom:0.05px;" id="content_home">
+                                        {!! $content_home !!}
+                                        <span class="vamtam-blank-space  vamtam-hide-lowres" style="height:10px"></span>
+
+                                    </div>
+                                </div>
+                                <div class="vamtam-blank-space " style="height:20px"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="row ">
+                            <div class="vamtam-grid grid-1-1 signature-dishes-section vamtam-first-level grid-1-1 vamtam-add-ornaments-top first vamtam-cover-bg has-background unextended no-extended-padding"
+                                style="background: url('{{ asset('/images/dumpling.jpg') }}') no-repeat left bottom;background-size: cover;background-attachment: fixed;background-color:#4a4a4a;padding-top:0.05px;padding-bottom:0.05px;"
+                                id="menu">
+                                <style>
+                                    #menu,
+                                    #menu p,
+                                    #menu em,
+                                    #menu h1,
+                                    #menu h2,
+                                    #menu h3,
+                                    #menu h4,
+                                    #menu h5,
+                                    #menu h6,
+                                    #menu h1 a:not(:hover),
+                                    #menu h2 a:not(:hover),
+                                    #menu h3 a:not(:hover),
+                                    #menu h4 a:not(:hover),
+                                    #menu h5 a:not(:hover),
+                                    #menu h6 a:not(:hover),
+                                    #menu .column-title,
+                                    #menu .sep-text h2.regular-title-wrapper,
+                                    #menu .text-divider-double,
+                                    #menu .sep-text .sep-text-line,
+                                    #menu .sep,
+                                    #menu .sep-2,
+                                    #menu .sep-3,
+                                    #menu .portfolio-filters .inner-wrapper .cbp-filter-item,
+                                    #menu .portfolio-filters .inner-wrapper .cbp-filter-item:hover,
+                                    #menu .portfolio-filters .inner-wrapper .cbp-filter-item.cbp-filter-item-active,
+                                    #menu td,
+                                    #menu th,
+                                    #menu caption {
+                                        color: #fff;
+                                    }
+
+                                    #menu:before {
+                                        background-color: #4a4a4a;
+                                    }
+                                </style>
+                                <div class="vamtam-blank-space " style="height:150px"></div>
+                                <div class="row ">
+                                    <div class="vamtam-grid grid-1-1  grid-1-1  first unextended animation-from-bottom animated-active no-extended-padding"
+                                        style="padding-top:0.05px;padding-bottom:0.05px;"
+                                        id="vamtam-column-9773a3e98d0ea7f51c17093d36804f5f">
+                                        <h2 class="text-divider-double">
+                                            Signature Dishes
+                                        </h2>
+                                        <div class="sep"></div>
+                                    </div>
+                                </div>
+                                <div class="vamtam-blank-space " style="height:130px"></div>
+                            </div>
+                        </div>
+                        
                         <div class="row ">
                             <div class="vamtam-grid grid-1-1 vamtam-add-ornaments-all vamtam-first-level grid-1-1  first has-background unextended no-extended-padding"
                                 style="background-color:#ffffff;padding-top:20px;padding-bottom:20px;"
