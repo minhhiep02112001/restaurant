@@ -160,10 +160,10 @@
                                             data-adaptive-image-880-img="<img class=&quot;adaptive-image image-style-press-video&quot; data-adaptive-image-breakpoint=&quot;880&quot; src=&quot;https://www.pandarg.com/sites/default/files/styles/press_video/public/default_images/prg-default.jpg?itok=vHugYGl5&quot; width=&quot;214&quot; height=&quot;123&quot; alt=&quot;&quot; />"
                                             data-adaptive-image-max-img="<img class=&quot;adaptive-image image-style-none&quot; data-adaptive-image-breakpoint=&quot;max&quot; src=&quot;{{asset('images/prg-default.jpg')}}&quot; alt=&quot;&quot; />"><img
                                                 class="image-style-none"
-                                                src="{{asset('images/prg-default.jpg')}}"
+                                                src="{{asset('images/contact.jpg')}}"
                                                 alt="" /></noscript><img class="adaptive-image image-style-none"
                                             data-adaptive-image-breakpoint="max"
-                                            src="{{asset('images/prg-default.jpg')}}"
+                                            src="{{asset('images/contact.jpg')}}"
                                             alt="">
                                     </figure>
                                 </div>
