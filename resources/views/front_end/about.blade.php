@@ -2049,12 +2049,12 @@
                                                                     id="img_comp-k3c1s1qj" class="HlRz5e BI8PVQ"
                                                                     data-image-info="{&quot;containerId&quot;:&quot;comp-k3c1s1qj&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:664,&quot;targetHeight&quot;:612,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1112,&quot;height&quot;:1500,&quot;uri&quot;:&quot;89560e_c88b9d20ffdb495dbc52d9795d08b327~mv2.jpg&quot;,&quot;name&quot;:&quot;IMG_5656.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
                                                                     data-bg-effect-name="" data-has-ssr-src=""
-                                                                    data-src="{{ asset('images/IMG_5656.webp') }}"><img
-                                                                        src="{{ asset('images/IMG_5656.webp') }}"
+                                                                    data-src="{{ asset('images/contact-us-1.jpg') }}"><img
+                                                                        src="{{ asset('images/contact-us-1.jpg') }}"
                                                                         alt="IMG_5656.jpg"
                                                                         style="width:664px;height:612px;object-fit:cover"
                                                                         width="664" height="612"
-                                                                        srcset="{{ asset('images/IMG_5656.webp') }}"
+                                                                        srcset="{{ asset('images/contact-us-1.jpg') }}"
                                                                         fetchpriority="high"></wow-image></div>
                                                         </div>
                                                     </div>
