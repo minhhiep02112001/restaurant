@@ -381,7 +381,7 @@
                 let row = document.createElement("tr");
                 let day = 1;
                 let monthYearString = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
-                document.getElementById('title_calendar').html(monthYearString); 
+                document.getElementById('title_calendar').innerHTML(monthYearString); 
                 // Tạo ô trống cho các ngày trước ngày đầu tiên trong tháng
                 for (let i = 0; i < startingDay; i++) {
                     let cell = document.createElement("td");
