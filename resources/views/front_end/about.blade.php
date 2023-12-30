@@ -2,62 +2,172 @@
 @section('css')
 @endsection
 @section('content')
-<div class="Content-outer">
+    <article class="sections" id="sections" data-page-sections="5fcc0c180ab5d62febdf1775">
 
-    <section class="Intro Intro--has-image" data-parallax-original-element=""
-        data-parallax-id="5c4a4aeec74c50054eab7ff4" data-controller="Parallax" data-controllers-bound="Parallax">
-        <div class="sqs-layout sqs-grid-12 columns-12 Intro-content sqs-alternate-block-style-container empty"
-            data-layout-label="Intro" data-type="block-field" id="5c4a4aeec74c50054eab7ff4_intro"
-            style="margin-top: 228px;">
-            <div class="row sqs-row">
-                <div class="col sqs-col-12 span-12"></div>
+
+
+
+
+
+
+
+
+        <section data-test="page-section" data-section-theme="black"
+            class='page-section 
+        
+          layout-engine-section
+        
+        background-width--inset
+        
+          section-height--large
+        
+        
+          content-width--medium
+        
+        horizontal-alignment--center
+        vertical-alignment--middle
+        
+           has-background
+        
+        
+        black'
+            data-section-id="5fcc0c180ab5d62febdf177c" data-controller="SectionWrapperController"
+            data-current-styles="{
+                              &quot;backgroundImage&quot;: {
+                                &quot;id&quot;: &quot;61737ae94cc4120856c7a38c&quot;,
+                                &quot;recordType&quot;: 2,
+                                &quot;addedOn&quot;: 1634958057044,
+                                &quot;updatedOn&quot;: 1634958057071,
+                                &quot;workflowState&quot;: 1,
+                                &quot;publishOn&quot;: 1634958057044,
+                                &quot;authorId&quot;: &quot;5fcafa158a73023da8322ea6&quot;,
+                                &quot;systemDataId&quot;: &quot;1b96d184-1b14-48b0-bc79-7fb34e15dace&quot;,
+                                &quot;systemDataVariants&quot;: &quot;4032x3024,100w,300w,500w,750w,1000w,1500w,2500w&quot;,
+                                &quot;systemDataSourceType&quot;: &quot;JPG&quot;,
+                                &quot;filename&quot;: &quot;20190809_134420.jpg&quot;,
+                                &quot;mediaFocalPoint&quot;: {
+                                  &quot;x&quot;: 0.5,
+                                  &quot;y&quot;: 0.5,
+                                  &quot;source&quot;: 3
+                                },
+                                &quot;colorData&quot;: {
+                                  &quot;topLeftAverage&quot;: &quot;61361d&quot;,
+                                  &quot;topRightAverage&quot;: &quot;c8884f&quot;,
+                                  &quot;bottomLeftAverage&quot;: &quot;6b4c3a&quot;,
+                                  &quot;bottomRightAverage&quot;: &quot;273336&quot;,
+                                  &quot;centerAverage&quot;: &quot;5f4536&quot;,
+                                  &quot;suggestedBgColor&quot;: &quot;705a4b&quot;
+                                },
+                                &quot;urlId&quot;: &quot;guataui8e9fum2ibuq10pqmd0iwojs&quot;,
+                                &quot;title&quot;: &quot;&quot;,
+                                &quot;body&quot;: null,
+                                &quot;likeCount&quot;: 0,
+                                &quot;commentCount&quot;: 0,
+                                &quot;publicCommentCount&quot;: 0,
+                                &quot;commentState&quot;: 2,
+                                &quot;unsaved&quot;: false,
+                                &quot;author&quot;: {
+                                  &quot;id&quot;: &quot;5fcafa158a73023da8322ea6&quot;,
+                                  &quot;displayName&quot;: &quot;mison kang&quot;,
+                                  &quot;firstName&quot;: &quot;mison&quot;,
+                                  &quot;lastName&quot;: &quot;kang&quot;,
+                                  &quot;avatarUrl&quot;: &quot;https://static1.squarespace.com/static/images/5fcafa151d5e931e46044f6e&quot;,
+                                  &quot;bio&quot;: &quot;&quot;,
+                                  &quot;avatarAssetUrl&quot;: &quot;https://static1.squarespace.com/static/images/5fcafa151d5e931e46044f6e&quot;
+                                },
+                                &quot;assetUrl&quot;: &quot;https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg&quot;,
+                                &quot;contentType&quot;: &quot;image/jpeg&quot;,
+                                &quot;items&quot;: [ ],
+                                &quot;pushedServices&quot;: { },
+                                &quot;pendingPushedServices&quot;: { },
+                                &quot;recordTypeLabel&quot;: &quot;image&quot;,
+                                &quot;originalSize&quot;: &quot;4032x3024&quot;
+                              },
+                              &quot;imageOverlayOpacity&quot;: 0.15,
+                              &quot;backgroundWidth&quot;: &quot;background-width--inset&quot;,
+                              &quot;sectionHeight&quot;: &quot;section-height--large&quot;,
+                              &quot;customSectionHeight&quot;: 85,
+                              &quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+                              &quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+                              &quot;contentWidth&quot;: &quot;content-width--medium&quot;,
+                              &quot;sectionTheme&quot;: &quot;black&quot;,
+                              &quot;sectionAnimation&quot;: &quot;none&quot;,
+                              &quot;backgroundMode&quot;: &quot;image&quot;
+                            }"
+            data-current-context="{
+                              &quot;video&quot;: {
+                                &quot;playbackSpeed&quot;: 0.5,
+                                &quot;filter&quot;: 1,
+                                &quot;filterStrength&quot;: 0,
+                                &quot;zoom&quot;: 0,
+                                &quot;videoSourceProvider&quot;: &quot;none&quot;
+                              },
+                              &quot;backgroundImageId&quot;: null,
+                              &quot;backgroundMediaEffect&quot;: null,
+                              &quot;divider&quot;: null,
+                              &quot;typeName&quot;: &quot;page&quot;
+                            }"
+            data-animation="none">
+            <div class="section-border">
+                <div class="section-background">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <img alt=""
+                        data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg"
+                        data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg"
+                        data-image-dimensions="4032x3024" data-image-focal-point="0.5,0.5" alt="20190809_134420.jpg"
+                        data-load="false"
+                        src="../images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg"
+                        width="4032" height="3024" alt="" sizes="(max-width: 799px) 200vw, 100vw"
+                        style="display:block;object-position: 50% 50%"
+                        srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1b96d184-1b14-48b0-bc79-7fb34e15dace/20190809_134420.jpg?format=2500w 2500w"
+                        fetchpriority="high" loading="eager" decoding="async" data-loader="sqs">
+
+
+
+
+
+                    <div class="section-background-overlay" style="opacity: 0.15;"></div>
+
+
+                </div>
             </div>
-        </div>
+            <div class='content-wrapper'>
+                <div class="content">
 
-    </section>
 
-    <main class="Main Main--page">
 
-        <section class="Main-content" data-content-field="main-content">
-            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1585698960473"
-                id="page-5c4a4aeec74c50054eab7ff4">
-                <div class="row sqs-row">
-                    <div class="col sqs-col-12 span-12">
-                        <div class="sqs-block html-block sqs-block-html" data-block-type="2"
-                            id="block-58b601adc534a5de912b2a96">
-                            <div class="sqs-block-content">
 
-                                <div class="sqs-html-content">
-                                    <p style="text-align:center;white-space:pre-wrap;" class="">At Kook, we are
-                                        <strong>CRAZY</strong> about<strong> BBQ</strong> and we are here to set a new
-                                        standard to your Korean BBQ experience. Serving only premium meats, every table
-                                        is equipped with the Rolls-Royce<br>of smokeless grills (Shinpo Systems).&nbsp;
-                                        The restaurant is perfectly air balanced with the best ventilation system to
-                                        ensure you smell the same way you came in.&nbsp;</p>
-                                    <p style="text-align:center;white-space:pre-wrap;" class="">We want to ensure
-                                        that we please your eyes as much as your taste buds.&nbsp; Our interior design
-                                        is themed around the ancient five core elements (Gold, wood, water, fire,
-                                        earth). From our golden ring of banchan to the cherry wood bench you are sitting
-                                        on, you will find this theme throughout our restaurant. Let our energy channel
-                                        your inner chef to take control and cook, or simply sit back and let our BBQ
-                                        experts take over.</p>
-                                    <p style="text-align:center;white-space:pre-wrap;" class="">Our dedicated team
-                                        is here to serve you with one goal in mind:<br><strong><em>“A Korean BBQ dining
-                                                experience you won’t soon forget!”</em></strong></p>
+
+
+                    <div class="sqs-layout sqs-grid-12 columns-12" data-type="page-section"
+                        id="page-section-5fcc0c180ab5d62febdf177c">
+                        <div class="row sqs-row">
+                            <div class="col sqs-col-12 span-12">
+                                <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21"
+                                    id="block-1a9e43cf1ee411f86667">
+                                    <div class="sqs-block-content">&nbsp;</div>
                                 </div>
-
                             </div>
                         </div>
-                        <div class="sqs-block gallery-block sqs-block-gallery"
-                            data-block-json="{&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;methodOption&quot;:&quot;transient&quot;,&quot;existingGallery&quot;:null,&quot;newWindow&quot;:false,&quot;aspect-ratio&quot;:&quot;square&quot;,&quot;aspectRatio&quot;:null,&quot;auto-crop&quot;:true,&quot;blockAnimation&quot;:&quot;none&quot;,&quot;collectionId&quot;:&quot;5c4a4aefc74c50054eab7ff6&quot;,&quot;design&quot;:&quot;grid&quot;,&quot;lightbox&quot;:false,&quot;padding&quot;:24,&quot;show-meta&quot;:true,&quot;show-meta-basic&quot;:true,&quot;show-meta-only-title&quot;:false,&quot;show-meta-only-description&quot;:false,&quot;square-thumbs&quot;:true,&quot;thumbnails-per-row&quot;:3,&quot;vSize&quot;:null,&quot;transientGalleryId&quot;:&quot;5c4a4aefc74c50054eab7ff6&quot;}"
-                            data-block-type="8" id="block-7e2010f95b3721a3bea8">
-                            <div class="sqs-block-content">
+                    </div>
+                </div>
 
-                                <div class="
-sqs-gallery-container
-sqs-gallery-block-grid
-sqs-gallery-aspect-ratio-square
-sqs-gallery-thumbnails-per-row-3
+            </div>
+
+        </section>
 
 
 
@@ -65,135 +175,681 @@ sqs-gallery-thumbnails-per-row-3
 
 
 
-sqs-gallery-block-show-meta
+
+
+        <section data-test="page-section" data-section-theme=""
+            class='page-section 
+        
+          layout-engine-section
+        
+        background-width--full-bleed
+        
+          section-height--small
+        
+        
+          content-width--narrow
+        
+        horizontal-alignment--center
+        vertical-alignment--middle
+        
+          
+        
+        
+        '
+            data-section-id="5fcc0c180ab5d62febdf177a" data-controller="SectionWrapperController"
+            data-current-styles="{
+                              &quot;imageOverlayOpacity&quot;: 0.15,
+                              &quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+                              &quot;sectionHeight&quot;: &quot;section-height--small&quot;,
+                              &quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+                              &quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+                              &quot;contentWidth&quot;: &quot;content-width--narrow&quot;,
+                              &quot;sectionTheme&quot;: &quot;&quot;,
+                              &quot;sectionAnimation&quot;: &quot;none&quot;,
+                              &quot;backgroundMode&quot;: &quot;image&quot;
+                            }"
+            data-current-context="{
+                              &quot;video&quot;: {
+                                &quot;playbackSpeed&quot;: 0.5,
+                                &quot;filter&quot;: 1,
+                                &quot;filterStrength&quot;: 0,
+                                &quot;zoom&quot;: 0,
+                                &quot;videoSourceProvider&quot;: &quot;none&quot;
+                              },
+                              &quot;backgroundImageId&quot;: null,
+                              &quot;backgroundMediaEffect&quot;: null,
+                              &quot;divider&quot;: null,
+                              &quot;typeName&quot;: &quot;page&quot;
+                            }"
+            data-animation="none">
+            <div class="section-border">
+                <div class="section-background">
+
+
+
+                </div>
+            </div>
+            <div class='content-wrapper'>
+                <div class="content">
 
 
 
 
 
 
+                    <div class="sqs-layout sqs-grid-12 columns-12" data-type="page-section"
+                        id="page-section-5fcc0c180ab5d62febdf177a">
+                        <div class="row sqs-row">
+                            <div class="col sqs-col-12 span-12">
+                                <div class="sqs-block html-block sqs-block-html" data-block-type="2"
+                                    id="block-3895f150bb1c68f8c4bd">
+                                    <div class="sqs-block-content">
 
-block-animation-none
-clear" id="yui_3_17_2_1_1703779581108_308">
-                                    <div class="sqs-gallery sqs-gallery-design-grid"
-                                        id="yui_3_17_2_1_1703779581108_325">
-
-                                        <div class="slide sqs-gallery-design-grid-slide sqs-active-slide"
-                                            data-type="image" data-animation-role="image"
-                                            id="yui_3_17_2_1_1703779581108_357">
-                                            <div class="margin-wrapper">
-
-                                                <a role="presentation" class="
-    image-slide-anchor
-    
-    content-fill
-  " style="overflow: hidden;">
-
-                                                    <noscript><img
-                                                            src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974816448-1RQWCZVOIE9T1NYPGCKD/Kook-3.jpg"
-                                                            alt="Kook-3.jpg"></noscript><img class="thumb-image loaded"
-                                                        data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974816448-1RQWCZVOIE9T1NYPGCKD/Kook-3.jpg"
-                                                        data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974816448-1RQWCZVOIE9T1NYPGCKD/Kook-3.jpg"
-                                                        data-image-dimensions="2500x1669"
-                                                        data-image-focal-point="0.8435374149659864,0.9956422144052933"
-                                                        data-load="false" data-image-id="5c537a8b9b747a40b6972f3b"
-                                                        data-type="image"
-                                                        style="left: -217.584px; top: -5.68434e-14px; width: 654.584px; height: 437px; position: relative;"
-                                                        data-parent-ratio="1.0" alt="Kook-3.jpg"
-                                                        data-image-resolution="1000w"
-                                                        src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974816448-1RQWCZVOIE9T1NYPGCKD/Kook-3.jpg?format=1000w">
-                                                </a>
-
-                                            </div>
+                                        <div class="sqs-html-content">
+                                            <h2 style="text-align:center;">family-owned business</h2>
+                                            <p style="text-align:center;" class="">Starting a
+                                                restaurant from the ground up has been Mison’s, the owner’s, dream for
+                                                almost 30 years. Over the decades, Mison has both accumulated much
+                                                experience in restaurant business (as both a worker and owner). However, our
+                                                restaurant had barely begun opening its doors before having to close due to
+                                                COVID regulations and lockdowns. With their determination, knowledge, and
+                                                conviction, they work towards making this business the best they can. </p>
+                                            <p style="text-align:center;" class="">This family
+                                                thanks all those who’ve helped and supported us. We could never have
+                                                achieved this without you all. </p>
+                                            <p class="" data-rte-preserve-empty="true" style="">
+                                            </p>
+                                            <p style="text-align:center;" class="">Thank you.</p>
                                         </div>
 
-                                        <div class="slide sqs-gallery-design-grid-slide" data-type="image"
-                                            data-animation-role="image" id="yui_3_17_2_1_1703779581108_358">
-                                            <div class="margin-wrapper">
 
-                                                <a role="presentation" class="
-    image-slide-anchor
-    
-    content-fill
-  " style="overflow: hidden;">
 
-                                                    <noscript><img
-                                                            src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974837193-87CAWOHU8D95L2VRHM3Z/IMG_1760.jpg"
-                                                            alt="IMG_1760.jpg"></noscript><img
-                                                        class="thumb-image loaded"
-                                                        data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974837193-87CAWOHU8D95L2VRHM3Z/IMG_1760.jpg"
-                                                        data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974837193-87CAWOHU8D95L2VRHM3Z/IMG_1760.jpg"
-                                                        data-image-dimensions="2500x3333"
-                                                        data-image-focal-point="0.5148673317649147,0.7074829931972789"
-                                                        data-load="false" data-image-id="5c537abaeb39317db9fca5e1"
-                                                        data-type="image"
-                                                        style="left: 0px; top: -145.608px; width: 437px; height: 582.608px; position: relative;"
-                                                        data-parent-ratio="1.0" alt="IMG_1760.jpg"
-                                                        data-image-resolution="750w"
-                                                        src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974837193-87CAWOHU8D95L2VRHM3Z/IMG_1760.jpg?format=750w">
-                                                </a>
 
-                                            </div>
-                                        </div>
 
-                                        <div class="slide sqs-gallery-design-grid-slide" data-type="image"
-                                            data-animation-role="image" id="yui_3_17_2_1_1703779581108_359">
-                                            <div class="margin-wrapper">
 
-                                                <a role="presentation" class="
-    image-slide-anchor
-    
-    content-fill
-  " style="overflow: hidden;">
 
-                                                    <noscript><img
-                                                            src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974711534-241MYAVGOIRZMGG4WN8Q/IMG_1752.jpg"
-                                                            alt="IMG_1752.jpg"></noscript><img
-                                                        class="thumb-image loaded"
-                                                        data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974711534-241MYAVGOIRZMGG4WN8Q/IMG_1752.jpg"
-                                                        data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974711534-241MYAVGOIRZMGG4WN8Q/IMG_1752.jpg"
-                                                        data-image-dimensions="2500x1874"
-                                                        data-image-focal-point="0.5374149659863946,0.6691289728338068"
-                                                        data-load="false" data-image-id="5c537a459140b7f226bea98b"
-                                                        data-type="image"
-                                                        style="left: -94.8009px; top: 0px; width: 582.978px; height: 437px; position: relative;"
-                                                        data-parent-ratio="1.0" alt="IMG_1752.jpg"
-                                                        data-image-resolution="750w"
-                                                        src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548974711534-241MYAVGOIRZMGG4WN8Q/IMG_1752.jpg?format=750w">
-                                                </a>
 
-                                            </div>
-                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                                     </div>
-
                                 </div>
-
-                                <style type="text/css" id="design-grid-css">
-                                    #block-7e2010f95b3721a3bea8 .sqs-gallery-block-grid .sqs-gallery-design-grid {
-                                        margin-right: -24px;
-                                    }
-
-                                    #block-7e2010f95b3721a3bea8 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper {
-                                        margin-right: 24px;
-                                        margin-bottom: 24px;
-                                    }
-                                </style>
-
                             </div>
                         </div>
-                        <div class="sqs-block button-block sqs-block-button" data-block-type="53"
-                            id="block-yui_3_17_2_14_1488316984327_48994">
-                            <div class="sqs-block-content" id="yui_3_17_2_1_1703779581108_302">
+                    </div>
+                </div>
 
-                                <div class="sqs-block-button-container sqs-block-button-container--center"
-                                    data-animation-role="button" data-alignment="center" data-button-size="medium"
-                                    data-button-type="primary" id="yui_3_17_2_1_1703779581108_301">
-                                    <a href="/kookbbqmenu"
-                                        class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element"
-                                        data-initialized="true">
-                                        View Menus
-                                    </a>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section data-test="page-section" data-section-theme="dark"
+            class='page-section 
+        
+          layout-engine-section
+        
+        background-width--full-bleed
+        
+          section-height--medium
+        
+        
+          content-width--wide
+        
+        horizontal-alignment--center
+        vertical-alignment--middle
+        
+          
+        
+        
+        dark'
+            data-section-id="5fcc502f2bc7884852a9c273" data-controller="SectionWrapperController"
+            data-current-styles="{
+                              &quot;imageOverlayOpacity&quot;: 0.15,
+                              &quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+                              &quot;sectionHeight&quot;: &quot;section-height--medium&quot;,
+                              &quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+                              &quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+                              &quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+                              &quot;sectionTheme&quot;: &quot;dark&quot;,
+                              &quot;sectionAnimation&quot;: &quot;none&quot;,
+                              &quot;backgroundMode&quot;: &quot;image&quot;
+                            }"
+            data-current-context="{
+                              &quot;video&quot;: {
+                                &quot;playbackSpeed&quot;: 0.5,
+                                &quot;filter&quot;: 1,
+                                &quot;filterStrength&quot;: 0,
+                                &quot;zoom&quot;: 0,
+                                &quot;videoSourceProvider&quot;: &quot;none&quot;
+                              },
+                              &quot;backgroundImageId&quot;: null,
+                              &quot;backgroundMediaEffect&quot;: null,
+                              &quot;divider&quot;: null,
+                              &quot;typeName&quot;: &quot;page&quot;
+                            }"
+            data-animation="none">
+            <div class="section-border">
+                <div class="section-background">
+
+
+
+                </div>
+            </div>
+            <div class='content-wrapper'>
+                <div class="content">
+
+
+
+
+
+
+                    <div class="sqs-layout sqs-grid-12 columns-12" data-type="page-section"
+                        id="page-section-5fcc502f2bc7884852a9c273">
+                        <div class="row sqs-row">
+                            <div class="col sqs-col-12 span-12">
+                                <div class="sqs-block html-block sqs-block-html" data-block-type="2"
+                                    id="block-3ea76d349dbde236921a">
+                                    <div class="sqs-block-content">
+
+                                        <div class="sqs-html-content">
+                                            <h2 style="text-align:center;">our story</h2>
+                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21"
+                                    id="block-7ed9db20394c33a989fd">
+                                    <div class="sqs-block-content">&nbsp;</div>
+                                </div>
+                                <div class="sqs-block image-block sqs-block-image" data-block-type="5"
+                                    id="block-d8d900bdaaf8abca27d7">
+                                    <div class="sqs-block-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <div class="
+                sqs-block-image-div
+                image-block-outer-wrapper
+                image-block-v2
+                design-layout-collage
+                combination-animation-none
+                individual-animation-none
+                individual-text-animation-none
+                image-position-left
+                
+              "
+                                            data-scrolled data-test="image-block-v2-outer-wrapper">
+
+                                            <div class="intrinsic">
+
+                                                <div class="
+                    
+                    image-inset"
+                                                    data-animation-role="image" data-description="">
+                                                    <div class="sqs-image-shape-container-element
+                  
+                    content-fit
+                  
+                "
+                                                        style="
+                  position: relative;
+                  overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                  
+                ">
+
+
+
+
+
+
+
+
+                                                        <img data-stretch="false"
+                                                            data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg"
+                                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg"
+                                                            data-image-dimensions="2500x1875"
+                                                            data-image-focal-point="0.5,0.5" alt="20190227_213524.jpg"
+                                                            data-load="false" elementtiming="system-image-block"
+                                                            src="../images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg"
+                                                            width="2500" height="1875" alt=""
+                                                            sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw"
+                                                            style="display:block;object-fit: contain;"
+                                                            onload="this.classList.add(&quot;loaded&quot;)"
+                                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607225481994-MEUDNL5MO08U6C7DEWI9/20190227_213524.jpg?format=2500w 2500w"
+                                                            loading="lazy" decoding="async" data-loader="sqs">
+
+
+                                                        <div class="image-overlay"
+                                                            style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                            <figcaption class="image-card-wrapper" data-width-ratio>
+                                                <div class="image-card sqs-dynamic-text-container">
+
+
+                                                    <div class="image-title-wrapper">
+                                                        <div class="image-title sqs-dynamic-text">
+                                                            <h3 style="">Dream to reality</h3>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="image-subtitle-wrapper">
+                                                        <div class="image-subtitle sqs-dynamic-text">
+                                                            <p class="" style="">Every day was
+                                                                another step closer to finally achieving what we’d spent
+                                                                months planning. Korean food was hard, if not impossible, to
+                                                                find in King County. And now we could have a centrally
+                                                                located cultural restaurant right at our doorsteps. </p>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                </div>
+                                            </figcaption>
+
+
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21"
+                                    id="block-138233e994efab74964c">
+                                    <div class="sqs-block-content">&nbsp;</div>
+                                </div>
+                                <div class="sqs-block image-block sqs-block-image" data-block-type="5"
+                                    id="block-c9c463ba56fb763e008b">
+                                    <div class="sqs-block-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <div class="
+                sqs-block-image-div
+                image-block-outer-wrapper
+                image-block-v2
+                design-layout-collage
+                combination-animation-none
+                individual-animation-none
+                individual-text-animation-none
+                image-position-right
+                
+              "
+                                            data-scrolled data-test="image-block-v2-outer-wrapper">
+
+                                            <div class="intrinsic">
+
+                                                <div class="
+                    
+                    image-inset"
+                                                    data-animation-role="image" data-description="">
+                                                    <div class="sqs-image-shape-container-element
+                  
+                    content-fit
+                  
+                "
+                                                        style="
+                  position: relative;
+                  overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                  
+                ">
+
+
+
+
+
+
+
+
+                                                        <img data-stretch="false"
+                                                            data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg"
+                                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg"
+                                                            data-image-dimensions="2500x1875"
+                                                            data-image-focal-point="0.5,0.5" alt="20190727_123248.jpg"
+                                                            data-load="false" elementtiming="system-image-block"
+                                                            src="../images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg"
+                                                            width="2500" height="1875" alt=""
+                                                            sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw"
+                                                            style="display:block;object-fit: contain;"
+                                                            onload="this.classList.add(&quot;loaded&quot;)"
+                                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607226790721-PQFGYDOZ3TOSLU2DRK5Q/20190727_123248.jpg?format=2500w 2500w"
+                                                            loading="lazy" decoding="async" data-loader="sqs">
+
+
+                                                        <div class="image-overlay"
+                                                            style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                            <figcaption class="image-card-wrapper" data-width-ratio>
+                                                <div class="image-card sqs-dynamic-text-container">
+
+
+                                                    <div class="image-title-wrapper">
+                                                        <div class="image-title sqs-dynamic-text">
+                                                            <h3 style="">Coming together</h3>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="image-subtitle-wrapper">
+                                                        <div class="image-subtitle sqs-dynamic-text">
+                                                            <p class="" style="">Seeing
+                                                                everybody come together to finish this project was amazing.
+                                                                As soon as construction was finished, our amazing staff
+                                                                began their training. We had specialists, experienced
+                                                                servers, and master chefs all contributing their knowledge.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                </div>
+                                            </figcaption>
+
+
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section data-test="page-section" data-section-theme=""
+            class='page-section 
+        
+          layout-engine-section
+        
+        background-width--full-bleed
+        
+          section-height--medium
+        
+        
+          content-width--medium
+        
+        horizontal-alignment--center
+        vertical-alignment--middle'>
+            <div class="section-border">
+                <div class="section-background">
+
+
+
+                </div>
+            </div>
+            <div class='content-wrapper'>
+                <div class="content">
+                    <div class="row sqs-row">
+                        <div class="col sqs-col-12 span-12">
+                            <div class="sqs-block html-block sqs-block-html" data-block-type="2"
+                                id="block-9b623e72bd529776d18d">
+                                <div class="sqs-block-content">
+
+                                    <div class="sqs-html-content">
+                                        <h2 style="text-align:center;">we promise to always do our
+                                            best. thank you for your support.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section data-test="page-section">
+            <div class='content-wrapper'>
+                <div class="content">
+                    <div style="min-height: 100px;">
+                        <div style="min-height: 100px;">
+                            <!-- Gallery Masonry -->
+                            <div>
+                                <div id="banner_image">
+                                    <div class="item-image" data-animation-role="image">
+                                        <img data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg"
+                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg"
+                                            data-image-dimensions="2500x3333" data-image-focal-point="0.5,0.5"
+                                            alt="20190929_173403.jpg" data-load="false"
+                                            src="../images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg"
+                                            width="2500" height="3333" alt=""
+                                            sizes="(max-width:768px)48.25vw,31vw"
+                                            style="display:block;object-position:50% 50%;object-fit:cover;width:100%;height:100%"
+                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159731210-K03GG77AOPMCPILS2HGC/20190929_173403.jpg?format=2500w 2500w"
+                                            loading="lazy" decoding="async" data-loader="sqs">
+                                    </div>
+
+
+
+                                    <div class="item-image" data-animation-role="image">
+                                        <img data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg"
+                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg"
+                                            data-image-dimensions="2500x3333" data-image-focal-point="0.5,0.5"
+                                            alt="20191205_124305.jpg" data-load="false"
+                                            src="../images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg"
+                                            width="2500" height="3333" alt=""
+                                            sizes="(max-width:768px)48.25vw,31vw"
+                                            style="display:block;object-position:50% 50%;object-fit:cover;width:100%;height:100%"
+                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159821787-8ER7BSXW1XVYLAJVBEPJ/20191205_124305.jpg?format=2500w 2500w"
+                                            loading="lazy" decoding="async" data-loader="sqs">
+                                    </div>
+                                    <div class="item-image" data-animation-role="image">
+                                        <img data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg"
+                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg"
+                                            data-image-dimensions="2500x3333" data-image-focal-point="0.5,0.5"
+                                            alt="20190809_134444.jpg" data-load="false"
+                                            src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg"
+                                            width="2500" height="3333" alt=""
+                                            sizes="(max-width:768px)48.25vw,31vw"
+                                            style="display:block;object-position:50% 50%;object-fit:cover;width:100%;height:100%"
+                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1634958374050-NJ0TY63A9RVYDWWZ4XQ3/20190809_134444.jpg?format=2500w 2500w"
+                                            loading="lazy" decoding="async" data-loader="sqs">
+                                    </div>
+                                    <div class="item-image" data-animation-role="image">
+                                        <img data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg"
+                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg"
+                                            data-image-dimensions="1667x1667" data-image-focal-point="0.5,0.5"
+                                            alt="IMG_2424.jpg" data-load="false"
+                                            src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg"
+                                            width="1667" height="1667" alt=""
+                                            sizes="(max-width:768px)48.25vw,31vw"
+                                            style="display:block;object-position:50% 50%;object-fit:cover;width:100%;height:100%"
+                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607159983257-Q8OXVGHSI9NQIIK6RCV9/IMG_2424.jpg?format=2500w 2500w"
+                                            loading="lazy" decoding="async" data-loader="sqs">
+                                    </div>
+                                    <div class="item-image" data-animation-role="image">
+                                        <img data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg"
+                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg"
+                                            data-image-dimensions="1996x1330" data-image-focal-point="0.5,0.5"
+                                            alt="IMG_2417.jpg" data-load="false"
+                                            src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg"
+                                            width="1996" height="1330" alt=""
+                                            sizes="(max-width:768px)48.25vw,31vw"
+                                            style="display:block;object-position:50% 50%;object-fit:cover;width:100%;height:100%"
+                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607160104265-KJKR0PMDYD0CC6OGI6T3/IMG_2417.jpg?format=2500w 2500w"
+                                            loading="lazy" decoding="async" data-loader="sqs">
+                                    </div>
+                                    <div class="item-image" data-animation-role="image">
+                                        <img data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg"
+                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg"
+                                            data-image-dimensions="4032x3024" data-image-focal-point="0.5,0.5"
+                                            alt="20200101_113038.jpg" data-load="false"
+                                            src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg"
+                                            width="4032" height="3024" alt=""
+                                            sizes="(max-width:768px)48.25vw,31vw"
+                                            style="display:block;object-position:50% 50%;object-fit:cover;width:100%;height:100%"
+                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/a636c876-9333-4237-be2b-1fdff9b0fa0f/20200101_113038.jpg?format=2500w 2500w"
+                                            loading="lazy" decoding="async" data-loader="sqs">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -201,8 +857,17 @@ clear" id="yui_3_17_2_1_1703779581108_308">
                 </div>
             </div>
         </section>
+    </article>
+    <style>
+        #banner_image {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
 
-    </main>
-
-</div>
+        #banner_image .item-image {
+            width: calc(33.3% - 40px);
+            padding: 20px;
+        }
+    </style>
 @endsection

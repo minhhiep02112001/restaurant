@@ -1,146 +1,248 @@
 @extends('front_end._index')
 
 @section('content')
-    <section class="Intro Intro--has-image" data-parallax-original-element data-parallax-id="5c4a4541c2241b34fec055a9"
-        data-controller="Parallax">
-        <div class="sqs-layout sqs-grid-12 columns-12 Intro-content sqs-alternate-block-style-container empty"
-            data-layout-label="Intro" data-type="block-field" data-updated-on="1548723801456"
-            id="5c4a4541c2241b34fec055a9_intro">
-            <div class="row sqs-row">
-                <div class="col sqs-col-12 span-12"></div>
+    <article class="sections" id="sections" data-page-sections="5fcb0bff393ce473562d0266">
+
+
+
+
+
+
+
+
+
+        <section data-test="page-section" data-section-theme=""
+            class='page-section 
+        
+          layout-engine-section
+        
+        background-width--full-bleed
+        
+          section-height--medium
+        
+        
+          content-width--wide
+        
+        horizontal-alignment--center
+        vertical-alignment--middle
+        
+          
+        
+        
+        '
+            data-section-id="5fcb0bff393ce473562d0269" data-controller="SectionWrapperController"
+            data-current-styles="{
+    &quot;imageOverlayOpacity&quot;: 0.15,
+    &quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+    &quot;sectionHeight&quot;: &quot;section-height--medium&quot;,
+    &quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+    &quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+    &quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+    &quot;sectionAnimation&quot;: &quot;none&quot;,
+    &quot;backgroundMode&quot;: &quot;image&quot;
+    }"
+            data-current-context="{
+    &quot;video&quot;: {
+    &quot;playbackSpeed&quot;: 0.5,
+    &quot;filter&quot;: 2,
+    &quot;filterStrength&quot;: 0,
+    &quot;zoom&quot;: 0,
+    &quot;videoSourceProvider&quot;: &quot;none&quot;
+    },
+    &quot;backgroundImageId&quot;: null,
+    &quot;backgroundMediaEffect&quot;: null,
+    &quot;divider&quot;: null,
+    &quot;typeName&quot;: &quot;page&quot;
+    }"
+            data-animation="none">
+            <div class="section-border">
+                <div class="section-background">
+
+
+
+                </div>
             </div>
-        </div>
-        <figure class="Intro-image" data-parallax-image-wrapper>
-            <img data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548809645736-3RO9QAK4CYYUE0AM82QW/Kook-3.jpg"
-                data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548809645736-3RO9QAK4CYYUE0AM82QW/Kook-3.jpg"
-                data-image-dimensions="2500x1669" data-image-focal-point="0.59,0.65" alt="Kook-3.jpg" data-load="false"
-                alt="" />
-
-        </figure>
-    </section>
+            <div class='content-wrapper' style='
+          
+            
+          
+        '>
+                <div class="content">
 
 
-    <main class="Main Main--page">
 
-        <section class="Main-content" data-content-field="main-content">
-            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1629912245520"
-                id="page-5c4a4541c2241b34fec055a9">
-                <div class="row sqs-row">
-                    <div class="col sqs-col-12 span-12">
-                        <div class="sqs-block html-block sqs-block-html sqs-col-7 span-7 float float-right"
-                            data-block-type="2" id="block-yui_3_17_2_1_1549046334570_12748">
-                            <div class="sqs-block-content">
 
-                                <div class="sqs-html-content">
-                                    <p class="" style="white-space:pre-wrap;"><strong><br>Phone:</strong><br><a
-                                            href="tel:6045665665" target="_blank">604.566.5665</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sqs-block html-block sqs-block-html" data-block-type="2"
-                            id="block-yui_3_17_2_1_1549046334570_11948">
-                            <div class="sqs-block-content">
 
-                                <div class="sqs-html-content">
-                                    <p class="" style="white-space:pre-wrap;"><a
-                                            href="https://www.google.com/search?rlz=1C1CHBF_enCA808CA808&amp;site=async/lcl_akp&amp;q=kook+korean+bbq+restaurant+address&amp;stick=H4sIAAAAAAAAAOPgE-LVT9c3NEyvNCyoKE9J15LNTrbSz8lPTizJzM-DM6wSU1KKUouLAS6HRJYwAAAA&amp;ludocid=11461357236156559500&amp;sa=X&amp;ved=2ahUKEwiM2c2iwIfgAhVKBjQIHfXZDQAQ6BMwA3oECAEQFg"><strong>Address</strong></a><strong>:</strong><br>2800
-                                        E 1st Ave #211A<br>Vancouver, BC<br>V5M 4N8<br><br>FOR QUESTIONS, PLEASE USE THE
-                                        FORM BELOW:</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sqs-block form-block sqs-block-form" data-block-type="9"
-                            id="block-42bf019cc59900a569cb">
-                            <div class="sqs-block-content">
 
-                                <script type="application/json" id="form-context-5c4a4541c2241b34fec055ab" class="sqs-form-block-context">{"secureUrl":"https://algae-plums-fwsc.squarespace.com","formSubmitButtonText":"Submit","formSubmissionMessage":{"html":"Thank you!"},"submissionVerticalAlignment":"","buttonAlignment":"left","submissionMessageTextStyle":"","formName":"New Form","collectionId":"5c4a4541c2241b34fec055a9","submissionAnimation":"","captchaTheme":1,"formId":"5c4a4541c2241b34fec055ab","useLightbox":false,"firstFieldHighlightType":"","useFormsJs":true,"submissionTextAlignment":"","formFieldFormats":{"initialPhoneFormat":{"id":0,"type":"PHONE_NUMBER","country":"CA","labelLocale":"en-US","fields":[{"type":"SEPARATOR","label":"(","identifier":"LeftParen","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"1","identifier":"1","length":3,"required":false,"metadata":{}},{"type":"SEPARATOR","label":")","identifier":"RightParen","length":0,"required":false,"metadata":{}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"2","identifier":"2","length":3,"required":false,"metadata":{}},{"type":"SEPARATOR","label":"-","identifier":"Dash","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"3","identifier":"3","length":14,"required":false,"metadata":{}}]},"countries":[{"name":"Afghanistan","code":"AF","phoneCode":"+93"},{"name":"Åland Islands","code":"AX","phoneCode":"+358"},{"name":"Albania","code":"AL","phoneCode":"+355"},{"name":"Algeria","code":"DZ","phoneCode":"+213"},{"name":"American Samoa","code":"AS","phoneCode":"+1"},{"name":"Andorra","code":"AD","phoneCode":"+376"},{"name":"Angola","code":"AO","phoneCode":"+244"},{"name":"Anguilla","code":"AI","phoneCode":"+1"},{"name":"Antigua & Barbuda","code":"AG","phoneCode":"+1"},{"name":"Argentina","code":"AR","phoneCode":"+54"},{"name":"Armenia","code":"AM","phoneCode":"+374"},{"name":"Aruba","code":"AW","phoneCode":"+297"},{"name":"Ascension Island","code":"AC","phoneCode":"+247"},{"name":"Australia","code":"AU","phoneCode":"+61"},{"name":"Austria","code":"AT","phoneCode":"+43"},{"name":"Azerbaijan","code":"AZ","phoneCode":"+994"},{"name":"Bahamas","code":"BS","phoneCode":"+1"},{"name":"Bahrain","code":"BH","phoneCode":"+973"},{"name":"Bangladesh","code":"BD","phoneCode":"+880"},{"name":"Barbados","code":"BB","phoneCode":"+1"},{"name":"Belarus","code":"BY","phoneCode":"+375"},{"name":"Belgium","code":"BE","phoneCode":"+32"},{"name":"Belize","code":"BZ","phoneCode":"+501"},{"name":"Benin","code":"BJ","phoneCode":"+229"},{"name":"Bermuda","code":"BM","phoneCode":"+1"},{"name":"Bhutan","code":"BT","phoneCode":"+975"},{"name":"Bolivia","code":"BO","phoneCode":"+591"},{"name":"Bosnia & Herzegovina","code":"BA","phoneCode":"+387"},{"name":"Botswana","code":"BW","phoneCode":"+267"},{"name":"Brazil","code":"BR","phoneCode":"+55"},{"name":"British Indian Ocean Territory","code":"IO","phoneCode":"+246"},{"name":"British Virgin Islands","code":"VG","phoneCode":"+1"},{"name":"Brunei","code":"BN","phoneCode":"+673"},{"name":"Bulgaria","code":"BG","phoneCode":"+359"},{"name":"Burkina Faso","code":"BF","phoneCode":"+226"},{"name":"Burundi","code":"BI","phoneCode":"+257"},{"name":"Cambodia","code":"KH","phoneCode":"+855"},{"name":"Cameroon","code":"CM","phoneCode":"+237"},{"name":"Canada","code":"CA","phoneCode":"+1"},{"name":"Cape Verde","code":"CV","phoneCode":"+238"},{"name":"Caribbean Netherlands","code":"BQ","phoneCode":"+599"},{"name":"Cayman Islands","code":"KY","phoneCode":"+1"},{"name":"Central African Republic","code":"CF","phoneCode":"+236"},{"name":"Chad","code":"TD","phoneCode":"+235"},{"name":"Chile","code":"CL","phoneCode":"+56"},{"name":"China","code":"CN","phoneCode":"+86"},{"name":"Christmas Island","code":"CX","phoneCode":"+61"},{"name":"Cocos (Keeling) Islands","code":"CC","phoneCode":"+61"},{"name":"Colombia","code":"CO","phoneCode":"+57"},{"name":"Comoros","code":"KM","phoneCode":"+269"},{"name":"Congo - Brazzaville","code":"CG","phoneCode":"+242"},{"name":"Congo - Kinshasa","code":"CD","phoneCode":"+243"},{"name":"Cook Islands","code":"CK","phoneCode":"+682"},{"name":"Costa Rica","code":"CR","phoneCode":"+506"},{"name":"Côte d’Ivoire","code":"CI","phoneCode":"+225"},{"name":"Croatia","code":"HR","phoneCode":"+385"},{"name":"Cuba","code":"CU","phoneCode":"+53"},{"name":"Curaçao","code":"CW","phoneCode":"+599"},{"name":"Cyprus","code":"CY","phoneCode":"+357"},{"name":"Czechia","code":"CZ","phoneCode":"+420"},{"name":"Denmark","code":"DK","phoneCode":"+45"},{"name":"Djibouti","code":"DJ","phoneCode":"+253"},{"name":"Dominica","code":"DM","phoneCode":"+1"},{"name":"Dominican Republic","code":"DO","phoneCode":"+1"},{"name":"Ecuador","code":"EC","phoneCode":"+593"},{"name":"Egypt","code":"EG","phoneCode":"+20"},{"name":"El Salvador","code":"SV","phoneCode":"+503"},{"name":"Equatorial Guinea","code":"GQ","phoneCode":"+240"},{"name":"Eritrea","code":"ER","phoneCode":"+291"},{"name":"Estonia","code":"EE","phoneCode":"+372"},{"name":"Eswatini","code":"SZ","phoneCode":"+268"},{"name":"Ethiopia","code":"ET","phoneCode":"+251"},{"name":"Falkland Islands","code":"FK","phoneCode":"+500"},{"name":"Faroe Islands","code":"FO","phoneCode":"+298"},{"name":"Fiji","code":"FJ","phoneCode":"+679"},{"name":"Finland","code":"FI","phoneCode":"+358"},{"name":"France","code":"FR","phoneCode":"+33"},{"name":"French Guiana","code":"GF","phoneCode":"+594"},{"name":"French Polynesia","code":"PF","phoneCode":"+689"},{"name":"Gabon","code":"GA","phoneCode":"+241"},{"name":"Gambia","code":"GM","phoneCode":"+220"},{"name":"Georgia","code":"GE","phoneCode":"+995"},{"name":"Germany","code":"DE","phoneCode":"+49"},{"name":"Ghana","code":"GH","phoneCode":"+233"},{"name":"Gibraltar","code":"GI","phoneCode":"+350"},{"name":"Greece","code":"GR","phoneCode":"+30"},{"name":"Greenland","code":"GL","phoneCode":"+299"},{"name":"Grenada","code":"GD","phoneCode":"+1"},{"name":"Guadeloupe","code":"GP","phoneCode":"+590"},{"name":"Guam","code":"GU","phoneCode":"+1"},{"name":"Guatemala","code":"GT","phoneCode":"+502"},{"name":"Guernsey","code":"GG","phoneCode":"+44"},{"name":"Guinea","code":"GN","phoneCode":"+224"},{"name":"Guinea-Bissau","code":"GW","phoneCode":"+245"},{"name":"Guyana","code":"GY","phoneCode":"+592"},{"name":"Haiti","code":"HT","phoneCode":"+509"},{"name":"Honduras","code":"HN","phoneCode":"+504"},{"name":"Hong Kong SAR China","code":"HK","phoneCode":"+852"},{"name":"Hungary","code":"HU","phoneCode":"+36"},{"name":"Iceland","code":"IS","phoneCode":"+354"},{"name":"India","code":"IN","phoneCode":"+91"},{"name":"Indonesia","code":"ID","phoneCode":"+62"},{"name":"Iran","code":"IR","phoneCode":"+98"},{"name":"Iraq","code":"IQ","phoneCode":"+964"},{"name":"Ireland","code":"IE","phoneCode":"+353"},{"name":"Isle of Man","code":"IM","phoneCode":"+44"},{"name":"Israel","code":"IL","phoneCode":"+972"},{"name":"Italy","code":"IT","phoneCode":"+39"},{"name":"Jamaica","code":"JM","phoneCode":"+1"},{"name":"Japan","code":"JP","phoneCode":"+81"},{"name":"Jersey","code":"JE","phoneCode":"+44"},{"name":"Jordan","code":"JO","phoneCode":"+962"},{"name":"Kazakhstan","code":"KZ","phoneCode":"+7"},{"name":"Kenya","code":"KE","phoneCode":"+254"},{"name":"Kiribati","code":"KI","phoneCode":"+686"},{"name":"Kosovo","code":"XK","phoneCode":"+383"},{"name":"Kuwait","code":"KW","phoneCode":"+965"},{"name":"Kyrgyzstan","code":"KG","phoneCode":"+996"},{"name":"Laos","code":"LA","phoneCode":"+856"},{"name":"Latvia","code":"LV","phoneCode":"+371"},{"name":"Lebanon","code":"LB","phoneCode":"+961"},{"name":"Lesotho","code":"LS","phoneCode":"+266"},{"name":"Liberia","code":"LR","phoneCode":"+231"},{"name":"Libya","code":"LY","phoneCode":"+218"},{"name":"Liechtenstein","code":"LI","phoneCode":"+423"},{"name":"Lithuania","code":"LT","phoneCode":"+370"},{"name":"Luxembourg","code":"LU","phoneCode":"+352"},{"name":"Macao SAR China","code":"MO","phoneCode":"+853"},{"name":"Madagascar","code":"MG","phoneCode":"+261"},{"name":"Malawi","code":"MW","phoneCode":"+265"},{"name":"Malaysia","code":"MY","phoneCode":"+60"},{"name":"Maldives","code":"MV","phoneCode":"+960"},{"name":"Mali","code":"ML","phoneCode":"+223"},{"name":"Malta","code":"MT","phoneCode":"+356"},{"name":"Marshall Islands","code":"MH","phoneCode":"+692"},{"name":"Martinique","code":"MQ","phoneCode":"+596"},{"name":"Mauritania","code":"MR","phoneCode":"+222"},{"name":"Mauritius","code":"MU","phoneCode":"+230"},{"name":"Mayotte","code":"YT","phoneCode":"+262"},{"name":"Mexico","code":"MX","phoneCode":"+52"},{"name":"Micronesia","code":"FM","phoneCode":"+691"},{"name":"Moldova","code":"MD","phoneCode":"+373"},{"name":"Monaco","code":"MC","phoneCode":"+377"},{"name":"Mongolia","code":"MN","phoneCode":"+976"},{"name":"Montenegro","code":"ME","phoneCode":"+382"},{"name":"Montserrat","code":"MS","phoneCode":"+1"},{"name":"Morocco","code":"MA","phoneCode":"+212"},{"name":"Mozambique","code":"MZ","phoneCode":"+258"},{"name":"Myanmar (Burma)","code":"MM","phoneCode":"+95"},{"name":"Namibia","code":"NA","phoneCode":"+264"},{"name":"Nauru","code":"NR","phoneCode":"+674"},{"name":"Nepal","code":"NP","phoneCode":"+977"},{"name":"Netherlands","code":"NL","phoneCode":"+31"},{"name":"New Caledonia","code":"NC","phoneCode":"+687"},{"name":"New Zealand","code":"NZ","phoneCode":"+64"},{"name":"Nicaragua","code":"NI","phoneCode":"+505"},{"name":"Niger","code":"NE","phoneCode":"+227"},{"name":"Nigeria","code":"NG","phoneCode":"+234"},{"name":"Niue","code":"NU","phoneCode":"+683"},{"name":"Norfolk Island","code":"NF","phoneCode":"+672"},{"name":"Northern Mariana Islands","code":"MP","phoneCode":"+1"},{"name":"North Korea","code":"KP","phoneCode":"+850"},{"name":"North Macedonia","code":"MK","phoneCode":"+389"},{"name":"Norway","code":"NO","phoneCode":"+47"},{"name":"Oman","code":"OM","phoneCode":"+968"},{"name":"Pakistan","code":"PK","phoneCode":"+92"},{"name":"Palau","code":"PW","phoneCode":"+680"},{"name":"Palestinian Territories","code":"PS","phoneCode":"+970"},{"name":"Panama","code":"PA","phoneCode":"+507"},{"name":"Papua New Guinea","code":"PG","phoneCode":"+675"},{"name":"Paraguay","code":"PY","phoneCode":"+595"},{"name":"Peru","code":"PE","phoneCode":"+51"},{"name":"Philippines","code":"PH","phoneCode":"+63"},{"name":"Poland","code":"PL","phoneCode":"+48"},{"name":"Portugal","code":"PT","phoneCode":"+351"},{"name":"Puerto Rico","code":"PR","phoneCode":"+1"},{"name":"Qatar","code":"QA","phoneCode":"+974"},{"name":"Réunion","code":"RE","phoneCode":"+262"},{"name":"Romania","code":"RO","phoneCode":"+40"},{"name":"Russia","code":"RU","phoneCode":"+7"},{"name":"Rwanda","code":"RW","phoneCode":"+250"},{"name":"Samoa","code":"WS","phoneCode":"+685"},{"name":"San Marino","code":"SM","phoneCode":"+378"},{"name":"São Tomé & Príncipe","code":"ST","phoneCode":"+239"},{"name":"Saudi Arabia","code":"SA","phoneCode":"+966"},{"name":"Senegal","code":"SN","phoneCode":"+221"},{"name":"Serbia","code":"RS","phoneCode":"+381"},{"name":"Seychelles","code":"SC","phoneCode":"+248"},{"name":"Sierra Leone","code":"SL","phoneCode":"+232"},{"name":"Singapore","code":"SG","phoneCode":"+65"},{"name":"Sint Maarten","code":"SX","phoneCode":"+1"},{"name":"Slovakia","code":"SK","phoneCode":"+421"},{"name":"Slovenia","code":"SI","phoneCode":"+386"},{"name":"Solomon Islands","code":"SB","phoneCode":"+677"},{"name":"Somalia","code":"SO","phoneCode":"+252"},{"name":"South Africa","code":"ZA","phoneCode":"+27"},{"name":"South Korea","code":"KR","phoneCode":"+82"},{"name":"South Sudan","code":"SS","phoneCode":"+211"},{"name":"Spain","code":"ES","phoneCode":"+34"},{"name":"Sri Lanka","code":"LK","phoneCode":"+94"},{"name":"St. Barthélemy","code":"BL","phoneCode":"+590"},{"name":"St. Helena","code":"SH","phoneCode":"+290"},{"name":"St. Kitts & Nevis","code":"KN","phoneCode":"+1"},{"name":"St. Lucia","code":"LC","phoneCode":"+1"},{"name":"St. Martin","code":"MF","phoneCode":"+590"},{"name":"St. Pierre & Miquelon","code":"PM","phoneCode":"+508"},{"name":"St. Vincent & Grenadines","code":"VC","phoneCode":"+1"},{"name":"Sudan","code":"SD","phoneCode":"+249"},{"name":"Suriname","code":"SR","phoneCode":"+597"},{"name":"Svalbard & Jan Mayen","code":"SJ","phoneCode":"+47"},{"name":"Sweden","code":"SE","phoneCode":"+46"},{"name":"Switzerland","code":"CH","phoneCode":"+41"},{"name":"Syria","code":"SY","phoneCode":"+963"},{"name":"Taiwan","code":"TW","phoneCode":"+886"},{"name":"Tajikistan","code":"TJ","phoneCode":"+992"},{"name":"Tanzania","code":"TZ","phoneCode":"+255"},{"name":"Thailand","code":"TH","phoneCode":"+66"},{"name":"Timor-Leste","code":"TL","phoneCode":"+670"},{"name":"Togo","code":"TG","phoneCode":"+228"},{"name":"Tokelau","code":"TK","phoneCode":"+690"},{"name":"Tonga","code":"TO","phoneCode":"+676"},{"name":"Trinidad & Tobago","code":"TT","phoneCode":"+1"},{"name":"Tristan da Cunha","code":"TA","phoneCode":"+290"},{"name":"Tunisia","code":"TN","phoneCode":"+216"},{"name":"Turkey","code":"TR","phoneCode":"+90"},{"name":"Turkmenistan","code":"TM","phoneCode":"+993"},{"name":"Turks & Caicos Islands","code":"TC","phoneCode":"+1"},{"name":"Tuvalu","code":"TV","phoneCode":"+688"},{"name":"U.S. Virgin Islands","code":"VI","phoneCode":"+1"},{"name":"Uganda","code":"UG","phoneCode":"+256"},{"name":"Ukraine","code":"UA","phoneCode":"+380"},{"name":"United Arab Emirates","code":"AE","phoneCode":"+971"},{"name":"United Kingdom","code":"GB","phoneCode":"+44"},{"name":"United States","code":"US","phoneCode":"+1"},{"name":"Uruguay","code":"UY","phoneCode":"+598"},{"name":"Uzbekistan","code":"UZ","phoneCode":"+998"},{"name":"Vanuatu","code":"VU","phoneCode":"+678"},{"name":"Vatican City","code":"VA","phoneCode":"+39"},{"name":"Venezuela","code":"VE","phoneCode":"+58"},{"name":"Vietnam","code":"VN","phoneCode":"+84"},{"name":"Wallis & Futuna","code":"WF","phoneCode":"+681"},{"name":"Western Sahara","code":"EH","phoneCode":"+212"},{"name":"Yemen","code":"YE","phoneCode":"+967"},{"name":"Zambia","code":"ZM","phoneCode":"+260"},{"name":"Zimbabwe","code":"ZW","phoneCode":"+263"}],"initialAddressFormat":{"id":0,"type":"ADDRESS","country":"CA","labelLocale":"en","fields":[{"type":"FIELD","label":"Address Line 1","identifier":"Line1","length":0,"required":true,"metadata":{"autocomplete":"address-line1"}},{"type":"SEPARATOR","label":"\n","identifier":"Newline","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Address Line 2","identifier":"Line2","length":0,"required":false,"metadata":{"autocomplete":"address-line2"}},{"type":"SEPARATOR","label":"\n","identifier":"Newline","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"City","identifier":"City","length":0,"required":true,"metadata":{"autocomplete":"address-level2"}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Province","identifier":"State","length":0,"required":true,"metadata":{"autocomplete":"address-level1"}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Postal Code","identifier":"Zip","length":0,"required":true,"metadata":{"autocomplete":"postal-code"}}]}},"showTitle":false,"captchaEnabled":false,"buttonVariant":"","objectName":"page-5c4a4541c2241b34fec055a9","formFields":[{"type":"name","id":"name-yui_3_17_2_7_1488384401748_31624","locked":false,"title":"Name","description":"","required":true,"name":true},{"type":"email","id":"email-yui_3_17_2_7_1488384401748_31625","locked":false,"title":"Email Address","description":"","placeholder":"","required":true,"email":true},{"type":"text","id":"text-yui_3_17_2_7_1488384401748_31626","locked":false,"title":"Subject","description":"","placeholder":"","required":true,"text":true},{"type":"textarea","id":"textarea-yui_3_17_2_7_1488384401748_31627","locked":false,"title":"Message","description":"","placeholder":"","required":true,"textarea":true}],"captchaAlignment":1,"lightboxHandleText":"","localizedStrings":{"validation":{"noValidSelection":"A valid selection must be made.","invalidEmail":"Email addresses should follow the format user@domain.com.","invalidUrl":"Must be a valid URL.","invalidListLength":"Value should be {0} elements long.","allEmpty":"Please fill out at least one form field.","stringTooLong":"Value should have a length no longer than {0}.","missingRequiredQuestion":"Missing a required question.","invalidQuestion":"Contained an invalid question.","captchaFailure":"Captcha validation failed. Please try again.","containsInvalidKey":"{0} contains an invalid key.","stringTooShort":"Value should have a length of at least {0}.","invalidTwitterUsername":"Must be a valid Twitter username.","valueOutsideRange":"Value must be in the range {0} to {1}.","invalid":"{0} is not valid.","invalidPassword":"Passwords should not contain whitespace.","missingRequiredSubfields":"{0} is missing required subfields: {1}","invalidCurrency":"Currency value should be formatted like 1234 or 123.99.","invalidMapSize":"Value should contain exactly {0} elements.","formErrors":"Form Errors","containsInvalidValue":"{0} contains an invalid value.","subfieldsRequired":"All fields in {0} are required.","formSubmissionFailed":"Form submission failed. Review the following information: {0}.","invalidCountryCode":"Country code should have an optional plus and up to 4 digits.","invalidUnsignedNumber":"Numbers must contain only digits and no other characters.","invalidName":"Valid names contain only letters, numbers, spaces, ', or - characters.","invalidDate":"This is not a real date.","required":"{0} is required.","invalidStringLength":"Value should be {0} characters long."},"submit":"Submit","status":{"title":"{@} Block","learnMore":"Learn more"},"name":{"firstName":"First Name","lastName":"Last Name"},"address":{"country":"Country","zipPostalCode":"Zip/Postal Code","address2":"Address 2","address1":"Address 1","city":"City","stateProvince":"State/Province"},"lightbox":{"openForm":"Open Form"},"date":{"day":"Day","month":"Month","yyyy":"YYYY","year":"Year","dd":"DD","mm":"MM"},"likert":{"agree":"Agree","disagree":"Disagree","stronglyDisagree":"Strongly Disagree","stronglyAgree":"Strongly Agree","neutral":"Neutral"},"time":{"am":"AM","second":"Second","amPm":"AM/PM","pm":"PM","minute":"Minute","hour":"Hour"},"email":{"signUp":"Sign up for news and updates"},"cannotSubmitDemoForm":"This is a demo form and cannot be submitted.","notFound":"Form not found.","phone":{"country":"Country","number":"Number","prefix":"Prefix","areaCode":"Area Code","line":"Line"},"required":"(required)","submitError":"Unable to submit form. Please try again later.","invalidData":"Invalid form data."}}</script>
-                                <div id="form-submission-html-5c4a4541c2241b34fec055ab"
-                                    class="sqs-form-block-submission-html" data-submission-html=""></div>
+                    <div class="sqs-layout sqs-grid-12 columns-12" data-type="page-section"
+                        id="page-section-5fcb0bff393ce473562d0269">
+                        <div class="row sqs-row">
+                            <div class="col sqs-col-12 span-12">
+                                <div class="sqs-block image-block sqs-block-image" data-aspect-ratio="117.43295019157087"
+                                    data-block-type="5" id="block-012e0b7d296e3ae065bf">
+                                    <div class="sqs-block-content">
 
-                                <div class="form-wrapper">
-                                    <form autocomplete="on" class="react-form-contents" novalidate="">
-                                        <div></div>
-                                        <div class="field-list">
-                                            <fieldset class="form-item fields nJ9VqSwx7fmZ1VJUE8xM name"
-                                                id="name-yui_3_17_2_7_1488384401748_31624">
-                                                <legend id="name-yui_3_17_2_7_1488384401748_31624-field-wrapper">
-                                                    <div class="title">
-                                                        <div class="Ybzr_8ig6xs_icUw7g_o"><span>Name</span><span
-                                                                class="description required">(required)</span></div>
-                                                    </div>
-                                                </legend>
-                                                <div class="field first-name" data-dynamic-strings=""><label
-                                                        class="Ob8qnfSqZI6MjOKPIRXY caption"
-                                                        for="name-yui_3_17_2_7_1488384401748_31624-fname-field">
-                                                        <div class="YxCilBoijo0IKkcXyuT9">
-                                                            <div class="caption-text wosg1CoDKSyb6Q9eN0jP">First Name</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <figure
+                                            class="
+                sqs-block-image-figure
+                image-block-outer-wrapper
+                image-block-v2
+                design-layout-card
+                combination-animation-none
+                individual-animation-none
+                individual-text-animation-none
+                image-position-left
+                
+              "
+                                            data-scrolled data-test="image-block-v2-outer-wrapper">
+
+                                            <div class="intrinsic">
+
+                                                <div class="
+                    
+                    image-inset"
+                                                    data-animation-role="image" data-description="">
+                                                    <div class="sqs-image-shape-container-element
+                  
+                    content-fit
+                  
+                "
+                                                        style="
+                  position: relative;
+                  overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);
+                  
+                ">
+
+
+
+
+
+
+
+
+                                                        <img data-stretch="false"
+                                                            data-src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG"
+                                                            data-image="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG"
+                                                            data-image-dimensions="1675x2244"
+                                                            data-image-focal-point="0.5,0.5" alt="IMG_2468 (2).JPG"
+                                                            data-load="false" elementtiming="system-image-block"
+                                                            src="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+(2).JPG"
+                                                            width="1675" height="2244" alt=""
+                                                            sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw"
+                                                            style="display:block;object-fit: contain;"
+                                                            onload="this.classList.add(&quot;loaded&quot;)"
+                                                            srcset="https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG?format=100w 100w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG?format=300w 300w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG?format=500w 500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG?format=750w 750w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/5fcafa173a8f5156978256ce/1607142741803-US1SY57IRRBG95XJSVFL/IMG_2468+%282%29.JPG?format=2500w 2500w"
+                                                            loading="lazy" decoding="async" data-loader="sqs">
+
+
+                                                        <div class="image-overlay"
+                                                            style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);">
                                                         </div>
-                                                    </label><input aria-invalid="false" aria-required="true"
-                                                        autocomplete="given-name"
-                                                        class="MUomU4fr3iSZrhBNTmN0 exokPtqDa3qLy42TT3gA"
-                                                        id="name-yui_3_17_2_7_1488384401748_31624-fname-field"
-                                                        name="fname" type="text" value=""></div>
-                                                <div class="field last-name" data-dynamic-strings=""><label
-                                                        class="Ob8qnfSqZI6MjOKPIRXY caption"
-                                                        for="name-yui_3_17_2_7_1488384401748_31624-lname-field">
-                                                        <div class="YxCilBoijo0IKkcXyuT9">
-                                                            <div class="caption-text wosg1CoDKSyb6Q9eN0jP">Last Name</div>
-                                                        </div>
-                                                    </label><input aria-invalid="false" aria-required="true"
-                                                        autocomplete="family-name"
-                                                        class="MUomU4fr3iSZrhBNTmN0 exokPtqDa3qLy42TT3gA"
-                                                        id="name-yui_3_17_2_7_1488384401748_31624-lname-field"
-                                                        name="lname" type="text" value=""></div>
-                                            </fieldset>
-                                            <div class="form-item field email required"
-                                                id="email-yui_3_17_2_7_1488384401748_31625" data-dynamic-strings=""><label
-                                                    for="email-yui_3_17_2_7_1488384401748_31625-field"
-                                                    class="title sw596tE2eJwBg5n24nrn">
-                                                    <div class="FWefosxH8nVEa4wj4pnA">
-                                                        <div class="Ll97LTNPPGVBmrcIGQyT"><span>Email Address</span><span
-                                                                class="description required">(required)</span></div>
                                                     </div>
-                                                </label><input aria-invalid="false" aria-required="true"
-                                                    autocomplete="false" class="MUomU4fr3iSZrhBNTmN0 exokPtqDa3qLy42TT3gA"
-                                                    id="email-yui_3_17_2_7_1488384401748_31625-field" placeholder=""
-                                                    type="email" value=""></div>
-                                            <div class="form-item field text required"
-                                                id="text-yui_3_17_2_7_1488384401748_31626" data-dynamic-strings=""><label
-                                                    for="text-yui_3_17_2_7_1488384401748_31626-field"
-                                                    class="title sw596tE2eJwBg5n24nrn">
-                                                    <div class="FWefosxH8nVEa4wj4pnA">
-                                                        <div class="Ll97LTNPPGVBmrcIGQyT"><span>Subject</span><span
-                                                                class="description required">(required)</span></div>
-                                                    </div>
-                                                </label><input aria-invalid="false" aria-required="true"
-                                                    autocomplete="false" class="MUomU4fr3iSZrhBNTmN0 exokPtqDa3qLy42TT3gA"
-                                                    id="text-yui_3_17_2_7_1488384401748_31626-field" placeholder=""
-                                                    type="text" value=""></div>
-                                            <div class="form-item field textarea required"
-                                                id="textarea-yui_3_17_2_7_1488384401748_31627" data-dynamic-strings="">
-                                                <label for="textarea-yui_3_17_2_7_1488384401748_31627-field"
-                                                    class="title sw596tE2eJwBg5n24nrn">
-                                                    <div class="FWefosxH8nVEa4wj4pnA">
-                                                        <div class="Ll97LTNPPGVBmrcIGQyT"><span>Message</span><span
-                                                                class="description required">(required)</span></div>
-                                                    </div>
-                                                </label>
-                                                <textarea id="textarea-yui_3_17_2_7_1488384401748_31627-field" aria-invalid="false" class="kMu9QzOz_QIloQJjEG9e"
-                                                    placeholder=""></textarea>
+
+                                                </div>
+
+
                                             </div>
-                                        </div>
-                                        <div class="form-button-wrapper form-button-wrapper--align-left"><button
-                                                type="submit"
-                                                class="button sqs-system-button sqs-editable-button sqs-button-element--primary NkyzQqS7X0JjKckdVqSS">Submit</button>
-                                        </div>
-                                    </form>
+
+
+
+                                            <figcaption class="image-card-wrapper" data-width-ratio>
+                                                <div class="image-card sqs-dynamic-text-container">
+
+
+                                                    <div class="image-title-wrapper">
+                                                        <div class="image-title sqs-dynamic-text">
+                                                            <h2 style="">Contact us.</h2>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="image-subtitle-wrapper">
+                                                        <div class="image-subtitle sqs-dynamic-text">
+                                                            <p class="" style="">
+                                                                help.bbqexit5@gmail.com<br>(425) 291-7431</p>
+                                                            <p class="" style="">911 N 10th
+                                                                Pl<br>Suite D<br>Renton, WA 98057</p>
+                                                            <p class="" style=""><a
+                                                                    href="https://www.facebook.com/bbqexit5/"
+                                                                    target="_blank">Facebook</a><br><a
+                                                                    href="https://www.instagram.com/bbqexit5/?hl=en"
+                                                                    target="_blank">Instagram</a></p>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                </div>
+                                            </figcaption>
+
+
+                                        </figure>
+
+
+
+
+
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </section>
-    </main>
-    
+
+
+    </article>
 @endsection
