@@ -9,6 +9,9 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- This is Squarespace. -->
+
+    @include('front_end.layout.config_seo_header')
+
     <!-- hexahedron-jellyfish-ja7x -->
     <script
         src="../use.typekit.net/ik/QUp8AWdABSx4zNbWou27rDl4fZ4pjZ9TGd1wDH2sN6tfeT6IfFHN4UJLFRbh52jhWDmcjhBcjQIawhItZR9UFQjoFD6kFQZRZs7RMkG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcB"
