@@ -20,23 +20,14 @@
 
             <a href="index.html" class="Header-branding" data-nc-element="branding"
                 data-content-field="site-title">
-
-
                 <img src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1588627323969-8A99TT8UPKP5I543JTY3/kook-logo-gold-0126f7.png?format=1500w"
-                    alt="Kook Korean BBQ" class="Header-branding-logo" />
-
-
-            </a>
-
-
+                    alt="Kook Korean BBQ" class="Header-branding-logo" /> 
+            </a>  
         </div>
         <div data-nc-container="bottom-right">
-
             <nav class="Header-nav Header-nav--secondary" data-nc-element="secondary-nav"
                 data-content-field="navigation">
-
             </nav>
-
         </div>
     </div>
 </header>

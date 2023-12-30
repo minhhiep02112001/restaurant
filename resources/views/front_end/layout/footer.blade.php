@@ -49,8 +49,8 @@
             </div>
 
             <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--middle sqs-alternate-block-style-container"
-                data-layout-label="Footer Middle Blocks" data-type="block-field"
-                data-updated-on="1681516948680" id="footerBlocksMiddle">
+                data-layout-label="Footer Middle Blocks" data-type="block-field" data-updated-on="1681516948680"
+                id="footerBlocksMiddle">
                 <div class="row sqs-row">
                     <div class="col sqs-col-8 span-8">
                         <div class="row sqs-row">
@@ -60,38 +60,18 @@
                                     <div class="sqs-block-content">
 
                                         <div class="sqs-html-content">
-                                            <h3 style="white-space:pre-wrap;"><strong>LOCATIONS</strong></h3>
-                                            <p class="" style="white-space:pre-wrap;"><a
-                                                    href="https://www.google.com/search?rlz=1C1CHBF_enCA808CA808&amp;site=async/lcl_akp&amp;q=kook+korean+bbq+restaurant+address&amp;stick=H4sIAAAAAAAAAOPgE-LVT9c3NEyvNCyoKE9J15LNTrbSz8lPTizJzM-DM6wSU1KKUouLAS6HRJYwAAAA&amp;ludocid=11461357236156559500&amp;sa=X&amp;ved=2ahUKEwiM2c2iwIfgAhVKBjQIHfXZDQAQ6BMwA3oECAEQFg"
-                                                    target="_blank"><strong>Address</strong></a><strong>:</strong><br>2800
-                                                E 1st Ave #211A<br>Vancouver, BC<br>V5M
-                                                4N9<br><br><strong>Phone: </strong><a
-                                                    href="tel:6045665665">604.566.5665</a></p>
+                                            <h3><strong>LOCATIONS</strong></h3>
+                                            <p class="">
+                                                <a href="https://www.google.com/search?rlz=1C1CHBF_enCA808CA808&amp;site=async/lcl_akp&amp;q=kook+korean+bbq+restaurant+address&amp;stick=H4sIAAAAAAAAAOPgE-LVT9c3NEyvNCyoKE9J15LNTrbSz8lPTizJzM-DM6wSU1KKUouLAS6HRJYwAAAA&amp;ludocid=11461357236156559500&amp;sa=X&amp;ved=2ahUKEwiM2c2iwIfgAhVKBjQIHfXZDQAQ6BMwA3oECAEQFg"
+                                                    target="_blank"><strong>Address</strong></a>
+                                                <strong>:</strong><br>2800 E 1st Ave #211A<br>
+                                                Vancouver, BC<br>V5M4N9<br>
+                                                <br>
+                                            </p>
+                                            <p>
+                                                <strong>Phone: </strong><a href="tel:6045665665">604.566.5665</a>
+                                            </p>
                                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                                     </div>
                                 </div>
@@ -102,38 +82,13 @@
                                     <div class="sqs-block-content">
 
                                         <div class="sqs-html-content">
-                                            <h3 style="white-space:pre-wrap;"><strong>HOURS</strong></h3>
-                                            <p class="" style="white-space:pre-wrap;">Monday
+                                            <h3><strong>HOURS</strong></h3>
+                                            <p class="">Monday
                                                 12:00pm-11:00pm<br>Tuesday 12:00pm-11:00pm<br>Wednesday
                                                 12:00pm-11:00pm<br>Thursday 12:00pm-11:00pm<br>Friday
                                                 12:00pm-12:00am<br>Saturday 12:00pm-12:00am<br>Sunday
                                                 12:00pm-11:00pm</p>
                                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                     </div>
                                 </div>
                             </div>
@@ -164,8 +119,7 @@
                                                 </svg>
                                             </div>
                                         </a><a href="https://www.facebook.com/kookbbq/" target="_blank"
-                                            class="sqs-svg-icon--wrapper facebook"
-                                            aria-label="Kook Korean BBQ">
+                                            class="sqs-svg-icon--wrapper facebook" aria-label="Kook Korean BBQ">
                                             <div>
                                                 <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
                                                     <use class="sqs-use--icon" xlink:href="#facebook-icon">
@@ -175,8 +129,7 @@
                                                 </svg>
                                             </div>
                                         </a><a href="http://instagram.com/kookbbq" target="_blank"
-                                            class="sqs-svg-icon--wrapper instagram"
-                                            aria-label="Kook Korean BBQ">
+                                            class="sqs-svg-icon--wrapper instagram" aria-label="Kook Korean BBQ">
                                             <div>
                                                 <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
                                                     <use class="sqs-use--icon" xlink:href="#instagram-icon">
@@ -212,8 +165,8 @@
                     <div class="row sqs-row">
                         <div class="col sqs-col-0 span-0"></div>
                         <div class="col sqs-col-12 span-12">
-                            <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1"
-                                data-block-type="21" id="block-yui_3_17_2_22_1488316984327_21907">
+                            <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21"
+                                id="block-yui_3_17_2_22_1488316984327_21907">
                                 <div class="sqs-block-content">&nbsp;</div>
                             </div>
                         </div>

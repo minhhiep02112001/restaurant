@@ -31,7 +31,7 @@
                                 <div class="sqs-block-content">
 
                                     <div class="sqs-html-content">
-                                        <h2 style="text-align:center;white-space:pre-wrap;">Welcome to the
+                                        <h2 style="text-align:center;">Welcome to the
                                             most exciting Korean BBQ in Vancouver! </h2>
                                     </div>
 
@@ -208,7 +208,7 @@
                                 <div class="sqs-block-content">
 
                                     <div class="sqs-html-content">
-                                        <p style="text-align:center;white-space:pre-wrap;" class="">
+                                        <p style="text-align:center;" class="">
                                             At Kook, we are <strong>CRAZY</strong> about<strong>
                                                 BBQ</strong> and we are here to set a new standard to your
                                             Korean BBQ experience. Serving only premium meats, every table
@@ -216,7 +216,7 @@
                                             Systems).&nbsp; The restaurant is perfectly air balanced with
                                             the best ventilation system to ensure you smell the same way you
                                             came in.&nbsp;</p>
-                                        <p style="text-align:center;white-space:pre-wrap;" class="">
+                                        <p style="text-align:center;" class="">
                                             We want to ensure that we please your eyes as much as your taste
                                             buds.&nbsp; Our interior design is themed around the ancient
                                             five core elements (Gold, wood, water, fire, earth). From our
@@ -224,7 +224,7 @@
                                             on, you will find this theme throughout our restaurant. Let our
                                             energy channel your inner chef to take control and cook, or
                                             simply sit back and let our BBQ experts take over.</p>
-                                        <p style="text-align:center;white-space:pre-wrap;" class="">
+                                        <p style="text-align:center;" class="">
                                             Our dedicated team is here to serve you with one goal in
                                             mind:<br><strong><em>“A Korean BBQ dining experience you won’t
                                                     soon forget!”</em></strong></p>
@@ -296,31 +296,8 @@
                                 <div class="sqs-block-content">
 
                                     <div class="sqs-html-content">
-                                        <h2 style="text-align:center;white-space:pre-wrap;">EAT
-                                            TOGETHER<br></h2>
-                                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                        <h2 style="text-align:center;">EAT TOGETHER<br></h2>
+                                    </div> 
                                 </div>
                             </div>
                             <div class="sqs-block button-block sqs-block-button" data-block-type="53"
@@ -348,11 +325,8 @@
                 <img data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585690892220-UOH8HZC3IBQZFIW7T9XA/Kook-49.jpg"
                     data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585690892220-UOH8HZC3IBQZFIW7T9XA/Kook-49.jpg"
                     data-image-dimensions="2500x1392" data-image-focal-point="0.5,0.5" alt="Kook-49.jpg"
-                    data-load="false" alt="" />
-
-            </figure>
-
-
+                    data-load="false" alt="" /> 
+            </figure> 
         </section>
 
 
