@@ -8,14 +8,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
-
-    <!-- This is Squarespace. --><!-- algae-plums-fwsc -->
-    <base #href="">
-    <meta charset="utf-8" />
-    <title>Kook Korean BBQ</title>
-    <script type="text/javascript"
-        src="../use.typekit.net/ik/LA-1AxTs23-vU7SDXYy6RYUWz0AsKu3Zqo5aBbzMzttfe73ffFHN4UJLFRbh52jhWDmRF2ShFcjaZA9UFD9oFQ9kw2F8ZRJhjs7wMPG0jAU1jA9lSeUudWwlZ1iDjkoDSWmyScmDSeBRZPoRdhXCjAU1jA9lSeUudWwlZ1iDjk">
-    </script>
+    @include('front_end.layout.config_seo_header')
     <script type="text/javascript">
         try {
             Typekit.load();
