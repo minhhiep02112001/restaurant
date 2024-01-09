@@ -51,3 +51,6 @@
 
   gtag('config', 'G-X6PXQCT8V9');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7234975708846161"
+     crossorigin="anonymous"></script>
