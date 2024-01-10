@@ -29,12 +29,7 @@
                             <div class="sqs-block html-block sqs-block-html" data-block-type="2"
                                 id="block-yui_3_17_2_1_1549045800952_21703">
                                 <div class="sqs-block-content">
-
-                                    <div class="sqs-html-content">
-                                        <h2 style="text-align:center;">Welcome to the
-                                            most exciting Korean BBQ in Vancouver! </h2>
-                                    </div>
-
+ 
                                 </div>
                             </div>
                         </div>
@@ -45,11 +40,10 @@
 
             <figure class="Index-page-image" data-parallax-image-wrapper>
 
-                <img data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548969390666-C048X88TCMR4YANWJ4JM/IMG_1752.jpg"
-                    data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1548969390666-C048X88TCMR4YANWJ4JM/IMG_1752.jpg"
+                <img data-src="{{asset('images/banner.jpg')}}"
+                    data-image="{{asset('images/banner.jpg')}}"
                     data-image-dimensions="2500x1874" data-image-focal-point="0.47,0.8" alt="IMG_1752.jpg" data-load="false"
-                    alt="" />
-
+                    alt="" /> 
             </figure>
 
 
@@ -74,62 +68,38 @@
 
                                                     <a role="presentation" class="image-slide-anchor  content-fit ">
 
-                                                        <noscript><img
-                                                                src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692607364-1HX25SG0LRRBDPYJ7BHH/Kook-8.jpg"
-                                                                alt="Kook-8.jpg" /></noscript><img class="thumb-image"
-                                                            data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692607364-1HX25SG0LRRBDPYJ7BHH/Kook-8.jpg"
-                                                            data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692607364-1HX25SG0LRRBDPYJ7BHH/Kook-8.jpg"
+                                                        <noscript>
+                                                            <img
+                                                                src="{{asset('images/breakfast-little-1.jpg')}}"
+                                                                alt="Kook-1.jpg" /></noscript><img class="thumb-image"
+                                                            data-src="{{asset('images/breakfast-little-1.jpg')}}"
+                                                            data-image="{{asset('images/breakfast-little-1.jpg')}}"
                                                             data-image-dimensions="2500x3745"
-                                                            data-image-focal-point="0.5,0.5" alt="Kook-8.jpg"
+                                                            data-image-focal-point="0.5,0.5" alt="Kook-1.jpg"
                                                             data-load="false" data-image-id="5e83bfa38022342990fbaa9a"
                                                             data-type="image" />
                                                     </a>
 
                                                 </div>
-                                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                            </div> 
                                             <div class="slide" data-type="image" data-animation-role="image">
                                                 <div class="margin-wrapper">
 
                                                     <a role="presentation" class=" image-slide-anchor content-fit ">
 
                                                         <noscript><img
-                                                                src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692610710-24BDH5UK382PB4JKDY2B/Kook-50.jpg"
-                                                                alt="Kook-50.jpg" /></noscript><img class="thumb-image"
-                                                            data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692610710-24BDH5UK382PB4JKDY2B/Kook-50.jpg"
-                                                            data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692610710-24BDH5UK382PB4JKDY2B/Kook-50.jpg"
+                                                                src="{{asset('images/breakfast-little-2.jpg')}}"
+                                                                alt="Kook-2.jpg" /></noscript><img class="thumb-image"
+                                                            data-src="{{asset('images/breakfast-little-2.jpg')}}"
+                                                            data-image="{{asset('images/breakfast-little-2.jpg')}}"
                                                             data-image-dimensions="2500x3745"
-                                                            data-image-focal-point="0.5,0.5" alt="Kook-50.jpg"
+                                                            data-image-focal-point="0.5,0.5" alt="Kook-2.jpg"
                                                             data-load="false" data-image-id="5e83bfa8970e8e58270da576"
                                                             data-type="image" />
                                                     </a>
 
                                                 </div>
-                                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
+                                            </div> 
 
                                             <div class="slide" data-type="image" data-animation-role="image">
                                                 <div class="margin-wrapper">
@@ -137,30 +107,18 @@
                                                     <a role="presentation" class=" image-slide-anchor  content-fit ">
 
                                                         <noscript><img
-                                                                src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692583395-DZ8C12Z5ICNZC0RI5IQ0/Kook-5.jpg"
-                                                                alt="Kook-5.jpg" /></noscript><img class="thumb-image"
-                                                            data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692583395-DZ8C12Z5ICNZC0RI5IQ0/Kook-5.jpg"
-                                                            data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692583395-DZ8C12Z5ICNZC0RI5IQ0/Kook-5.jpg"
+                                                                src="{{asset('images/breakfast-little-3.jpg')}}"
+                                                                alt="Kook-3.jpg" /></noscript><img class="thumb-image"
+                                                            data-src="{{asset('images/breakfast-little-3.jpg')}}"
+                                                            data-image="{{asset('images/breakfast-little-3.jpg')}}"
                                                             data-image-dimensions="2500x3745"
-                                                            data-image-focal-point="0.5,0.5" alt="Kook-5.jpg"
+                                                            data-image-focal-point="0.5,0.5" alt="Kook-3.jpg"
                                                             data-load="false" data-image-id="5e83bf8f0dfa0d0c21abfeea"
                                                             data-type="image" />
                                                     </a>
 
                                                 </div>
-                                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
+                                            </div> 
 
                                             <div class="slide" data-type="image" data-animation-role="image">
                                                 <div class="margin-wrapper">
@@ -168,10 +126,64 @@
                                                     <a role="presentation" class="  image-slide-anchor content-fit">
 
                                                         <noscript><img
-                                                                src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692579070-CLENMEFY4ADNUAD3Q6N4/Kook-7.jpg"
+                                                                src="{{asset('images/breakfast-little-4.jpg')}}"
+                                                                alt="Kook-4.jpg" /></noscript><img class="thumb-image"
+                                                            data-src="{{asset('images/breakfast-little-4.jpg')}}"
+                                                            data-image="{{asset('images/breakfast-little-4.jpg')}}"
+                                                            data-image-dimensions="2500x3745"
+                                                            data-image-focal-point="0.5,0.5" alt="Kook-4.jpg"
+                                                            data-load="false" data-image-id="5e83bf8f2bdce735b5fc5c67"
+                                                            data-type="image" />
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                            <div class="slide" data-type="image" data-animation-role="image">
+                                                <div class="margin-wrapper">
+
+                                                    <a role="presentation" class="  image-slide-anchor content-fit">
+
+                                                        <noscript><img
+                                                                src="{{asset('images/breakfast-little-5.jpg')}}"
+                                                                alt="Kook-5.jpg" /></noscript><img class="thumb-image"
+                                                            data-src="{{asset('images/breakfast-little-5.jpg')}}"
+                                                            data-image="{{asset('images/breakfast-little-5.jpg')}}"
+                                                            data-image-dimensions="2500x3745"
+                                                            data-image-focal-point="0.5,0.5" alt="Kook-5.jpg"
+                                                            data-load="false" data-image-id="5e83bf8f2bdce735b5fc5c67"
+                                                            data-type="image" />
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                            <div class="slide" data-type="image" data-animation-role="image">
+                                                <div class="margin-wrapper">
+
+                                                    <a role="presentation" class="  image-slide-anchor content-fit">
+
+                                                        <noscript><img
+                                                                src="{{asset('images/breakfast-little-6.jpg')}}"
+                                                                alt="Kook-6.jpg" /></noscript><img class="thumb-image"
+                                                            data-src="{{asset('images/breakfast-little-6.jpg')}}"
+                                                            data-image="{{asset('images/breakfast-little-6.jpg')}}"
+                                                            data-image-dimensions="2500x3745"
+                                                            data-image-focal-point="0.5,0.5" alt="Kook-6.jpg"
+                                                            data-load="false" data-image-id="5e83bf8f2bdce735b5fc5c67"
+                                                            data-type="image" />
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                            <div class="slide" data-type="image" data-animation-role="image">
+                                                <div class="margin-wrapper">
+
+                                                    <a role="presentation" class="  image-slide-anchor content-fit">
+
+                                                        <noscript><img
+                                                                src="{{asset('images/breakfast-little-7.jpg')}}"
                                                                 alt="Kook-7.jpg" /></noscript><img class="thumb-image"
-                                                            data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692579070-CLENMEFY4ADNUAD3Q6N4/Kook-7.jpg"
-                                                            data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585692579070-CLENMEFY4ADNUAD3Q6N4/Kook-7.jpg"
+                                                            data-src="{{asset('images/breakfast-little-7.jpg')}}"
+                                                            data-image="{{asset('images/breakfast-little-7.jpg')}}"
                                                             data-image-dimensions="2500x3745"
                                                             data-image-focal-point="0.5,0.5" alt="Kook-7.jpg"
                                                             data-load="false" data-image-id="5e83bf8f2bdce735b5fc5c67"
@@ -180,6 +192,25 @@
 
                                                 </div>
                                             </div>
+                                             <div class="slide" data-type="image" data-animation-role="image">
+                                                <div class="margin-wrapper">
+
+                                                    <a role="presentation" class="  image-slide-anchor content-fit">
+
+                                                        <noscript><img
+                                                                src="{{asset('images/breakfast-little-8.jpg')}}"
+                                                                alt="Kook-8.jpg" /></noscript><img class="thumb-image"
+                                                            data-src="{{asset('images/breakfast-little-8.jpg')}}"
+                                                            data-image="{{asset('images/breakfast-little-8.jpg')}}"
+                                                            data-image-dimensions="2500x3745"
+                                                            data-image-focal-point="0.5,0.5" alt="Kook-8.jpg"
+                                                            data-load="false" data-image-id="5e83bf8f2bdce735b5fc5c67"
+                                                            data-type="image" />
+                                                    </a>
+
+                                                </div>
+                                            </div>
+
 
                                         </div>
 
@@ -229,28 +260,7 @@
                                             mind:<br><strong><em>“A Korean BBQ dining experience you won’t
                                                     soon forget!”</em></strong></p>
                                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
                                 </div>
                             </div>
                             <div class="sqs-block button-block sqs-block-button" data-block-type="53"
@@ -260,7 +270,7 @@
                                     <div class="sqs-block-button-container sqs-block-button-container--center"
                                         data-animation-role="button" data-alignment="center" data-button-size="medium"
                                         data-button-type="primary">
-                                        <a href="kookbbqmenu.html"
+                                        <a href="/menu"
                                             class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element">
                                             View Menu
                                         </a>
@@ -291,15 +301,7 @@
                     id="page-5c4a4eb2f950b7808b449434">
                     <div class="row sqs-row">
                         <div class="col sqs-col-12 span-12">
-                            <div class="sqs-block html-block sqs-block-html" data-block-type="2"
-                                id="block-c2dc0b66ff706542d4a2">
-                                <div class="sqs-block-content">
-
-                                    <div class="sqs-html-content">
-                                        <h2 style="text-align:center;">EAT TOGETHER<br></h2>
-                                    </div> 
-                                </div>
-                            </div>
+                             
                             <div class="sqs-block button-block sqs-block-button" data-block-type="53"
                                 id="block-yui_3_17_2_3_1442344515890_5231">
                                 <div class="sqs-block-content">
@@ -322,8 +324,8 @@
 
             <figure class="Index-page-image" data-parallax-image-wrapper>
 
-                <img data-src="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585690892220-UOH8HZC3IBQZFIW7T9XA/Kook-49.jpg"
-                    data-image="https://images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1585690892220-UOH8HZC3IBQZFIW7T9XA/Kook-49.jpg"
+                <img data-src="{{asset('images/breakfast-little-banner-2.jpg')}}"
+                    data-image="{{asset('images/breakfast-little-banner-2.jpg')}}"
                     data-image-dimensions="2500x1392" data-image-focal-point="0.5,0.5" alt="Kook-49.jpg"
                     data-load="false" alt="" /> 
             </figure> 

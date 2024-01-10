@@ -58,17 +58,17 @@ class CrawlerDataYelp
      public function download_list_category_post($page = 1)
      {
           $_categories = Category::orderBy('updated_at', 'desc')->get();
-          $countries = DB::table('st_country')->orderBy('updated_at', 'desc') 
+          $countries = DB::table('st_country')->orderBy('updated_at', 'asc') 
           ->where('parent_id', 2)->get();
        
           foreach ($countries as $coutry) {
                foreach ($_categories as $cate) {
                     $url = $this->convert_search($coutry->title, $cate->title);
                     $this->download_list_url($url, 0, $cate['id'], $coutry->id);
-                    echo "\n Done all {$coutry->title}";
+                    echo "\n Done category {$cate->title}";
                }
                DB::table('st_country')->where('id', $coutry->id)->update(['updated_at' => date('Y-m-d H:i:s')]);
-               echo "\n Done all {$cate->title}";
+               echo "\n Done all {$coutry->title}";
           }
           echo "\nDone all";
      }
@@ -87,12 +87,15 @@ class CrawlerDataYelp
           $url = "$_url&start=$offset";
           $crawler = \Goutte::request('GET', $url);
 
-          $arr = $crawler->filter('#main-content .container__09f24__mpR8_')->each(function ($node) {
+          $arr = $crawler->filter('#main-content [data-testid="serp-ia-card"]')->count();
+         
+          $arr = $crawler->filter('#main-content [data-testid="serp-ia-card"]')->each(function ($node) {
                $title = $node->filter('h3.css-1agk4wl a')->text();
                $crawler_href = "https://www.yelp.com" . $node->filter('h3.css-1agk4wl a')->attr('href');
                $slug = \Str::slug($title);
                return ['title' => $title, 'slug' => $slug, 'crawler_href' => $crawler_href];
-          });
+          });  
+
           if (!empty($arr)) {
                foreach (array_reverse($arr) as $item) {
                     if (empty($item)) continue;
@@ -110,7 +113,7 @@ class CrawlerDataYelp
                               $post_id = $record->id;
                               if (empty($record->country_id)) DB::table('st_post')->where('id', $post_id)->update(['country_id' => $country_id]);
                          }
-                         echo "\n Done {$item['title']}";
+                         echo "\n Success {$item['title']}";
                          $cate_ids = [$cate_id];
                          if (!empty($category)) {
                               foreach ($category as $item) {

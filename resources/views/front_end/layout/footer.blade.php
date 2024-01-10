@@ -10,44 +10,7 @@
             </div>
         </div>
 
-        <div class="Footer-middle">
-            <div class="Footer-business">
-
-
-                <div class="Footer-business-info">
-
-
-                    <div class="Footer-business-info-item Footer-business-info-item--name">Kook BBQ</div>
-                    <div class="Footer-business-info-item">2800 East 1st Avenue,</div>
-                    <div class="Footer-business-info-item">Vancouver, BC, V5M 4P3,</div>
-                    <div class="Footer-business-info-item Footer-business-info-item--country">Canada</div>
-
-
-
-
-                    <a href="mailto:info@koookbbq.ca" title="info@koookbbq.ca" target="_blank"
-                        class="Footer-business-info-item Footer-business-info-item--email">info@koookbbq.ca</a>
-
-                </div>
-
-
-
-
-                <div class="Footer-business-hours">
-                    <div class="Footer-business-hours-heading">Hours</div>
-                    <div class="Footer-business-hours-item">Mon 11:00 - 15:00, 17:00 - 22:00</div>
-                    <div class="Footer-business-hours-item">Tue 11:00 - 15:00, 17:00 - 22:00</div>
-                    <div class="Footer-business-hours-item">Wed 11:00 - 15:00, 17:00 - 22:00</div>
-                    <div class="Footer-business-hours-item">Thu 11:00 - 15:00, 17:00 - 22:00</div>
-                    <div class="Footer-business-hours-item">Fri 11:00 - 15:00, 17:00 - 22:00</div>
-                    <div class="Footer-business-hours-item">Sat 11:00 - 15:00, 17:00 - 22:00</div>
-                    <div class="Footer-business-hours-item">Sun 11:00 - 15:00, 17:00 - 22:00</div>
-                </div>
-
-
-
-            </div>
-
+        <div class="Footer-middle"> 
             <div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--middle sqs-alternate-block-style-container"
                 data-layout-label="Footer Middle Blocks" data-type="block-field" data-updated-on="1681516948680"
                 id="footerBlocksMiddle">
@@ -62,14 +25,12 @@
                                         <div class="sqs-html-content">
                                             <h3><strong>LOCATIONS</strong></h3>
                                             <p class="">
-                                                <a href="https://www.google.com/search?rlz=1C1CHBF_enCA808CA808&amp;site=async/lcl_akp&amp;q=kook+korean+bbq+restaurant+address&amp;stick=H4sIAAAAAAAAAOPgE-LVT9c3NEyvNCyoKE9J15LNTrbSz8lPTizJzM-DM6wSU1KKUouLAS6HRJYwAAAA&amp;ludocid=11461357236156559500&amp;sa=X&amp;ved=2ahUKEwiM2c2iwIfgAhVKBjQIHfXZDQAQ6BMwA3oECAEQFg"
-                                                    target="_blank"><strong>Address</strong></a>
-                                                <strong>:</strong><br>2800 E 1st Ave #211A<br>
-                                                Vancouver, BC<br>V5M4N9<br>
-                                                <br>
+                                                <span      
+                                                    target="_blank"><strong>Address</strong></span>
+                                                <strong>:</strong>3275 22nd St San Francisco, CA 94110
                                             </p>
                                             <p>
-                                                <strong>Phone: </strong><a href="tel:6045665665">604.566.5665</a>
+                                                <strong>Phone: </strong><span href="tel:(415) 619-8686"> (415) 619-8686</span>
                                             </p>
                                         </div>
 
@@ -83,11 +44,15 @@
 
                                         <div class="sqs-html-content">
                                             <h3><strong>HOURS</strong></h3>
-                                            <p class="">Monday
-                                                12:00pm-11:00pm<br>Tuesday 12:00pm-11:00pm<br>Wednesday
-                                                12:00pm-11:00pm<br>Thursday 12:00pm-11:00pm<br>Friday
-                                                12:00pm-12:00am<br>Saturday 12:00pm-12:00am<br>Sunday
-                                                12:00pm-11:00pm</p>
+                                            <p class="">
+                                                Monday 7:00 AM - 2:30 PM<br>
+                                                Tuesday 7:00 AM - 2:30 PM<br>
+                                                Wednesday 7:00 AM - 2:30 PM<br>
+                                                Thursday 7:00 AM - 2:30 PM<br>
+                                                Friday 7:00 AM - 2:30 PM<br>
+                                                Saturday 8:00 AM - 3:00 PM<br>
+                                                Sunday 8:00 AM - 3:00 PM<br>
+ 
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +75,7 @@
                                         }
                                     </style>
                                     <nav class="sqs-svg-icon--list">
-                                        <a href="mailto:info@kookbbq.ca" target="_blank"
+                                        <span  
                                             class="sqs-svg-icon--wrapper email" aria-label="info@kookbbq.ca">
                                             <div>
                                                 <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
@@ -118,8 +83,8 @@
                                                     <use class="sqs-use--mask" xlink:href="#email-mask"></use>
                                                 </svg>
                                             </div>
-                                        </a><a href="https://www.facebook.com/kookbbq/" target="_blank"
-                                            class="sqs-svg-icon--wrapper facebook" aria-label="Kook Korean BBQ">
+                                        </span>
+                                        <span class="sqs-svg-icon--wrapper facebook" aria-label="Kook Korean BBQ">
                                             <div>
                                                 <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
                                                     <use class="sqs-use--icon" xlink:href="#facebook-icon">
@@ -128,8 +93,8 @@
                                                     </use>
                                                 </svg>
                                             </div>
-                                        </a><a href="http://instagram.com/kookbbq" target="_blank"
-                                            class="sqs-svg-icon--wrapper instagram" aria-label="Kook Korean BBQ">
+                                        </span>
+                                        <span class="sqs-svg-icon--wrapper instagram" aria-label="Kook Korean BBQ">
                                             <div>
                                                 <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
                                                     <use class="sqs-use--icon" xlink:href="#instagram-icon">
@@ -138,18 +103,14 @@
                                                     </use>
                                                 </svg>
                                             </div>
-                                        </a>
+                                        </span>
                                     </nav>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col sqs-col-4 span-4">
-                        <div class="sqs-block map-block sqs-block-map" data-aspect-ratio="54.72837022132797"
-                            data-block-json="&#123;&quot;location&quot;:&#123;&quot;mapLat&quot;:49.26916370000001,&quot;mapLng&quot;:-123.0463411,&quot;mapZoom&quot;:12,&quot;markerLat&quot;:49.26916370000001,&quot;markerLng&quot;:-123.0463411,&quot;addressLine1&quot;:&quot;2800 E 1st Ave #211A&quot;,&quot;addressLine2&quot;:&quot;Vancouver, BC&quot;,&quot;addressCountry&quot;:&quot;Canada&quot;,&quot;addressTitle&quot;:&quot;Kook BBQ&quot;&#125;,&quot;vSize&quot;:null,&quot;style&quot;:2,&quot;labels&quot;:true,&quot;terrain&quot;:false,&quot;controls&quot;:false,&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;aspectRatio&quot;:54.72837022132797&#125;"
-                            data-block-type="4" id="block-yui_3_17_2_1_1548371255737_19802">
-                            <div class="sqs-block-content">&nbsp;</div>
-                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.486622482851!2d-122.42295462356329!3d37.75518651328725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7f641814ada7%3A0x1ba5da6363f00a0d!2sBreakfast%20Little!5e0!3m2!1sen!2sus!4v1704782743724!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

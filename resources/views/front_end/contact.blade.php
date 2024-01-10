@@ -32,8 +32,8 @@
                             <div class="sqs-block-content">
 
                                 <div class="sqs-html-content">
-                                    <p class="" style="white-space:pre-wrap;"><strong><br>Phone:</strong><br><a
-                                            href="tel:6045665665" target="_blank">604.566.5665</a></p>
+                                    <p class="" style=""><strong><br>Phone:</strong><br><a
+                                            href="tel:(415) 619-8686" target="_blank">(415) 619-8686</a></p>
                                 </div>
                             </div>
                         </div>
@@ -42,9 +42,7 @@
                             <div class="sqs-block-content">
 
                                 <div class="sqs-html-content">
-                                    <p class="" style="white-space:pre-wrap;"><a
-                                            href="https://www.google.com/search?rlz=1C1CHBF_enCA808CA808&amp;site=async/lcl_akp&amp;q=kook+korean+bbq+restaurant+address&amp;stick=H4sIAAAAAAAAAOPgE-LVT9c3NEyvNCyoKE9J15LNTrbSz8lPTizJzM-DM6wSU1KKUouLAS6HRJYwAAAA&amp;ludocid=11461357236156559500&amp;sa=X&amp;ved=2ahUKEwiM2c2iwIfgAhVKBjQIHfXZDQAQ6BMwA3oECAEQFg"><strong>Address</strong></a><strong>:</strong><br>2800
-                                        E 1st Ave #211A<br>Vancouver, BC<br>V5M 4N8<br><br>FOR QUESTIONS, PLEASE USE THE
+                                    <p class="" style=""><span><strong>Address</strong></span><strong>:</strong><br>3275 22nd St San Francisco, CA 94110<br><br>FOR QUESTIONS, PLEASE USE THE
                                         FORM BELOW:</p>
                                 </div>
                             </div>
@@ -130,7 +128,7 @@
                                             </div>
                                         </div>
                                         <div class="form-button-wrapper form-button-wrapper--align-left"><button
-                                                type="submit"
+                                                type="button"
                                                 class="button sqs-system-button sqs-editable-button sqs-button-element--primary NkyzQqS7X0JjKckdVqSS">Submit</button>
                                         </div>
                                     </form>
