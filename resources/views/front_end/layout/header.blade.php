@@ -1,23 +1,27 @@
+@php
+    $menu = getMenuParent(0, 0); 
+@endphp 
 <header class="Header Header--bottom Header--overlay">
     <div class="Header-inner Header-inner--bottom" data-nc-group="bottom">
         <div data-nc-container="bottom-left">
             <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav" data-content-field="navigation">
 
                 <div class="Header-nav-inner">
-                    <a href="/" class="Header-nav-item Header-nav-item--active" data-test="template-nav">Home</a>
-                    <a href="/menu" class="Header-nav-item" data-test="template-nav">Menu</a>
-                    <a href="/about" class="Header-nav-item" data-test="template-nav">About</a>
-                    <a href="/reservations" class="Header-nav-item" data-test="template-nav">Reservations</a>
-                    <a href="/contact" class="Header-nav-item" data-test="template-nav">Contact</a>
+                    @foreach ($menu as $k => $item)
+                        <a href="{{ url($item->link) }}"
+                            class="Header-nav-item  {{ $k == 0 ? 'Header-nav-item--active' : '' }}"
+                            data-test="template-nav">
+                            {{ $item->title }}
+                        </a>
+                    @endforeach
                 </div>
 
             </nav>
         </div>
         <div data-nc-container="bottom-center">
-
-            <a href="index.html" class="Header-branding" data-nc-element="branding" data-content-field="site-title">
-                <img src="../images.squarespace-cdn.com/content/v1/5c4766f7ee175955203ef26a/1588627323969-8A99TT8UPKP5I543JTY3/kook-logo-gold-0126f7.png?format=1500w"
-                    alt="Kook Korean BBQ" class="Header-branding-logo" />
+            <a href="/" class="Header-branding" data-nc-element="branding" data-content-field="site-title">
+                <img src="{{ convertPathImage($config_website->logo ?? '') }}"
+                    alt="{{$config_website->website}}" class="Header-branding-logo" />
             </a>
         </div>
         <div data-nc-container="bottom-right">

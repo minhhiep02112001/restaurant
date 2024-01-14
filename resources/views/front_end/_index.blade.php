@@ -1,3 +1,8 @@
+@php
+  $config_seo = json_decode(getValueSetting('config_seo'));
+    $config_website = json_decode(getValueSetting('config_website'));
+@endphp
+
 <!doctype html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US">
 
